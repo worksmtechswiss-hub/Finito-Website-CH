@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "title": "Finito Pro | Swiss SMB Software - Project Management, Invoicing & CRM",
+    "description": "Finito Pro is the all-in-one software for Swiss SMBs. Manage projects, create QR invoices, maintain customer relationships and coordinate your team. 100% Swiss data. Try 30 days free.",
+    "keywords": "SMB software Switzerland, project management, QR invoices, CRM, trade business software, time tracking, quotes, Swiss software"
+  },
+  "nav": {
+    "features": "Features",
+    "branches": "Industries",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Login",
+    "getStarted": "Start Free",
+    "team": "Team",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "help": "Help",
+    "mobileMenu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "badge": "New: Time Tracking & Vacation Management",
+    "title": "Swiss SMB Software for Trade Businesses",
+    "subtitle": "Manage projects, create QR invoices, coordinate your team – all in one app. 100% Swiss data.",
+    "cta": "Start Free",
+    "ctaSecondary": "Watch Demo",
+    "trust": "No credit card required · 30 days free · Swiss servers"
+  },
+  "trustBanner": {
+    "title": "Trusted by 200+ Swiss companies",
+    "rating": "4.8 out of 5 stars",
+    "reviews": "based on 150+ reviews"
+  },
+  "workflow": {
+    "title": "How Finito Works",
+    "subtitle": "From quote to invoice – in 3 simple steps",
+    "step1Title": "Create Quote",
+    "step1Desc": "Create professional quotes in minutes. Saved service catalogs with prices make it lightning fast.",
+    "step2Title": "Execute Project",
+    "step2Desc": "Your team works with the smartphone app. Document with photos, track time, manage materials – all digital.",
+    "step3Title": "Send Invoice",
+    "step3Desc": "One click turns the project into a QR invoice. Automatic VAT calculation and payment reminders included."
+  },
+  "features": {
+    "title": "The All-in-One SMB Software",
+    "subtitle": "All the tools your business needs – in one platform",
+    "rechnungen": {
+      "title": "QR Invoices",
+      "description": "Create professional Swiss QR invoices in seconds. Automatic VAT calculation, payment reminders and seamless export to your accounting software.",
+      "bullets": {
+        "1": "Swiss QR invoices compliant with ISO 20022 standard",
+        "2": "Automatic VAT calculation (7.7% / 2.5% / 0%)",
+        "3": "Payment reminders via email or mail",
+        "4": "Export as PDF or directly to accounting software",
+        "5": "Manage partial payments and installment plans",
+        "6": "Automatic payment matching with bank accounts"
+      }
+    },
+    "crm": {
+      "title": "Customer Management",
+      "description": "All customer data in one place. Contact history, recurring orders and individual notes make collaboration efficient.",
+      "bullets": {
+        "1": "Central contact management with search function",
+        "2": "Complete customer history with all projects and invoices",
+        "3": "Automatically schedule recurring orders",
+        "4": "Individual notes and documents per customer",
+        "5": "Customer categories and tags for segmentation",
+        "6": "Import/export of contact data (CSV, vCard)"
+      }
+    },
+    "projektmanagement": {
+      "title": "Project Management",
+      "description": "Manage all projects on the go. Assign tasks, create photo documentation and coordinate your team at any time.",
+      "bullets": {
+        "1": "Mobile task management with status tracking",
+        "2": "Photo documentation directly in the project",
+        "3": "Team coordination with real-time updates",
+        "4": "Project templates for recurring orders",
+        "5": "Drag-and-drop task planning in the calendar",
+        "6": "Automatic notifications for changes"
+      }
+    },
+    "zeiterfassung": {
+      "title": "Time Tracking",
+      "description": "Project-based time tracking with one click. Monthly reports, overtime tracking and direct export for payroll.",
+      "bullets": {
+        "1": "One-click time tracking per project and task",
+        "2": "Automatic monthly reports per employee",
+        "3": "Overtime tracking with target/actual comparison",
+        "4": "Export for payroll (CSV, PDF)",
+        "5": "GPS-based tracking on the job site",
+        "6": "Track breaks and travel time separately"
+      }
+    },
+    "offerten": {
+      "title": "Quotes",
+      "description": "Create digital quotes fast with saved service catalogs. Convert to an order with the push of a button.",
+      "bullets": {
+        "1": "Saved service catalogs for quick creation",
+        "2": "Professional quotes in your own company design",
+        "3": "One-click conversion from quote to order",
+        "4": "Optional and alternative line items",
+        "5": "Digital customer signature",
+        "6": "Automatic follow-up on open quotes"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "All key metrics at a glance. Financial KPIs, active projects, employee utilization and annual reports.",
+      "bullets": {
+        "1": "Financial KPIs: revenue, open invoices, cash flow",
+        "2": "Active projects with progress indicators",
+        "3": "Employee utilization in real-time",
+        "4": "Annual and monthly reports as PDF",
+        "5": "Custom widgets and filters",
+        "6": "Comparison with prior year period"
+      }
+    },
+    "ferienmanagement": {
+      "title": "Vacation Management",
+      "description": "Mobile vacation requests, remaining days overview and approval workflow. With team calendar, no more bottlenecks.",
+      "bullets": {
+        "1": "Mobile vacation requests from your smartphone",
+        "2": "Remaining days overview per employee",
+        "3": "Approval workflow for supervisors",
+        "4": "Team calendar to avoid bottlenecks",
+        "5": "Automatic calculation of vacation entitlement",
+        "6": "Public holidays and bridge days pre-configured"
+      }
+    },
+    "fotoDokumentation": {
+      "title": "Photo Documentation",
+      "description": "Before/after photos with automatic project assignment. Perfect quality proofs for clients and insurance companies.",
+      "bullets": {
+        "1": "Before/after photos directly in the project",
+        "2": "Automatic assignment to the correct project",
+        "3": "Quality proofs for clients and insurance companies",
+        "4": "Timestamp and GPS data per photo",
+        "5": "Unlimited photo storage",
+        "6": "Upload photos directly from your smartphone"
+      }
+    },
+    "lagerverwaltung": {
+      "title": "Inventory Management",
+      "description": "Material and tool management with automatic deduction per project. Keep track of your inventory at all times.",
+      "bullets": {
+        "1": "Material and tool management in one place",
+        "2": "Automatic deduction per project",
+        "3": "Real-time inventory overview",
+        "4": "Minimum stock warnings for low supplies",
+        "5": "Supplier linking for quick reordering",
+        "6": "Barcode scanner for fast recording"
+      }
+    },
+    "buchhaltung": {
+      "title": "Accounting",
+      "description": "Manage income and expenses, cost management and export for your accountant. All data securely stored on Swiss servers.",
+      "bullets": {
+        "1": "Manage income and expenses clearly",
+        "2": "Cost management per project and customer",
+        "3": "Export for your accountant (CSV, PDF)",
+        "4": "All data securely stored on Swiss servers",
+        "5": "Automatic categorization of receipts",
+        "6": "VAT statement prepared for the FTA"
+      }
+    },
+    "mitarbeiterApp": {
+      "title": "Employee App",
+      "description": "View tasks, track time, upload photos and communicate with your team – all from your smartphone.",
+      "bullets": {
+        "1": "Tasks and daily schedule on your smartphone",
+        "2": "Start time tracking with one click",
+        "3": "Upload photos and assign to project",
+        "4": "Real-time communication with the office",
+        "5": "Offline mode for job sites without reception",
+        "6": "Push notifications for new tasks"
+      }
+    },
+    "kundenportal": {
+      "title": "Customer Portal",
+      "description": "Share project progress with your clients. Transparent communication and progress photos build trust.",
+      "bullets": {
+        "1": "Share project progress with clients",
+        "2": "Transparent communication across all phases",
+        "3": "Automatically provide progress photos",
+        "4": "Clients can approve quotes digitally",
+        "5": "View invoices and documents in the portal",
+        "6": "No app installation required for clients"
+      }
+    },
+    "serviceAbos": {
+      "title": "Service Subscriptions",
+      "description": "Manage recurring orders with automatic project creation. Perfect for maintenance contracts and service subscriptions.",
+      "bullets": {
+        "1": "Automatically manage recurring orders",
+        "2": "Automatic project creation on schedule",
+        "3": "Digitally map maintenance contracts",
+        "4": "Reminders for due service calls",
+        "5": "Automatically generate billing",
+        "6": "Customer history with all service calls"
+      }
+    }
+  },
+  "stats": {
+    "companies": "Companies",
+    "companiesValue": "200+",
+    "timeSaved": "Time Saved",
+    "timeSavedValue": "10h/week",
+    "swissServer": "Swiss Servers",
+    "swissServerValue": "100%",
+    "dataRetention": "Data Storage",
+    "dataRetentionValue": "Switzerland",
+    "satisfaction": "Customer Satisfaction",
+    "satisfactionValue": "4.8/5"
+  },
+  "newModules": {
+    "title": "New Modules",
+    "subtitle": "Time Tracking & Vacation Management – now available",
+    "timeTracking": {
+      "title": "Time Tracking",
+      "description": "Track working hours per project with one click. Automatic monthly reports and direct export for payroll.",
+      "feature1": "One-click time tracking",
+      "feature2": "Automatic monthly reports",
+      "feature3": "Overtime tracking",
+      "feature4": "GPS-based tracking"
+    },
+    "vacationManagement": {
+      "title": "Vacation Management",
+      "description": "Manage vacation requests, remaining days and absences for your team in one place. With automatic approval workflow.",
+      "feature1": "Mobile vacation requests",
+      "feature2": "Remaining days overview",
+      "feature3": "Team calendar",
+      "feature4": "Approval workflow"
+    }
+  },
+  "branches": {
+    "title": "The Right Solution for Every Industry",
+    "subtitle": "Finito adapts to your industry",
+    "cta": "Discover All Industries",
+    "maler": {
+      "title": "Painters & Plasterers",
+      "description": "Plan painting jobs, calculate materials and delight customers. Finito understands the needs of painting businesses.",
+      "slug": "maler-gipser"
+    },
+    "elektriker": {
+      "title": "Electricians",
+      "description": "Manage installation jobs, create work reports and maintain NIV-compliant documentation.",
+      "slug": "elektriker"
+    },
+    "sanitaer": {
+      "title": "Plumbing & Heating",
+      "description": "From heating maintenance to bathroom renovations – handle all orders efficiently.",
+      "slug": "sanitaer-heizung"
+    },
+    "schreiner": {
+      "title": "Carpenters & Joiners",
+      "description": "Plan furniture projects, calculate material costs and coordinate workshop orders.",
+      "slug": "schreiner-zimmermann"
+    },
+    "gartenbau": {
+      "title": "Landscaping & Grounds Maintenance",
+      "description": "Manage seasonal orders, organize maintenance subscriptions and coordinate your team across multiple job sites.",
+      "slug": "gartenbau"
+    },
+    "reinigung": {
+      "title": "Cleaning Companies",
+      "description": "Plan cleaning jobs, automate recurring assignments and document quality.",
+      "slug": "reinigung"
+    },
+    "dachdecker": {
+      "title": "Roofers & Tinsmiths",
+      "description": "Document roofing projects, plan materials and maintain digital safety protocols.",
+      "slug": "dachdecker-spengler"
+    },
+    "allgemein": {
+      "title": "General Service Providers",
+      "description": "Finito is flexible enough for any service business – from quote to invoice.",
+      "slug": "allgemein"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Over 200 Swiss companies trust Finito",
+    "testimonial1": {
+      "quote": "Since we started using Finito, we save several hours every week on invoicing. The QR invoices are a game changer.",
+      "author": "Marco Bianchi",
+      "role": "Owner",
+      "company": "Bianchi Painting Ltd, Zurich"
+    },
+    "testimonial2": {
+      "quote": "Finally, software that is truly made for tradespeople. My team uses the app daily on the job site.",
+      "author": "Sandra Mueller",
+      "role": "Managing Director",
+      "company": "Mueller Electrical Ltd, Bern"
+    },
+    "testimonial3": {
+      "quote": "The quotes feature has completely transformed our sales process. From offer to order in minutes instead of days.",
+      "author": "Thomas Widmer",
+      "role": "Managing Director",
+      "company": "Widmer Plumbing, Lucerne"
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "From CHF 1 per day – no hidden costs",
+    "perMonth": "per month",
+    "perUser": "per user",
+    "popular": "Most Popular",
+    "free": "Free",
+    "individual": "Individual",
+    "yearlyDiscount": "20% discount with annual plan",
+    "monthly": "Monthly",
+    "yearly": "Annually",
+    "starterName": "Starter",
+    "starterPrice": "29",
+    "starterDesc": "Ideal for sole proprietors and small teams taking their first steps in digitalization.",
+    "starterFeatures": {
+      "1": "Up to 3 users",
+      "2": "Unlimited projects",
+      "3": "Create QR invoices",
+      "4": "Customer management (CRM)",
+      "5": "Create quotes",
+      "6": "Photo documentation",
+      "7": "Email support"
+    },
+    "kmuName": "SMB",
+    "kmuPrice": "79",
+    "kmuDesc": "Our most popular plan for medium-sized businesses with advanced features.",
+    "kmuFeatures": {
+      "1": "Up to 15 users",
+      "2": "Everything in Starter",
+      "3": "Time tracking",
+      "4": "Vacation management",
+      "5": "Inventory management",
+      "6": "Dashboard & reports",
+      "7": "Employee app",
+      "8": "Customer portal",
+      "9": "Priority support"
+    },
+    "enterpriseName": "Enterprise",
+    "enterprisePrice": "Individual",
+    "enterpriseDesc": "For businesses with complex requirements and individual needs.",
+    "enterpriseFeatures": {
+      "1": "Unlimited users",
+      "2": "Everything in SMB",
+      "3": "Service subscriptions",
+      "4": "Accounting export",
+      "5": "API access",
+      "6": "Custom modifications",
+      "7": "Dedicated account manager",
+      "8": "Onboarding & training",
+      "9": "SLA guarantee"
+    },
+    "compareAll": "Compare All Features",
+    "contact": "Contact Us",
+    "choosePlan": "Choose Plan",
+    "currentPlan": "Current Plan",
+    "guarantee": "30-day money-back guarantee",
+    "guaranteeDesc": "Try Finito risk-free. If you are not satisfied, you get your money back.",
+    "faq": {
+      "title": "Questions About Our Pricing",
+      "q1": "Can I cancel at any time?",
+      "a1": "Yes, you can cancel your subscription at any time. There is no minimum contract period or hidden fees.",
+      "q2": "What happens after the trial period?",
+      "a2": "After 30 days, simply choose the right plan for you. Your data is preserved and you can continue working seamlessly.",
+      "q3": "Can I switch plans later?",
+      "a3": "Of course. You can upgrade or downgrade your plan at any time. Billing is adjusted pro-rata.",
+      "q4": "Are there discounts for annual payment?",
+      "a4": "Yes, with annual payment you save 20% compared to monthly billing."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Finito",
+    "viewAll": "View All FAQs",
+    "q1": "Who is Finito designed for?",
+    "a1": "Finito is specifically developed for Swiss SMBs in the trade and service sector. Painters, electricians, plumbers, carpenters, landscapers and many other industries use Finito daily.",
+    "q2": "Where is my data stored?",
+    "a2": "All data is stored exclusively on Swiss servers. We work with certified Swiss data centers and comply with all requirements of the Swiss Data Protection Act (DSG).",
+    "q3": "Can I try Finito for free?",
+    "a3": "Yes, you can try Finito free for 30 days with no obligation. No credit card required. After the trial period, simply choose the right plan for you.",
+    "q4": "Does Finito work offline?",
+    "a4": "Yes, the employee app has an offline mode. Your employees can track time, take photos and edit tasks even on job sites without internet connection. Data is automatically synced once a connection is restored.",
+    "q5": "Does Finito create Swiss QR invoices?",
+    "a5": "Yes, Finito creates QR invoices according to the Swiss ISO 20022 standard. VAT is calculated automatically and invoices can be sent as PDF or exported directly to your accounting software.",
+    "q6": "How long does setup take?",
+    "a6": "Most businesses are up and running within 15 minutes. Customer data can be imported via CSV. If needed, we also offer personal onboarding sessions.",
+    "q7": "Is there an app for employees?",
+    "a7": "Yes, Finito offers a native app for iOS and Android. Your employees can view tasks, track time, upload photos and communicate with the office – all from their smartphone.",
+    "q8": "Can I switch from another software?",
+    "a8": "Yes, we support importing customer data, projects and items from common formats. Our support team is happy to assist you with the migration.",
+    "q9": "Which payment methods are accepted?",
+    "a9": "We accept credit cards (Visa, Mastercard), TWINT, bank transfer and LSV/direct debit. Invoices can also be paid via QR invoice.",
+    "q10": "Does Finito offer an API?",
+    "a10": "Yes, full API access is included in the Enterprise plan. This allows you to integrate Finito into your existing systems and automate workflows."
+  },
+  "cta": {
+    "title": "Ready to Digitalize Your Business?",
+    "subtitle": "30 days free trial. No credit card required.",
+    "button": "Start Free Now",
+    "secondaryButton": "Book a Demo",
+    "trust": "Over 200 Swiss SMBs already trust Finito"
+  },
+  "footer": {
+    "tagline": "More Time for What Matters",
+    "description": "Finito Pro is the all-in-one software for Swiss trade businesses and service providers. From quote to invoice – all in one app.",
+    "product": "Product",
+    "branches": "Industries",
+    "company": "Company",
+    "legal": "Legal",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Stay informed about new features and updates.",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "subscribeSuccess": "Thank you for subscribing!",
+    "madeIn": "Made with Love in Switzerland",
+    "copyright": "2024 Finito Pro. All rights reserved.",
+    "team": "Team",
+    "help": "Help",
+    "blog": "Blog",
+    "features": "Features",
+    "pricing": "Pricing",
+    "api": "API",
+    "agbs": "Terms",
+    "privacy": "Privacy",
+    "imprint": "Imprint",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "demo": "Book Demo",
+    "support": "Support",
+    "status": "System Status",
+    "changelog": "Changelog"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Thank you for your interest in our platform. We are happy to answer your questions.",
+    "email": "hello@finitopro.ch",
+    "phone": "+41 44 000 00 00",
+    "address": "Finito Pro AG, Switzerland",
+    "officeHours": "Mon-Fri, 08:00-17:00",
+    "responseTime": "We typically respond within 24 hours.",
+    "form": {
+      "company": "Company",
+      "companyPlaceholder": "Golden Brush Ltd",
+      "name": "Name",
+      "namePlaceholder": "John Smith",
+      "phone": "Phone",
+      "phonePlaceholder": "+41 079 123 45 67",
+      "email": "Email",
+      "emailPlaceholder": "john@company.com",
+      "message": "Message",
+      "messagePlaceholder": "I would like to try Finito Pro ...",
+      "branche": "Industry",
+      "branchePlaceholder": "Painter, Electrician, Plumber ...",
+      "teamSize": "Team Size",
+      "teamSizePlaceholder": "Number of employees",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thank you for your message! We will get back to you as soon as possible.",
+      "error": "Unfortunately an error occurred. Please try again or contact us via email.",
+      "required": "Required field",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidPhone": "Please enter a valid phone number."
+    },
+    "demoTitle": "Personal Demo",
+    "demoDesc": "Would you like to see Finito in action? Schedule a free 30-minute demo with our team.",
+    "demoCta": "Book a Demo"
+  },
+  "team": {
+    "title": "The Finito Story",
+    "subtitle": "Our Software for Service Providers",
+    "story": "We believe that small and medium-sized businesses are the foundation of our society. That is why we built Finito – software that helps trade businesses work more efficiently.",
+    "valuesTitle": "Our Values",
+    "innovation": "Innovation",
+    "innovationDesc": "We continuously develop new features based on our customers' feedback.",
+    "simplicity": "Simplicity",
+    "simplicityDesc": "Making complex processes simple – that is our standard for every feature.",
+    "customerFocus": "Customer Focus",
+    "customerFocusDesc": "We listen, understand needs, and deliver. Fast and pragmatic.",
+    "swissQuality": "Swiss Quality",
+    "swissQualityDesc": "Developed in Switzerland, hosted in Switzerland, with Swiss data protection standards.",
+    "visionTitle": "Our Vision",
+    "vision": "Our software was built for doers – to optimize project and work processes. When businesses manage orders more efficiently, more time remains for what truly matters.",
+    "missionTitle": "Our Mission",
+    "mission": "With Finito, trade businesses can process orders much faster and more professionally. Resources are better utilized, time and costs are saved, and customer relationships are strengthened.",
+    "founderTitle": "The Founding Team",
+    "founderDesc": "Founded by entrepreneurs who know the challenges of daily SMB operations firsthand."
+  },
+  "featurePages": {
+    "backToFeatures": "Back to All Features",
+    "tryFree": "Try Free",
+    "problemTitle": "The Problem",
+    "solutionTitle": "The Solution with Finito",
+    "forWhom": "For Whom?",
+    "highlights": "Highlights",
+    "integration": "Perfectly Integrated",
+    "integrationDesc": "This feature works seamlessly with all other Finito modules.",
+    "ctaTitle": "Try {feature} Free Now",
+    "ctaSubtitle": "30 days free. No credit card required.",
+    "relatedFeatures": "Related Features",
+    "problems": {
+      "rechnungen": "Many SMBs still create invoices manually with Word or Excel. This is time-consuming, error-prone and often does not comply with the new QR standard.",
+      "crm": "Customer data is scattered across emails, notes and Excel files. Important information gets lost and communication suffers.",
+      "projektmanagement": "Without digital project management, you quickly lose track. Tasks are forgotten, deadlines are missed and the team does not work in a coordinated manner.",
+      "zeiterfassung": "Handwritten time sheets are inaccurate and tedious to evaluate. Payroll becomes a nightmare.",
+      "offerten": "Creating quotes manually takes a long time. Without saved price lists, every calculation has to be done from scratch.",
+      "dashboard": "Without a central overview, you lack the big picture. Key metrics are spread across different systems.",
+      "ferienmanagement": "Vacation requests via email or paper are chaotic. Without a team calendar, bottlenecks and double bookings occur.",
+      "fotoDokumentation": "Photos on various smartphones with no clear assignment to projects. Quality proofs get lost.",
+      "lagerverwaltung": "Inventory is tracked manually. Stock shortages are noticed too late and delay projects.",
+      "buchhaltung": "Receipts pile up, bookkeeping is postponed and the accountant receives incomplete documents.",
+      "mitarbeiterApp": "Employees on the job site have no access to current project information and have to clarify everything by phone.",
+      "kundenportal": "Clients constantly call to find out the project status. This costs time and creates uncertainty.",
+      "serviceAbos": "Recurring orders are tracked manually. Maintenance deadlines are missed and clients are dissatisfied."
+    },
+    "solutions": {
+      "rechnungen": "With Finito, you create professional QR invoices in seconds. VAT is calculated automatically, payment reminders are sent and the export to your accounting is seamless.",
+      "crm": "Finito brings all customer data together in one place. Contact history, projects, invoices and notes are instantly accessible. Recurring orders are scheduled automatically.",
+      "projektmanagement": "With mobile project management, you stay on top of things. Assign tasks, track progress and coordinate your team in real-time – even on the go.",
+      "zeiterfassung": "One click is all it takes: time tracking per project and task. Automatic monthly reports, overtime tracking and direct export for payroll.",
+      "offerten": "Saved service catalogs make quote creation lightning fast. One click converts the quote into an order. Including digital customer signature.",
+      "dashboard": "All key metrics at a glance: revenue, open invoices, project progress and employee utilization. With custom widgets and filters.",
+      "ferienmanagement": "Mobile vacation requests, automatic remaining days calculation and team calendar. The approval workflow runs digitally and transparently.",
+      "fotoDokumentation": "Take and assign photos directly in the project. With timestamp and GPS data. Perfect quality proofs for clients and insurance companies.",
+      "lagerverwaltung": "Manage materials and tools digitally. Automatic deduction per project, minimum stock warnings and supplier linking for quick reordering.",
+      "buchhaltung": "Manage income and expenses clearly. Automatically categorize receipts and have everything ready to export for your accountant.",
+      "mitarbeiterApp": "The native app for iOS and Android puts all information in your team's hands. Also available offline, with automatic synchronization.",
+      "kundenportal": "Give your clients access to project progress. Photos, documents and invoices – all transparent and without app installation.",
+      "serviceAbos": "Recurring orders are automatically scheduled and billed. Digitally map maintenance contracts and never miss an appointment again."
+    }
+  },
+  "branchPages": {
+    "backToBranches": "Back to All Industries",
+    "advantages": "Your Advantages with Finito",
+    "relevantFeatures": "Relevant Features",
+    "workflow": "How a {branch} Uses Finito Daily",
+    "ctaTitle": "Finito for {branch} – 30 Days Free",
+    "ctaSubtitle": "Get started now and experience how Finito simplifies your daily work.",
+    "ctaButton": "Start Free Now",
+    "testimonialTitle": "What {branch} Say About Finito"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Start Free",
+    "tryFree": "Try Free",
+    "noCreditCard": "No credit card required",
+    "thirtyDaysFree": "30 days free",
+    "swissServers": "Swiss servers",
+    "perMonth": "/month",
+    "perUser": "per user",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Successful",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "all": "All",
+    "none": "None",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "scrollToTop": "Scroll to top",
+    "language": "Language",
+    "german": "Deutsch",
+    "english": "English",
+    "chf": "CHF",
+    "includingVat": "incl. VAT",
+    "excludingVat": "excl. VAT",
+    "new": "New",
+    "comingSoon": "Coming Soon"
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for does not exist or has been moved.",
+      "cta": "Back to Homepage"
+    },
+    "500": {
+      "title": "Server Error",
+      "description": "An unexpected error occurred. Please try again later.",
+      "cta": "Try Again"
+    },
+    "generic": {
+      "title": "Something Went Wrong",
+      "description": "Please try again or contact our support.",
+      "cta": "Contact Support"
+    }
+  },
+  "cookieBanner": {
+    "title": "Cookie Settings",
+    "description": "We use cookies to provide you with the best possible experience on our website.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "customize": "Customize",
+    "necessary": "Necessary",
+    "necessaryDesc": "These cookies are required for the basic functionality of the website.",
+    "analytics": "Analytics",
+    "analyticsDesc": "These cookies help us understand and improve the use of our website.",
+    "marketing": "Marketing",
+    "marketingDesc": "These cookies are used to show you relevant advertising.",
+    "save": "Save Settings"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to content",
+    "mainNavigation": "Main navigation",
+    "footerNavigation": "Footer",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "externalLink": "External link, opens in new tab",
+    "currentPage": "Current page"
+  },
+  "seo": {
+    "homeTitle": "Finito Pro | Swiss SMB Software - Project Management, Invoicing & CRM",
+    "homeDescription": "The all-in-one software for Swiss SMBs. Manage projects, create QR invoices, coordinate your team. 100% Swiss data. Try 30 days free.",
+    "featuresTitle": "Features | Finito Pro - All Features at a Glance",
+    "featuresDescription": "Discover all features of Finito Pro: QR invoices, project management, CRM, time tracking, quotes and more. Everything for your SMB.",
+    "pricingTitle": "Pricing | Finito Pro - From CHF 29/Month",
+    "pricingDescription": "Transparent pricing for every business size. Starter from CHF 29/month. Try 30 days free. No hidden costs.",
+    "contactTitle": "Contact | Finito Pro - We Are Here for You",
+    "contactDescription": "Have questions about Finito Pro? Contact us via form, email or phone. We respond within 24 hours.",
+    "teamTitle": "Team | Finito Pro - The Story Behind the Software",
+    "teamDescription": "Meet the team behind Finito Pro. Our vision, mission and values. Developed in Switzerland for Swiss SMBs.",
+    "branchesTitle": "Industries | Finito Pro - The Right Solution for Every Industry",
+    "branchesDescription": "Finito Pro for painters, electricians, plumbers, carpenters, landscapers and more. Industry-specific solutions for your business.",
+    "faqTitle": "FAQ | Finito Pro - Frequently Asked Questions",
+    "faqDescription": "Answers to the most common questions about Finito Pro. Data storage, features, pricing, trial period and more."
+  }
+}

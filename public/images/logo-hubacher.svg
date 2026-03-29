@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <!-- Wrench icon -->
+  <g transform="translate(10, 8)" fill="#CC2222">
+    <path d="M8 2a6 6 0 0 0-5.66 4H8a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H2.34A6 6 0 0 0 8 16h0a6 6 0 0 0 5.66-4H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.66A6 6 0 0 0 8 2z" transform="scale(2.2) translate(0,1)"/>
+    <rect x="28" y="14" width="14" height="6" rx="2" fill="#CC2222"/>
+  </g>
+  <!-- HUBACHER text -->
+  <text x="56" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" fill="#CC2222" letter-spacing="2">HUBACHER</text>
+  <!-- Subtitle -->
+  <text x="56" y="48" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="9" fill="#666666" letter-spacing="1">KAFFEEMASCHINEN AG</text>
+</svg>
