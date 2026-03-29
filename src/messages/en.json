@@ -5,7 +5,7 @@
     "keywords": "SMB software Switzerland, project management, QR invoices, CRM, trade business software, time tracking, quotes, Swiss software"
   },
   "nav": {
-    "features": "Features",
+    "features": "Module",
     "branches": "Industries",
     "pricing": "Pricing",
     "contact": "Contact",
@@ -418,7 +418,7 @@
     "team": "Team",
     "help": "Help",
     "blog": "Blog",
-    "features": "Features",
+    "features": "Module",
     "pricing": "Pricing",
     "api": "API",
     "agbs": "Terms",

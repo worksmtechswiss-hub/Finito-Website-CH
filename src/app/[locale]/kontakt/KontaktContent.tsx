@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MessageCircle, Send, ArrowRight, MapPin } from "lucide-react";
+import { Mail, MessageCircle, Send, ArrowRight, MapPin, Phone } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 function ContactAnimation() {
@@ -136,10 +136,6 @@ export function KontaktContent() {
     <>
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary-600/20 rounded-full blur-[128px] animate-glow-pulse" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent-400/15 rounded-full blur-[128px] animate-glow-pulse" style={{ animationDelay: "2s" }} />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -156,7 +152,7 @@ export function KontaktContent() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
       {/* Contact Content */}
@@ -204,7 +200,7 @@ export function KontaktContent() {
                 </a>
 
                 <a
-                  href="https://wa.me/41795551234"
+                  href="https://wa.me/41782675982"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-accent-200 hover:shadow-card transition-all"
@@ -221,13 +217,30 @@ export function KontaktContent() {
                   </div>
                 </a>
 
+                <a
+                  href="tel:+41782675982"
+                  className="group flex items-start gap-4 p-5 rounded-2xl border border-neutral-100 hover:border-primary-200 hover:shadow-card transition-all"
+                >
+                  <div className="w-11 h-11 bg-primary-50 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary-100 transition-colors">
+                    <Phone className="w-5 h-5 text-primary-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-neutral-900 mb-1">Telefon</h3>
+                    <p className="text-sm text-primary-600">+41 78 267 59 82</p>
+                    <p className="text-xs text-neutral-400 mt-1">
+                      Mo – Fr, 08:00 – 18:00 Uhr
+                    </p>
+                  </div>
+                </a>
+
                 <div className="flex items-start gap-4 p-5 rounded-2xl border border-neutral-100">
                   <div className="w-11 h-11 bg-surface-light-secondary rounded-xl flex items-center justify-center shrink-0">
                     <MapPin className="w-5 h-5 text-neutral-400" />
                   </div>
                   <div>
                     <h3 className="font-medium text-neutral-900 mb-1">Standort</h3>
-                    <p className="text-sm text-neutral-500">Schweiz</p>
+                    <p className="text-sm text-neutral-500">Schlosstalstrasse 210</p>
+                    <p className="text-sm text-neutral-500">8408 Winterthur</p>
                     <p className="text-xs text-neutral-400 mt-1">
                       100% Schweizer Unternehmen
                     </p>

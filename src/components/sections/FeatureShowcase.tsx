@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import {
@@ -12,6 +11,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
+import { featureHeroAnimationMap, FeatureStepAnimation } from "@/components/animations/FeatureDetailAnimations";
 
 interface SubFeature {
   title: string;
@@ -43,21 +43,12 @@ interface FeatureShowcaseProps {
 
 const viewportOnce = { once: true } as const;
 
-// Map feature IDs to their video/screenshot assets
-const featureMedia: Record<string, { video?: string; screenshot?: string; isPhone?: boolean }> = {
-  dashboard: { video: "/videos/1Dashboard-Desktop-transcode.mp4", screenshot: "/images/Dashboard-Finito-Pro-App.png" },
-  projektmanagement: { video: "/videos/1Projekt-Management-transcode.mp4", screenshot: "/images/Projekt-Übersicht.png" },
-  rechnungen: { video: "/videos/1Rechnungen-PC-transcode.mp4", screenshot: "/images/dashboard-1-3.png" },
-  offerten: { video: "/videos/1Offerte-PC-transcode.mp4", screenshot: "/images/dashboard-1-4.png" },
-  zeiterfassung: { screenshot: "/images/dashboard-1-5.png" },
-  crm: { screenshot: "/images/Projekte.png" },
-  ferienmanagement: { screenshot: "/images/dashboard-1-6.png" },
-  "foto-dokumentation": { screenshot: "/images/dashboard-1-7.png" },
-  lagerverwaltung: { screenshot: "/images/Lagerverwaltung-Finito-Pro.png" },
-  buchhaltung: { screenshot: "/images/dashboard-1-8.png" },
-  "mitarbeiter-app": { screenshot: "/images/Free_Iphone_15_Mockup_1.png", isPhone: true },
-  kundenportal: { screenshot: "/images/dashboard-1-9.png" },
-  "service-abos": { screenshot: "/images/dashboard-1-10.png" },
+// Features that have real video demos – prefer these over animations
+const featureVideos: Record<string, { video: string; poster: string }> = {
+  dashboard: { video: "/videos/1Dashboard-Desktop-transcode.mp4", poster: "/images/Dashboard-Finito-Pro-App.png" },
+  projektmanagement: { video: "/videos/1Projekt-Management-transcode.mp4", poster: "/images/Projekt-Übersicht.png" },
+  rechnungen: { video: "/videos/1Rechnungen-PC-transcode.mp4", poster: "/images/dashboard-1-3.png" },
+  offerten: { video: "/videos/1Offerte-PC-transcode.mp4", poster: "/images/dashboard-1-4.png" },
 };
 
 export function FeatureShowcase({
@@ -71,16 +62,10 @@ export function FeatureShowcase({
   targetUsers,
   relatedFeatures,
 }: FeatureShowcaseProps) {
-  const media = featureMedia[featureId];
-
   return (
     <>
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden hero-gradient">
-        <div className="absolute inset-0 grid-pattern opacity-30" />
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary-600/20 rounded-full blur-[128px] animate-glow-pulse" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent-400/15 rounded-full blur-[128px] animate-glow-pulse" style={{ animationDelay: "2s" }} />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 text-center">
           <motion.div
             variants={staggerContainer}
@@ -133,47 +118,41 @@ export function FeatureShowcase({
           </motion.div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
-      {/* Live Demo / Screenshot Section */}
-      {media && (
-        <section className="py-16 bg-white -mt-16 relative z-10">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={viewportOnce}
-              transition={{ duration: 0.8 }}
-              className="relative"
-            >
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary-600/20 to-accent-400/20 rounded-3xl blur-3xl" />
-              <div className="relative bg-gradient-to-br from-surface-dark-secondary to-surface-dark-tertiary rounded-2xl border border-white/10 p-2 shadow-2xl overflow-hidden">
-                {media.video ? (
+      {/* Feature Showcase: Video (if available) or Animation */}
+      <section className="py-16 bg-white -mt-16 relative z-10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportOnce}
+            transition={{ duration: 0.8 }}
+          >
+            {featureVideos[featureId] ? (
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-r from-primary-600/20 to-accent-400/20 rounded-3xl blur-3xl" />
+                <div className="relative bg-gradient-to-br from-surface-dark-secondary to-surface-dark-tertiary rounded-2xl border border-white/10 p-2 shadow-2xl overflow-hidden">
                   <video
                     autoPlay
                     muted
                     loop
                     playsInline
                     className="w-full rounded-xl"
-                    poster={media.screenshot}
+                    poster={featureVideos[featureId].poster}
                   >
-                    <source src={media.video} type="video/mp4" />
+                    <source src={featureVideos[featureId].video} type="video/mp4" />
                   </video>
-                ) : media.screenshot ? (
-                  <Image
-                    src={media.screenshot}
-                    alt={`${title} - Finito Pro Screenshot`}
-                    width={1200}
-                    height={750}
-                    className="w-full rounded-xl"
-                  />
-                ) : null}
+                </div>
               </div>
-            </motion.div>
-          </div>
-        </section>
-      )}
+            ) : (() => {
+              const HeroAnimation = featureHeroAnimationMap[featureId];
+              return HeroAnimation ? <HeroAnimation /> : null;
+            })()}
+          </motion.div>
+        </div>
+      </section>
 
       {/* Vorteile auf einen Blick */}
       <section className="py-20 bg-white">
@@ -290,69 +269,9 @@ export function FeatureShowcase({
                   transition={{ duration: 0.7, delay: 0.1 }}
                   className={`flex flex-col ${isReversed ? "lg:flex-row-reverse" : "lg:flex-row"} items-center gap-12`}
                 >
-                  {/* Product screenshot */}
+                  {/* Animated step illustration */}
                   <div className="flex-1 w-full">
-                    {media?.screenshot ? (
-                      media.isPhone ? (
-                        <motion.div
-                          initial={{ scale: 0.9, opacity: 0 }}
-                          whileInView={{ scale: 1, opacity: 1 }}
-                          viewport={viewportOnce}
-                          transition={{ duration: 0.6, delay: 0.2 }}
-                          className="relative flex items-center justify-center py-8"
-                        >
-                          <div className="relative w-[260px] mx-auto rounded-[2.5rem] border-[6px] border-neutral-800 bg-neutral-900 shadow-2xl overflow-hidden">
-                            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-5 bg-neutral-800 rounded-b-2xl z-10" />
-                            <Image
-                              src={media.screenshot}
-                              alt={`${sub.title} - Finito Pro Mobile Ansicht`}
-                              width={520}
-                              height={1040}
-                              className="w-full h-auto"
-                            />
-                          </div>
-                        </motion.div>
-                      ) : (
-                        <motion.div
-                          initial={{ scale: 0.9, opacity: 0 }}
-                          whileInView={{ scale: 1, opacity: 1 }}
-                          viewport={viewportOnce}
-                          transition={{ duration: 0.6, delay: 0.2 }}
-                          className="relative"
-                        >
-                          <div className="absolute -inset-3 bg-gradient-to-r from-primary-600/10 to-accent-400/10 rounded-3xl blur-2xl" />
-                          <div className="relative bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-2xl p-1.5 shadow-2xl">
-                            {/* Laptop top bar */}
-                            <div className="flex items-center gap-1.5 px-3 py-2">
-                              <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
-                              <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/80" />
-                              <div className="w-2.5 h-2.5 rounded-full bg-green-400/80" />
-                              <div className="flex-1 mx-8">
-                                <div className="h-5 bg-neutral-700/50 rounded-md" />
-                              </div>
-                            </div>
-                            <Image
-                              src={media.screenshot}
-                              alt={`${sub.title} - Finito Pro Screenshot`}
-                              width={800}
-                              height={500}
-                              className="w-full rounded-b-xl"
-                            />
-                          </div>
-                        </motion.div>
-                      )
-                    ) : (
-                      <motion.div
-                        className="relative bg-gradient-to-br from-primary-50 to-accent-50 rounded-3xl p-8 aspect-[4/3] flex items-center justify-center overflow-hidden"
-                      >
-                        <div className="text-center">
-                          <div className="w-20 h-20 bg-gradient-to-br from-primary-600 to-accent-500 rounded-3xl mx-auto mb-4 flex items-center justify-center shadow-glow">
-                            <span className="text-white font-bold text-2xl">{index + 1}</span>
-                          </div>
-                          <p className="text-primary-700 font-medium text-lg">{sub.title}</p>
-                        </div>
-                      </motion.div>
-                    )}
+                    <FeatureStepAnimation index={index} title={sub.title} />
                   </div>
 
                   {/* Text */}
@@ -467,8 +386,6 @@ export function FeatureShowcase({
 
       {/* CTA Section */}
       <section className="relative py-32 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-[200px]" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

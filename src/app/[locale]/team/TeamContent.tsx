@@ -44,10 +44,6 @@ export function TeamContent() {
     <>
       {/* Hero */}
       <section className="relative pt-32 pb-16 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary-600/20 rounded-full blur-[128px] animate-glow-pulse" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent-400/15 rounded-full blur-[128px] animate-glow-pulse" style={{ animationDelay: "2s" }} />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -64,7 +60,7 @@ export function TeamContent() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
       {/* Story Section */}
@@ -322,8 +318,6 @@ export function TeamContent() {
 
       {/* CTA */}
       <section className="relative py-24 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-[200px]" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

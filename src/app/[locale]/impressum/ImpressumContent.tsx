@@ -6,7 +6,6 @@ export function ImpressumContent() {
   return (
     <>
       <section className="relative pt-32 pb-16 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -21,7 +20,7 @@ export function ImpressumContent() {
             </p>
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
       <section className="py-16 bg-white">

@@ -235,10 +235,6 @@ export function AutomationenContent() {
       {/* A) HERO (dark)                                                */}
       {/* ============================================================ */}
       <section className="relative py-24 lg:py-32 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-violet-600/10 rounded-full blur-[200px]" />
-        <div className="absolute top-1/4 -right-20 w-80 h-80 bg-violet-400/15 rounded-full blur-[100px] animate-glow-pulse" />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -544,9 +540,6 @@ export function AutomationenContent() {
       {/* E) CTA (dark)                                                 */}
       {/* ============================================================ */}
       <section className="relative py-24 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-violet-600/10 rounded-full blur-[200px]" />
-        <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-violet-400/10 rounded-full blur-[100px] animate-glow-pulse" />
 
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

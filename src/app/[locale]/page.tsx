@@ -9,6 +9,7 @@ import { BranchenGrid } from "@/components/sections/BranchenGrid";
 import { Pricing } from "@/components/sections/Pricing";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
+import { TrustBanner } from "@/components/sections/TrustBanner";
 import { organizationSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       <Hero />
+      <TrustBanner />
       <WorkflowSteps />
       <SavingsBanner />
       <VorherNachher />

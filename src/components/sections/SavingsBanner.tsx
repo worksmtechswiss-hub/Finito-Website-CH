@@ -59,13 +59,7 @@ function AnimatedValue({
 
 export function SavingsBanner() {
   return (
-    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-[#0f0f1a] via-[#1a1a2e] to-[#16213e]">
-      {/* Animated background elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-0 left-1/4 w-[400px] h-[400px] bg-[#7c3aed]/10 rounded-full blur-[120px]" />
-        <div className="absolute bottom-0 right-1/4 w-[300px] h-[300px] bg-[#8b5cf6]/8 rounded-full blur-[100px]" />
-        <div className="absolute inset-0 grid-pattern opacity-5" />
-      </div>
+    <section className="relative py-20 overflow-hidden hero-gradient">
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

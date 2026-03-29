@@ -35,9 +35,6 @@ export function BranchenOverview() {
     <>
       {/* Hero */}
       <section className="relative pt-32 pb-20 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-600/10 rounded-full blur-[200px]" />
-
         {/* Floating product mockup - left side */}
         <motion.div
           initial={{ opacity: 0, x: -60, rotate: -5 }}
@@ -85,7 +82,7 @@ export function BranchenOverview() {
             </p>
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
       {/* Branch Grid */}
@@ -196,8 +193,6 @@ export function BranchenOverview() {
 
       {/* CTA */}
       <section className="relative py-24 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-600/10 rounded-full blur-[200px]" />
 
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

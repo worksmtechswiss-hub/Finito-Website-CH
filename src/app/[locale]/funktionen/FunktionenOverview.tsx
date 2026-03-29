@@ -20,6 +20,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
+import { featureAnimationMap } from "@/components/animations/FeatureAnimations";
 
 const features = [
   {
@@ -133,10 +134,6 @@ export function FunktionenOverview() {
     <>
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden hero-gradient">
-        <div className="absolute inset-0 grid-pattern opacity-30" />
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary-600/20 rounded-full blur-[128px] animate-glow-pulse" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent-400/15 rounded-full blur-[128px] animate-glow-pulse" style={{ animationDelay: "2s" }} />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 text-center">
           <motion.div
             variants={staggerContainer}
@@ -165,7 +162,7 @@ export function FunktionenOverview() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
       </section>
 
       {/* Hero Product Screenshot */}
@@ -211,41 +208,45 @@ export function FunktionenOverview() {
             viewport={{ once: true }}
             className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
           >
-            {features.map((feature) => (
-              <motion.div key={feature.slug} variants={staggerItem}>
-                <Link
-                  href={`/features/${feature.slug}`}
-                  className="group block p-6 rounded-2xl border border-neutral-100 hover:border-primary-100 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 bg-white h-full"
-                >
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center group-hover:bg-primary-100 transition-colors">
-                      <feature.icon className="w-6 h-6 text-primary-600" />
+            {features.map((feature) => {
+              const FeatureAnimation = featureAnimationMap[feature.slug];
+              return (
+                <motion.div key={feature.slug} variants={staggerItem}>
+                  <Link
+                    href={`/features/${feature.slug}`}
+                    className="group block rounded-2xl border border-neutral-100 hover:border-primary-100 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 bg-white h-full overflow-hidden"
+                  >
+                    {FeatureAnimation && <FeatureAnimation />}
+                    <div className="p-6 pt-4">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="w-9 h-9 bg-primary-50 rounded-lg flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                          <feature.icon className="w-4.5 h-4.5 text-primary-600" />
+                        </div>
+                        <span className="text-xs font-medium text-primary-600 bg-primary-50 px-2.5 py-1 rounded-full">
+                          {feature.category}
+                        </span>
+                      </div>
+                      <h3 className="text-lg font-semibold text-neutral-900 mb-2">
+                        {feature.title}
+                      </h3>
+                      <p className="text-sm text-neutral-500 leading-relaxed mb-4">
+                        {feature.description}
+                      </p>
+                      <span className="inline-flex items-center gap-1 text-sm font-medium text-primary-600 group-hover:gap-2 transition-all">
+                        Mehr erfahren
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </span>
                     </div>
-                    <span className="text-xs font-medium text-primary-600 bg-primary-50 px-2.5 py-1 rounded-full">
-                      {feature.category}
-                    </span>
-                  </div>
-                  <h3 className="text-lg font-semibold text-neutral-900 mb-2">
-                    {feature.title}
-                  </h3>
-                  <p className="text-sm text-neutral-500 leading-relaxed mb-4">
-                    {feature.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 text-sm font-medium text-primary-600 group-hover:gap-2 transition-all">
-                    Mehr erfahren
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </span>
-                </Link>
-              </motion.div>
-            ))}
+                  </Link>
+                </motion.div>
+              );
+            })}
           </motion.div>
         </div>
       </section>
 
       {/* CTA */}
       <section className="relative py-32 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-[200px]" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

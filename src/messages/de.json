@@ -5,7 +5,7 @@
     "keywords": "KMU Software Schweiz, Projektmanagement, QR-Rechnungen, CRM, Handwerkersoftware, Zeiterfassung, Offerten, Schweizer Software"
   },
   "nav": {
-    "features": "Features",
+    "features": "Module",
     "branches": "Branchen",
     "pricing": "Preise",
     "contact": "Kontakt",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "badge": "Neu: Zeiterfassung & Ferienmanagement",
-    "title": "Schweizer KMU Software für Handwerksbetriebe",
+    "title": "Schweizer KMU Software für Dienstleistungsbetriebe",
     "subtitle": "Projekte verwalten, QR-Rechnungen erstellen, Team koordinieren - alles in einer App. 100% Schweizer Daten.",
     "cta": "Kostenlos starten",
     "ctaSecondary": "Demo ansehen",
@@ -128,7 +128,7 @@
         "6": "Feiertage und Brueckentage vorkonfiguriert"
       }
     },
-    "fotoDokumentation": {
+    "fotoDocumentation": {
       "title": "Foto-Dokumentation",
       "description": "Vorher/Nachher-Fotos mit automatischer Projektzuordnung. Perfekte Qualitaetsnachweise für Kunden und Versicherungen.",
       "bullets": {
@@ -418,7 +418,7 @@
     "team": "Team",
     "help": "Hilfe",
     "blog": "Blog",
-    "features": "Features",
+    "features": "Module",
     "pricing": "Preise",
     "api": "API",
     "agbs": "AGBs",

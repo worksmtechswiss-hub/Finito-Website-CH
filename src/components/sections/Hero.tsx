@@ -28,17 +28,6 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
-      {/* Animated Grid */}
-      <div className="absolute inset-0 grid-pattern opacity-40" />
-
-      {/* Violet Gradient Orbs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-[#8b5cf6]/20 rounded-full blur-[128px] animate-glow-pulse" />
-      <div
-        className="absolute bottom-1/4 -right-32 w-96 h-96 bg-[#a78bfa]/15 rounded-full blur-[128px] animate-glow-pulse"
-        style={{ animationDelay: "2s" }}
-      />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#8b5cf6]/5 rounded-full blur-[100px]" />
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
         <motion.div
           variants={staggerContainer}
@@ -168,8 +157,7 @@ export function Hero() {
         </motion.div>
       </div>
 
-      {/* Bottom Fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+
     </section>
   );
 }

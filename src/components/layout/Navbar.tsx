@@ -185,7 +185,7 @@ export function Navbar() {
                               <ExternalLink className="w-5 h-5 text-primary-600" />
                             </div>
                             <span className="text-sm font-semibold text-primary-600 group-hover:text-primary-700">
-                              Alle Features
+                              Alle Module
                             </span>
                           </Link>
                         </div>
