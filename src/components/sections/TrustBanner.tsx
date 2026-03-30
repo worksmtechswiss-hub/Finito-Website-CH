@@ -5,8 +5,16 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/animations";
 
-const allLogos = [
-  { name: "Marty AG", src: "/images/marty-logo-weiss-5.png", width: 100, height: 36 },
+interface LogoItem {
+  name: string;
+  src: string;
+  width: number;
+  height: number;
+  invert?: boolean;
+}
+
+const allLogos: LogoItem[] = [
+  { name: "Marty AG", src: "/images/marty-logo-weiss-5.png", width: 100, height: 36, invert: true },
   { name: "BeriBau AG", src: "/images/656636e32c996022a7438d10_Logo-BeriBau-AG-2.webp", width: 110, height: 36 },
   { name: "Gerber", src: "/images/65b1604a58d6b878bbc9dba5_Logo-Gerber-1.png", width: 100, height: 36 },
   { name: "MB Bau", src: "/images/6672ac1ae79f3e8fc41bafb3_Logo.png", width: 90, height: 36 },
@@ -37,8 +45,6 @@ export function TrustBanner() {
 
       {/* Infinite Marquee */}
       <div className="relative">
-        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-surface-light-secondary to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-surface-light-secondary to-transparent z-10" />
 
         <div className="flex animate-marquee">
           {marqueeItems.map((item, i) => (
@@ -52,7 +58,7 @@ export function TrustBanner() {
                   alt={`${item.name} - nutzt Finito Pro`}
                   width={item.width}
                   height={item.height}
-                  className="max-h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  className={`max-h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity ${item.invert ? "invert" : ""}`}
                   sizes="160px"
                 />
               </div>
