@@ -86,7 +86,7 @@ export function Footer() {
         { label: t("team"), href: "/team" },
         { label: t("contact"), href: "/kontakt" },
         { label: t("faq"), href: "/faq" },
-        { label: t("blog"), href: "#" },
+        { label: t("blog"), href: "/blog" },
       ],
     },
     {
