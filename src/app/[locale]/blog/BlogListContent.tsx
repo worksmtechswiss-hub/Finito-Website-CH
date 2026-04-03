@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { useState } from "react";
 import { ArrowRight, Calendar, Clock, Tag } from "lucide-react";
 import { staggerContainer, staggerItem } from "@/lib/animations";
-import { blogPosts } from "@/data/blog-posts";
+import { blogPosts } from "@/data/blog-posts/index";
 import { cn } from "@/lib/utils";
 
 const categories = [

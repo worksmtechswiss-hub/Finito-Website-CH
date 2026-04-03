@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/seo";
-import { blogPosts } from "@/data/blog-posts";
+import { blogPosts } from "@/data/blog-posts/index";
 import { BlogPostContent } from "./BlogPostContent";
 
 const postBySlug = (slug: string) => blogPosts.find((p) => p.slug === slug);

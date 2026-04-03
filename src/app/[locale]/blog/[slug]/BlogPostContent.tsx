@@ -4,8 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft, ArrowRight, Calendar, Clock, Tag } from "lucide-react";
-import type { BlogPost } from "@/data/blog-posts";
-import { blogPosts } from "@/data/blog-posts";
+import type { BlogPost } from "@/data/blog-posts/index";
+import { blogPosts } from "@/data/blog-posts/index";
 
 interface BlogPostContentProps {
   post: BlogPost;
