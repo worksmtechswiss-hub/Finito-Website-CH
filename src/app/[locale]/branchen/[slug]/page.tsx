@@ -68,7 +68,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Lieferung & Rechnung", desc: "Montage dokumentieren und Schlussrechnung erstellen." },
   ],
   dachdecker: [
-    { step: "Teams verteilen", desc: "Kalender fuer optimale Mitarbeiterplanung nutzen." },
+    { step: "Teams verteilen", desc: "Kalender für optimale Mitarbeiterplanung nutzen." },
     { step: "Sicherheit dokumentieren", desc: "Wetterbedingungen und Sicherheitsmassnahmen erfassen." },
     { step: "Baufortschritt festhalten", desc: "Fortschritt mit Zeitstempel und GPS dokumentieren." },
     { step: "Archivierung 25+ Jahre", desc: "Alle Daten verschluesselt langfristig gespeichert." },
@@ -92,7 +92,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Projektabschluss", desc: "Projekte mit vollstaendiger Dokumentation abschliessen." },
   ],
   "facility-service": [
-    { step: "Wartungsintervalle definieren", desc: "Intervalle fuer Heizung, Lueftung, Aufzuege festlegen." },
+    { step: "Wartungsintervalle definieren", desc: "Intervalle für Heizung, Lueftung, Aufzuege festlegen." },
     { step: "Automatische Auftraege", desc: "Auftraege werden zum faelligen Zeitpunkt erstellt." },
     { step: "Partner koordinieren", desc: "Externe Partner sehen Aufgaben in Echtzeit." },
     { step: "Objektdossier pflegen", desc: "Wartungen und Geraetedaten pro Gebaeudeteil archivieren." },
@@ -100,7 +100,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
   reinigung: [
     { step: "Routen planen", desc: "Fahrwege optimieren und Objekte den Teams zuweisen." },
     { step: "Checklisten abarbeiten", desc: "Mitarbeiter haken Aufgaben auf dem Smartphone ab." },
-    { step: "Qualitaet dokumentieren", desc: "Vorher/Nachher-Fotos als Nachweis fuer Auftraggeber." },
+    { step: "Qualitaet dokumentieren", desc: "Vorher/Nachher-Fotos als Nachweis für Auftraggeber." },
     { step: "Leistungsnachweis", desc: "Leistungsnachweise und Rechnungen automatisch generieren." },
   ],
   gartenbau: [
@@ -111,7 +111,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
   ],
   umzug: [
     { step: "Inventar erfassen", desc: "Detaillierte Inventarlisten mit Fotos erstellen." },
-    { step: "Tagesrouten optimieren", desc: "Be- und Entladestellen fuer Effizienz planen." },
+    { step: "Tagesrouten optimieren", desc: "Be- und Entladestellen für Effizienz planen." },
     { step: "Zustand dokumentieren", desc: "Zustand aller Gegenstaende mit Zeitstempel festhalten." },
     { step: "Protokoll & Rechnung", desc: "Schadensprotokoll und Schlussrechnung erstellen." },
   ],
@@ -147,87 +147,87 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
 const seoMetaMap: Record<string, { title: string; description: string; keywords: string[] }> = {
   maler: {
     title: "Maler Software Schweiz - Offerten, Zeiterfassung & QR-Rechnungen | Finito Pro",
-    description: "Die beste Software fuer Maler in der Schweiz. Offerten in 3 Minuten, digitale Fotorapporte, QR-Rechnungen und Zeiterfassung. 30 Tage kostenlos testen.",
+    description: "Die beste Software für Maler in der Schweiz. Offerten in 3 Minuten, digitale Fotorapporte, QR-Rechnungen und Zeiterfassung. 30 Tage kostenlos testen.",
     keywords: ["Maler Software", "Maler Software Schweiz", "Malerbetrieb digitalisieren", "Offerten Maler", "Zeiterfassung Maler", "QR-Rechnung Maler"],
   },
   gipser: {
     title: "Gipser Software Schweiz - Fotorapporte & Lagerverwaltung | Finito Pro",
-    description: "Software fuer Gipser: Digitale Fotorapporte, automatische Lagerverwaltung und QR-Rechnungen. Flaechenberechnung und Aufmass direkt vor Ort.",
+    description: "Software für Gipser: Digitale Fotorapporte, automatische Lagerverwaltung und QR-Rechnungen. Flaechenberechnung und Aufmass direkt vor Ort.",
     keywords: ["Gipser Software", "Gipser Software Schweiz", "Gipsereibetrieb Software", "Fotorapport Gipser", "Lagerverwaltung Gipser"],
   },
   elektriker: {
     title: "Elektriker Software Schweiz - Schemas mobil & Lagerverwaltung | Finito Pro",
-    description: "Software fuer Elektriker: Elektroschemas auf dem Smartphone, Lagerverwaltung mit Lieferanten-Links und digitale Regierapporte.",
+    description: "Software für Elektriker: Elektroschemas auf dem Smartphone, Lagerverwaltung mit Lieferanten-Links und digitale Regierapporte.",
     keywords: ["Elektriker Software", "Elektriker Software Schweiz", "Elektroinstallateur Software", "Lagerverwaltung Elektriker", "Regierapport digital"],
   },
   "sanitär": {
     title: "Sanitaer Software Schweiz - Zeiterfassung & Regierapporte | Finito Pro",
-    description: "Software fuer Sanitaerinstallateur: Mobile Zeiterfassung, digitale Regierapporte mit Kundenunterschrift und automatische QR-Rechnungen.",
+    description: "Software für Sanitaerinstallateur: Mobile Zeiterfassung, digitale Regierapporte mit Kundenunterschrift und automatische QR-Rechnungen.",
     keywords: ["Sanitaer Software", "Sanitaer Software Schweiz", "Sanitaerinstallateur Software", "Zeiterfassung Sanitaer", "Regierapport Sanitaer"],
   },
   schreiner: {
     title: "Schreiner Software Schweiz - Offerten & Werkstattplanung | Finito Pro",
-    description: "Software fuer Schreinerei: Detaillierte Offerten fuer Massanfertigungen, Werkstattauslastung im Dashboard und Projektfortschritt dokumentieren.",
+    description: "Software für Schreinerei: Detaillierte Offerten für Massanfertigungen, Werkstattauslastung im Dashboard und Projektfortschritt dokumentieren.",
     keywords: ["Schreiner Software", "Schreiner Software Schweiz", "Schreinerei Software", "Werkstattplanung Software", "Offerten Schreiner"],
   },
   dachdecker: {
     title: "Dachdecker Software Schweiz - Teamplanung & Archivierung | Finito Pro",
-    description: "Software fuer Dachdecker: Mitarbeiterplanung mit Kalender, digitales Projektarchiv fuer 25+ Jahre und Sicherheitsdokumentation.",
+    description: "Software für Dachdecker: Mitarbeiterplanung mit Kalender, digitales Projektarchiv für 25+ Jahre und Sicherheitsdokumentation.",
     keywords: ["Dachdecker Software", "Dachdecker Software Schweiz", "Dachdeckerbetrieb Software", "Teamplanung Dachdecker", "Projektarchiv"],
   },
   bodenleger: {
     title: "Bodenleger Software Schweiz - Materialberechnung & Dokumentation | Finito Pro",
-    description: "Software fuer Bodenleger: Automatische Quadratmeterberechnung, Restmaterial-Tracking und Verlegemuster-Dokumentation.",
+    description: "Software für Bodenleger: Automatische Quadratmeterberechnung, Restmaterial-Tracking und Verlegemuster-Dokumentation.",
     keywords: ["Bodenleger Software", "Bodenleger Software Schweiz", "Parkett Software", "Fliesen Software", "Materialberechnung Bodenleger"],
   },
   "gerüstbauer": {
     title: "Geruestbau Software Schweiz - Teile-Tracking & Mietabrechnung | Finito Pro",
-    description: "Software fuer Geruestbauer: Geruest-Teile von Auslieferung bis Ruecknahme tracken, automatische Mietabrechnung und Sicherheitsinspektionen.",
+    description: "Software für Geruestbauer: Geruest-Teile von Auslieferung bis Ruecknahme tracken, automatische Mietabrechnung und Sicherheitsinspektionen.",
     keywords: ["Geruestbau Software", "Geruestbauer Software Schweiz", "Geruest-Tracking", "Mietabrechnung Geruest", "Sicherheitsinspektion"],
   },
   maurer: {
     title: "Maurer Software Schweiz - Bautagebuch & Projektmanagement | Finito Pro",
-    description: "Software fuer Maurer: Automatisches Bautagebuch, Multi-Projekt-Uebersicht und Materialberechnung basierend auf Baufortschritt.",
+    description: "Software für Maurer: Automatisches Bautagebuch, Multi-Projekt-Uebersicht und Materialberechnung basierend auf Baufortschritt.",
     keywords: ["Maurer Software", "Maurer Software Schweiz", "Bauunternehmen Software", "Bautagebuch digital", "Projektmanagement Bau"],
   },
   "facility-service": {
     title: "Facility Management Software Schweiz - Wartung & Koordination | Finito Pro",
-    description: "Software fuer Facility Service: Automatisierte Wartungsintervalle, Partnerkoordination und digitale Objektdossiers pro Gebaeudeteil.",
+    description: "Software für Facility Service: Automatisierte Wartungsintervalle, Partnerkoordination und digitale Objektdossiers pro Gebaeudeteil.",
     keywords: ["Facility Management Software", "Facility Service Software Schweiz", "Wartungsplanung Software", "Gebaeudeverwaltung Software"],
   },
   reinigung: {
     title: "Reinigung Software Schweiz - Routenplanung & Qualitaetsdoku | Finito Pro",
-    description: "Software fuer Reinigungsunternehmen: Routenplanung, Qualitaetsdokumentation mit Fotos und automatische Leistungsnachweise.",
+    description: "Software für Reinigungsunternehmen: Routenplanung, Qualitaetsdokumentation mit Fotos und automatische Leistungsnachweise.",
     keywords: ["Reinigung Software", "Reinigungsfirma Software Schweiz", "Routenplanung Reinigung", "Qualitaetsdokumentation Reinigung"],
   },
   gartenbau: {
     title: "Gartenbau Software Schweiz - Saisonplanung & Dokumentation | Finito Pro",
-    description: "Software fuer Gartenbau: Saisonale Projektplanung, Pflanzendokumentation und Pflegeplaene fuer Ihre Kunden. Zeiterfassung inklusive.",
+    description: "Software für Gartenbau: Saisonale Projektplanung, Pflanzendokumentation und Pflegeplaene für Ihre Kunden. Zeiterfassung inklusive.",
     keywords: ["Gartenbau Software", "Gartenbau Software Schweiz", "Landschaftspflege Software", "Saisonplanung Gartenbau", "Pflanzendokumentation"],
   },
   umzug: {
     title: "Umzug Software Schweiz - Inventarlisten & Routenplanung | Finito Pro",
-    description: "Software fuer Umzugsunternehmen: Detaillierte Inventarlisten mit Fotos, Routenplanung und Schadensprotokoll mit Zeitstempel.",
+    description: "Software für Umzugsunternehmen: Detaillierte Inventarlisten mit Fotos, Routenplanung und Schadensprotokoll mit Zeitstempel.",
     keywords: ["Umzug Software", "Umzugsunternehmen Software Schweiz", "Inventarliste Umzug", "Routenplanung Umzug", "Schadensprotokoll"],
   },
   haustechnik: {
     title: "Haustechnik Software Schweiz - Wartungsplanung & HVAC | Finito Pro",
-    description: "Software fuer Haustechnik: HVAC-Dokumentation, automatische Wartungsplanung und lueckenlose Anlagenhistorie pro Gebaeudeteil.",
+    description: "Software für Haustechnik: HVAC-Dokumentation, automatische Wartungsplanung und lueckenlose Anlagenhistorie pro Gebaeudeteil.",
     keywords: ["Haustechnik Software", "Haustechnik Software Schweiz", "HVAC Software", "Wartungsplanung Heizung", "Anlagendokumentation"],
   },
   architekten: {
     title: "Architekten Software Schweiz - Projektdokumente & Task-Board | Finito Pro",
-    description: "Software fuer Architekten: Zentrale Projektdokumente, Task-Board fuer Bauphasen und transparente Bauherren-Kommunikation ueber das Kundenportal.",
+    description: "Software für Architekten: Zentrale Projektdokumente, Task-Board für Bauphasen und transparente Bauherren-Kommunikation ueber das Kundenportal.",
     keywords: ["Architekten Software", "Architekten Software Schweiz", "Architekturbuero Software", "Projektmanagement Architekten", "Task-Board Bauphasen"],
   },
   agenturen: {
     title: "Agentur Software Schweiz - Zeiterfassung & Budgetverwaltung | Finito Pro",
-    description: "Software fuer Agenturen: Projektbasierte Zeiterfassung, individuelle Benutzerrechte und Kunden-Budgets mit automatischen Warnungen.",
+    description: "Software für Agenturen: Projektbasierte Zeiterfassung, individuelle Benutzerrechte und Kunden-Budgets mit automatischen Warnungen.",
     keywords: ["Agentur Software", "Agentur Software Schweiz", "Zeiterfassung Agentur", "Projektmanagement Agentur", "Budget Software Agentur"],
   },
   "einmann-betriebe": {
-    title: "Software fuer Einmann-Betriebe Schweiz - Buero auf dem Smartphone | Finito Pro",
-    description: "Software fuer Einzelunternehmer und Einmann-Betriebe: Offerten, QR-Rechnungen, Zeiterfassung - alles in einer App auf dem Smartphone.",
+    title: "Software für Einmann-Betriebe Schweiz - Buero auf dem Smartphone | Finito Pro",
+    description: "Software für Einzelunternehmer und Einmann-Betriebe: Offerten, QR-Rechnungen, Zeiterfassung - alles in einer App auf dem Smartphone.",
     keywords: ["Einmann-Betrieb Software", "Selbststaendiger Software Schweiz", "Einzelunternehmer Software", "Handwerker App", "Buero Smartphone"],
   },
 };

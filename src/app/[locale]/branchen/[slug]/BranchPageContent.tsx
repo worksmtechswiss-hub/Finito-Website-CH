@@ -59,15 +59,15 @@ const whyFinitoMap: Record<string, string[]> = {
     "Farbverwaltung und Materialbestellung direkt aus dem Projekt",
     "Vorher/Nachher-Fotos automatisch dem Projekt zugeordnet",
     "QR-Rechnungen mit einem Klick erstellen und versenden",
-    "Kundenportal fuer transparente Projektfortschritte",
+    "Kundenportal für transparente Projektfortschritte",
     "Zeiterfassung direkt auf der Baustelle per Smartphone",
   ],
   gipser: [
-    "Digitale Fotorapporte als Qualitaetsnachweis fuer Versicherungen",
+    "Digitale Fotorapporte als Qualitaetsnachweis für Versicherungen",
     "Lagerverwaltung mit automatischem Materialabzug pro Projekt",
     "Aufmass und Flaechenberechnung direkt vor Ort",
     "QR-Rechnungen automatisch aus Projektdaten generieren",
-    "Offline-Modus fuer Baustellen ohne Mobilfunkempfang",
+    "Offline-Modus für Baustellen ohne Mobilfunkempfang",
     "Automatische Dokumentation aller Arbeitsschritte",
   ],
   elektriker: [
@@ -81,22 +81,22 @@ const whyFinitoMap: Record<string, string[]> = {
   "sanitär": [
     "Mobile Zeiterfassung mit Trennung von Fahr- und Arbeitszeit",
     "Digitale Regierapporte mit sofortiger Kundenunterschrift",
-    "Ersatzteil-Verwaltung fuer den Servicebus",
+    "Ersatzteil-Verwaltung für den Servicebus",
     "Automatische QR-Rechnungen nach Auftragsabschluss",
     "Einsatzplanung mit Kalender und Teamzuweisung",
-    "Komplette Dokumentation fuer Garantieansprueche",
+    "Komplette Dokumentation für Garantieansprueche",
   ],
   schreiner: [
     "Individuelle Massanfertigungen mit allen Details dokumentieren",
     "Werkstattauslastung und Produktionsplanung im Dashboard",
-    "Detaillierte Offerten fuer Einzelstuecke und Serien",
-    "Fortschrittsfotos fuer Kunden ueber das Portal teilen",
+    "Detaillierte Offerten für Einzelstuecke und Serien",
+    "Fortschrittsfotos für Kunden ueber das Portal teilen",
     "Material- und Zeitkalkulation pro Auftrag",
     "QR-Rechnungen nach Montage und Abnahme",
   ],
   dachdecker: [
     "Mitarbeiterplanung mit Kalender und Teamzuweisung",
-    "Digitales Projektarchiv fuer ueber 25 Jahre",
+    "Digitales Projektarchiv für ueber 25 Jahre",
     "Wetter- und Sicherheitsdokumentation pro Arbeitstag",
     "Zeiterfassung mit GPS-Standort auf der Baustelle",
     "Fotos mit Zeitstempel als Qualitaetsnachweis",
@@ -104,10 +104,10 @@ const whyFinitoMap: Record<string, string[]> = {
   ],
   bodenleger: [
     "Automatische Quadratmeterberechnung mit Verschnitt-Zuschlag",
-    "Restmaterial-Tracking fuer kleinere Reparaturauftraege",
+    "Restmaterial-Tracking für kleinere Reparaturauftraege",
     "Verlegemuster mit Fotos und Notizen dokumentieren",
     "Material direkt aus dem Projekt bestellen",
-    "Vorher/Nachher-Dokumentation fuer den Kunden",
+    "Vorher/Nachher-Dokumentation für den Kunden",
     "QR-Rechnungen nach Abnahme sofort versenden",
   ],
   "gerüstbauer": [
@@ -116,7 +116,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Sicherheitsinspektionen mit Checklisten dokumentieren",
     "Multi-Baustellen-Uebersicht mit Statusfiltern",
     "Lagerbestand in Echtzeit einsehen",
-    "QR-Rechnungen fuer Miete und Service automatisch",
+    "QR-Rechnungen für Miete und Service automatisch",
   ],
   maurer: [
     "Automatisches Bautagebuch mit Wetter und Anwesenheit",
@@ -124,10 +124,10 @@ const whyFinitoMap: Record<string, string[]> = {
     "Material- und Betonbestellung basierend auf Fortschritt",
     "Fotodokumentation mit automatischer Projektzuordnung",
     "Zeiterfassung pro Baustelle und Mitarbeiter",
-    "Rechtssichere Dokumentation fuer alle Projekte",
+    "Rechtssichere Dokumentation für alle Projekte",
   ],
   "facility-service": [
-    "Automatisierte Wartungsintervalle fuer alle Anlagen",
+    "Automatisierte Wartungsintervalle für alle Anlagen",
     "Partner und Subunternehmer ueber die Plattform koordinieren",
     "Digitales Objektdossier pro Gebaeudeteil",
     "Service-Abos mit automatischer Rechnungsstellung",
@@ -135,24 +135,24 @@ const whyFinitoMap: Record<string, string[]> = {
     "QR-Rechnungen und Leistungsnachweise automatisch",
   ],
   reinigung: [
-    "Routenplanung fuer optimale Teamverteilung",
+    "Routenplanung für optimale Teamverteilung",
     "Qualitaetsdokumentation mit Vorher/Nachher-Fotos",
     "Individuelle Checklisten pro Objekt und Gebaeudeteil",
     "Zeiterfassung pro Objekt und Mitarbeiter",
-    "Automatische Leistungsnachweise fuer Auftraggeber",
-    "Service-Abos fuer wiederkehrende Reinigungsauftraege",
+    "Automatische Leistungsnachweise für Auftraggeber",
+    "Service-Abos für wiederkehrende Reinigungsauftraege",
   ],
   gartenbau: [
     "Saisonale Projektplanung mit automatischen Erinnerungen",
     "Pflanzendokumentation mit Arten und Pflegehinweisen",
-    "Pflegeplaene fuer Kunden ueber das Portal teilen",
+    "Pflegeplaene für Kunden ueber das Portal teilen",
     "Zeiterfassung direkt im Garten per Smartphone",
     "Foto-Dokumentation des Gartenfortschritts",
-    "Service-Abos fuer regelmaessige Pflegeauftraege",
+    "Service-Abos für regelmaessige Pflegeauftraege",
   ],
   umzug: [
     "Detaillierte Inventarlisten mit Fotodokumentation",
-    "Taegliche Routenplanung fuer maximale Effizienz",
+    "Taegliche Routenplanung für maximale Effizienz",
     "Schadensprotokoll mit Zeitstempel und GPS-Daten",
     "Vorher/Nachher-Zustand aller Gegenstaende dokumentiert",
     "Zeiterfassung pro Umzug und Mitarbeiter",
@@ -164,28 +164,28 @@ const whyFinitoMap: Record<string, string[]> = {
     "Lueckenlose Anlagenhistorie pro Gebaeudeteil",
     "Einsatzprotokolle mit Fotos und Messwerten",
     "Ersatzteil-Verwaltung und Nachbestellung",
-    "Service-Abos fuer regelmaessige Wartungsvertraege",
+    "Service-Abos für regelmaessige Wartungsvertraege",
   ],
   architekten: [
     "Alle Projektdokumente zentral und immer aktuell",
-    "Task-Board fuer Projektphasen von Planung bis Abnahme",
+    "Task-Board für Projektphasen von Planung bis Abnahme",
     "Transparente Bauherren-Kommunikation ueber das Portal",
-    "Zeiterfassung pro Projekt fuer praezise Abrechnung",
+    "Zeiterfassung pro Projekt für praezise Abrechnung",
     "Automatische Versionierung aller Dokumente",
     "Dashboard mit Projektueberblick und Statusfiltern",
   ],
   agenturen: [
-    "Projektbasierte Zeiterfassung fuer transparente Abrechnung",
+    "Projektbasierte Zeiterfassung für transparente Abrechnung",
     "Individuelle Benutzerrechte pro Rolle und Projekt",
     "Kunden-Budgets mit automatischer Warnfunktion",
     "Stundenberichte als Rechnungsgrundlage",
-    "CRM fuer Kunden- und Kontaktverwaltung",
+    "CRM für Kunden- und Kontaktverwaltung",
     "QR-Rechnungen basierend auf erfassten Zeiten",
   ],
   "einmann-betriebe": [
     "Komplettes Buero auf dem Smartphone - kein PC noetig",
     "Vorlagen sparen bis zu 80% Administrationszeit",
-    "Automatische Buchhaltungsvorbereitung fuer den Treuhaender",
+    "Automatische Buchhaltungsvorbereitung für den Treuhaender",
     "Offerten, Rechnungen und Rapporte in einer App",
     "QR-Rechnungen mit einem Klick erstellen und versenden",
     "Zeiterfassung und Projektdokumentation unterwegs",
@@ -359,7 +359,7 @@ export function BranchPageContent({
               Branchenloesung
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
-              Software fuer{" "}
+              Software für{" "}
               <span className="gradient-text-animated">{branch.titleDe}</span>
               {" "}in der Schweiz
             </h1>
@@ -462,7 +462,7 @@ export function BranchPageContent({
       </section>
 
       {/* ============================================================ */}
-      {/* Warum Finito fuer [Branche]? Section                          */}
+      {/* Warum Finito für [Branche]? Section                          */}
       {/* ============================================================ */}
       <section className="py-24 bg-surface-light-secondary">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -475,11 +475,11 @@ export function BranchPageContent({
               className="flex-1"
             >
               <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-                Warum Finito fuer {branch.titleDe}?
+                Warum Finito für {branch.titleDe}?
               </h2>
               <p className="text-lg text-neutral-500 mb-8">
                 {branch.titleDe} digitalisieren mit Finito Pro - die All-in-One Software
-                fuer Schweizer KMU und Handwerksbetriebe.
+                für Schweizer KMU und Handwerksbetriebe.
               </p>
               <ul className="space-y-4">
                 {whyBenefits.map((benefit, i) => (
@@ -569,7 +569,7 @@ export function BranchPageContent({
                 Mit der Finito Pro Mitarbeiter-App haben Ihre Teams alle wichtigen Informationen direkt auf dem Smartphone - auch offline auf der Baustelle.
               </p>
               <ul className="space-y-3">
-                {["Aufgaben und Projekte unterwegs verwalten", "Zeiten direkt vor Ort erfassen", "Fotos dokumentieren und zuordnen", "Offline-Modus fuer Baustellen ohne Empfang"].map((item) => (
+                {["Aufgaben und Projekte unterwegs verwalten", "Zeiten direkt vor Ort erfassen", "Fotos dokumentieren und zuordnen", "Offline-Modus für Baustellen ohne Empfang"].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
                     <span className="text-neutral-600">{item}</span>
@@ -613,10 +613,10 @@ export function BranchPageContent({
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-              Zeiterfassung, QR-Rechnungen und mehr fuer {branch.titleDe}
+              Zeiterfassung, QR-Rechnungen und mehr für {branch.titleDe}
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Diese Finito-Pro-Funktionen sind besonders wertvoll fuer Ihren Betrieb.
+              Diese Finito-Pro-Funktionen sind besonders wertvoll für Ihren Betrieb.
             </p>
           </motion.div>
 
@@ -664,10 +664,10 @@ export function BranchPageContent({
               className="text-center mb-16"
             >
               <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-4">
-                Typischer Workflow fuer {branch.titleDe}
+                Typischer Workflow für {branch.titleDe}
               </h2>
               <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-                So sieht ein typischer Arbeitsablauf mit Finito Pro fuer {branch.titleDe} aus.
+                So sieht ein typischer Arbeitsablauf mit Finito Pro für {branch.titleDe} aus.
               </p>
             </motion.div>
 
