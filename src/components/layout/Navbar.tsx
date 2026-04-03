@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -116,20 +117,14 @@ export function Navbar() {
           <nav className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0">
-              <span
-                className={cn(
-                  "font-semibold text-xl tracking-tight transition-colors",
-                  mobileOpen
-                    ? "text-neutral-900"
-                    : scrolled
-                      ? "text-white"
-                      : isHero
-                        ? "text-white"
-                        : "text-neutral-900"
-                )}
-              >
-                Finito Pro
-              </span>
+              <Image
+                src="/images/Logo finito.png"
+                alt="Finito Pro"
+                width={130}
+                height={29}
+                className="h-7 w-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop Nav */}

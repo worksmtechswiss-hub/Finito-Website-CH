@@ -31,12 +31,13 @@ const values = [
 ];
 
 const team = [
-  { name: "Carlos", role: "Co-Founder", image: "/images/645bd42b3c5cd436717c7ced_carlos2-1.png" },
-  { name: "Lukas", role: "Co-Founder", image: "/images/645bd42b0b745647b9a26cea_lukas2-p-500-1.png" },
-  { name: "Kamil", role: "Development", image: "/images/MicrosoftTeams-image-171.png" },
-  { name: "Nico", role: "Development", image: "/images/MicrosoftTeams-image-172.png" },
-  { name: "Izabela", role: "Design", image: "/images/MicrosoftTeams-image-173.png" },
-  { name: "Natalia", role: "Operations", image: "/images/team-2.png" },
+  { name: "Carlos", image: "/images/carlos 1.svg" },
+  { name: "Lukas", image: "/images/lukas 1.svg" },
+  { name: "Kamil", image: "/images/kamil 1.svg" },
+  { name: "Nico", image: "/images/Nico.svg" },
+  { name: "Izabela", image: "/images/iza 1.svg" },
+  { name: "Natalia", image: "/images/natalia 1.svg" },
+  { name: "Ivan", image: "/images/ivan 1.svg" },
 ];
 
 export function TeamContent() {
@@ -255,36 +256,60 @@ export function TeamContent() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="flex flex-wrap justify-center gap-10 sm:gap-14"
+            className="flex flex-col items-center gap-10"
           >
-            {team.map((member) => (
-              <motion.div
-                key={member.name}
-                variants={staggerItem}
-                className="text-center group"
-              >
-                <div className="relative mb-4">
-                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-card group-hover:shadow-card-hover transition-all group-hover:scale-105 ring-3 ring-white">
-                    <Image
-                      src={member.image}
-                      alt={`${member.name} - ${member.role} bei Finito Pro`}
-                      width={112}
-                      height={112}
-                      className="w-full h-full object-cover"
-                      sizes="(max-width: 640px) 96px, 112px"
-                    />
+            {/* Row 1: first 4 members */}
+            <div className="flex flex-wrap justify-center gap-10 sm:gap-14">
+              {team.slice(0, 4).map((member) => (
+                <motion.div
+                  key={member.name}
+                  variants={staggerItem}
+                  className="text-center group"
+                >
+                  <div className="relative mb-4">
+                    <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-card group-hover:shadow-card-hover transition-all group-hover:scale-105 ring-3 ring-white">
+                      <Image
+                        src={member.image}
+                        alt={`${member.name} bei Finito Pro`}
+                        width={112}
+                        height={112}
+                        className="w-full h-full object-cover"
+                        sizes="(max-width: 640px) 96px, 112px"
+                      />
+                    </div>
                   </div>
-                  <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-white border border-neutral-100 rounded-full shadow-sm">
-                    <span className="text-[10px] text-neutral-400 font-medium uppercase tracking-wider">
-                      {member.role}
-                    </span>
+                  <h3 className="font-semibold text-neutral-900 text-lg">
+                    {member.name}
+                  </h3>
+                </motion.div>
+              ))}
+            </div>
+            {/* Row 2: remaining members */}
+            <div className="flex flex-wrap justify-center gap-10 sm:gap-14">
+              {team.slice(4).map((member) => (
+                <motion.div
+                  key={member.name}
+                  variants={staggerItem}
+                  className="text-center group"
+                >
+                  <div className="relative mb-4">
+                    <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-card group-hover:shadow-card-hover transition-all group-hover:scale-105 ring-3 ring-white">
+                      <Image
+                        src={member.image}
+                        alt={`${member.name} bei Finito Pro`}
+                        width={112}
+                        height={112}
+                        className="w-full h-full object-cover"
+                        sizes="(max-width: 640px) 96px, 112px"
+                      />
+                    </div>
                   </div>
-                </div>
-                <h3 className="font-semibold text-neutral-900 text-lg">
-                  {member.name}
-                </h3>
-              </motion.div>
-            ))}
+                  <h3 className="font-semibold text-neutral-900 text-lg">
+                    {member.name}
+                  </h3>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>
