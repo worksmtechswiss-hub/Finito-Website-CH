@@ -28,6 +28,29 @@ const featureIconMap: Record<string, React.ComponentType<{ className?: string }>
 };
 
 /* ------------------------------------------------------------------ */
+/*  Branch image paths                                                  */
+/* ------------------------------------------------------------------ */
+const branchImageMap: Record<string, { hero: string; mobile: string }> = {
+  maler: { hero: "/images/branches/maler-hero.png", mobile: "/images/branches/maler-mobile.png" },
+  gipser: { hero: "/images/branches/gipser-hero.png", mobile: "/images/branches/gipser-mobile.png" },
+  elektriker: { hero: "/images/branches/elektriker-hero.png", mobile: "/images/branches/elektriker-mobile.png" },
+  "sanitär": { hero: "/images/branches/sanitaer-hero.png", mobile: "/images/branches/sanitaer-mobile.png" },
+  schreiner: { hero: "/images/branches/schreiner-hero.png", mobile: "/images/branches/schreiner-mobile.png" },
+  dachdecker: { hero: "/images/branches/dachdecker-hero.png", mobile: "/images/branches/dachdecker-mobile.png" },
+  bodenleger: { hero: "/images/branches/bodenleger-hero.png", mobile: "/images/branches/bodenleger-mobile.png" },
+  "gerüstbauer": { hero: "/images/branches/geruestbauer-hero.png", mobile: "/images/branches/geruestbauer-mobile.png" },
+  maurer: { hero: "/images/branches/maurer-hero.png", mobile: "/images/branches/maurer-mobile.png" },
+  "facility-service": { hero: "/images/branches/facility-service-hero.png", mobile: "/images/branches/facility-service-mobile.png" },
+  reinigung: { hero: "/images/branches/maler-hero.png", mobile: "/images/branches/maler-mobile.png" },
+  gartenbau: { hero: "/images/branches/gartenbau-hero.png", mobile: "/images/branches/gartenbau-mobile.png" },
+  umzug: { hero: "/images/branches/umzug-hero.png", mobile: "/images/branches/umzug-mobile.png" },
+  haustechnik: { hero: "/images/branches/facility-service-hero.png", mobile: "/images/branches/facility-service-mobile.png" },
+  architekten: { hero: "/images/branches/architekten-hero.png", mobile: "/images/branches/architekten-mobile.png" },
+  agenturen: { hero: "/images/branches/agenturen-hero.png", mobile: "/images/branches/agenturen-mobile.png" },
+  "einmann-betriebe": { hero: "/images/branches/einmann-betriebe-hero.png", mobile: "/images/branches/einmann-betriebe-mobile.png" },
+};
+
+/* ------------------------------------------------------------------ */
 /*  "Warum Finito" benefits per branch                                 */
 /* ------------------------------------------------------------------ */
 const whyFinitoMap: Record<string, string[]> = {
@@ -308,11 +331,23 @@ export function BranchPageContent({
   const whyBenefits = whyFinitoMap[branch.slug] || whyFinitoMap["maler"];
   const savings = savingsMap[branch.slug] || savingsMap["maler"];
   const testimonial = testimonialMap[branch.slug] || testimonialMap["maler"];
+  const branchImages = branchImageMap[branch.slug] || branchImageMap["maler"];
 
   return (
     <>
       {/* Hero Section - Dark */}
       <section className="relative py-24 lg:py-32 hero-gradient overflow-hidden">
+        {/* Branch-specific background image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={branchImages.hero}
+            alt=""
+            fill
+            className="object-cover opacity-15"
+            sizes="100vw"
+            priority
+          />
+        </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -549,16 +584,16 @@ export function BranchPageContent({
               transition={{ duration: 0.7, delay: 0.2 }}
               className="flex-shrink-0"
             >
-              <div className="relative w-[260px] mx-auto">
-                <div className="absolute -inset-6 bg-gradient-to-br from-primary-600/15 to-accent-400/15 rounded-full blur-3xl" />
-                <div className="relative rounded-[2.5rem] border-[6px] border-neutral-800 bg-neutral-900 shadow-2xl overflow-hidden">
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-5 bg-neutral-800 rounded-b-2xl z-10" />
+              <div className="relative w-[320px] mx-auto">
+                <div className="absolute -inset-6 bg-gradient-to-br from-primary-600/15 to-accent-400/15 rounded-3xl blur-3xl" />
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Finito-Mob.png"
-                    alt="Finito Pro Mobile App"
-                    width={520}
-                    height={1040}
+                    src={branchImages.mobile}
+                    alt={`${branch.titleDe} mit Finito Pro digitalisieren`}
+                    width={640}
+                    height={640}
                     className="w-full h-auto"
+                    sizes="320px"
                   />
                 </div>
               </div>
