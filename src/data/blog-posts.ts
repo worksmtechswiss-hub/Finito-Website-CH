@@ -59,7 +59,7 @@ Die Malerei Keller mit 8 Mitarbeitern hat mit Finito Pro ihre Administration um 
 Die Digitalisierung Ihres Malerbetriebs ist kein Luxus, sondern eine Investition, die sich innerhalb weniger Wochen amortisiert. Mit Finito Pro starten Sie in 30 Tagen kostenlos und erleben den Unterschied sofort.
     `,
     image: "/images/blog/malerbetrieb-digitalisieren.png",
-    date: "2026-03-15",
+    date: "2026-01-12",
     readTime: "6 Min.",
     tags: ["Maler", "Digitalisierung", "KMU"],
   },
@@ -100,7 +100,7 @@ Erfassen Sie Flächen und Mengen direkt vor Ort auf dem Smartphone. Die Daten fl
 Digitale Fotorapporte sind für Gipser nicht nur ein Komfort — sie sind ein Wettbewerbsvorteil. Wer heute noch auf Papier setzt, riskiert Zeit, Geld und Reputation.
     `,
     image: "/images/blog/gipser-fotorapporte.png",
-    date: "2026-03-12",
+    date: "2026-01-19",
     readTime: "5 Min.",
     tags: ["Gipser", "Fotorapporte", "Dokumentation"],
   },
@@ -141,7 +141,7 @@ Alle relevanten Normen, Prüfprotokolle und Zertifikate werden pro Projekt archi
 Für Elektroinstallateure ist digitale Software kein Nice-to-have — sie ist die Grundlage für effizientes und fehlerfreies Arbeiten auf der Baustelle.
     `,
     image: "/images/blog/elektriker-software.png",
-    date: "2026-03-10",
+    date: "2026-01-26",
     readTime: "5 Min.",
     tags: ["Elektriker", "Software", "Lagerverwaltung"],
   },
@@ -172,7 +172,7 @@ Nach dem Abschluss eines Auftrags erstellen Sie die Rechnung mit einem Klick. Al
 Für Sanitärinstallateure bedeutet digitale Software: weniger Büroarbeit, schnellere Abrechnung und zufriedenere Kunden.
     `,
     image: "/images/blog/sanitaer-software.png",
-    date: "2026-03-08",
+    date: "2026-02-02",
     readTime: "4 Min.",
     tags: ["Sanitär", "Zeiterfassung", "Regierapporte"],
   },
@@ -207,7 +207,7 @@ Der gesamte Workflow — Offerte, Auftragsbestätigung, Produktion, Montage, Rec
 Schreinereien, die digital arbeiten, liefern schneller, kommunizieren besser und haben ihre Kosten im Griff.
     `,
     image: "/images/blog/schreinerei-digital.png",
-    date: "2026-03-05",
+    date: "2026-02-09",
     readTime: "5 Min.",
     tags: ["Schreiner", "Digitalisierung", "Werkstatt"],
   },
@@ -238,7 +238,7 @@ Jedes Foto wird automatisch mit Zeitstempel und GPS-Standort versehen. Perfekt a
 Ein digitales Archiv schützt Ihren Betrieb — vor Garantieansprüchen, Haftungsfragen und dem Verlust wertvoller Projektdaten.
     `,
     image: "/images/blog/dachdecker-archiv.png",
-    date: "2026-03-03",
+    date: "2026-02-16",
     readTime: "4 Min.",
     tags: ["Dachdecker", "Archivierung", "Sicherheit"],
   },
@@ -273,7 +273,7 @@ Material bestellen, verlegen, Abnahme dokumentieren und QR-Rechnung erstellen �
 Bodenleger, die ihre Materialberechnung digitalisieren, sparen Material, Zeit und Nerven.
     `,
     image: "/images/blog/bodenleger-material.png",
-    date: "2026-03-01",
+    date: "2026-02-23",
     readTime: "4 Min.",
     tags: ["Bodenleger", "Material", "Berechnung"],
   },
@@ -304,7 +304,7 @@ Regelmässige Inspektionen werden mit Fotos und Checklisten dokumentiert. Alle g
 Digitales Teile-Tracking und automatische Mietabrechnung sind für Gerüstbauunternehmen ein Game-Changer.
     `,
     image: "/images/blog/geruestbau-tracking.png",
-    date: "2026-02-28",
+    date: "2026-03-02",
     readTime: "4 Min.",
     tags: ["Gerüstbau", "Tracking", "Mietabrechnung"],
   },
@@ -335,7 +335,7 @@ Berechnen und bestellen Sie Material basierend auf dem aktuellen Baufortschritt.
 Ein digitales Bautagebuch spart täglich 20 Minuten Schreibarbeit und schützt Sie bei rechtlichen Auseinandersetzungen.
     `,
     image: "/images/blog/bautagebuch-digital.png",
-    date: "2026-02-25",
+    date: "2026-03-09",
     readTime: "4 Min.",
     tags: ["Maurer", "Bautagebuch", "Dokumentation"],
   },
@@ -366,7 +366,7 @@ Pro Gebäudeteil führen Sie ein digitales Dossier mit Wartungshistorie, Geräte
 Automatisierte Wartung bedeutet: keine vergessenen Termine, zufriedene Mieter und niedrigere Kosten.
     `,
     image: "/images/blog/facility-wartung.png",
-    date: "2026-02-22",
+    date: "2026-03-12",
     readTime: "4 Min.",
     tags: ["Facility", "Wartung", "Automatisierung"],
   },
@@ -397,7 +397,7 @@ Erstellen Sie individuelle Pflegepläne und teilen Sie Fortschrittsfotos über d
 Digitale Saisonplanung macht Gartenbaubetriebe effizienter, organisierter und kundenfreundlicher.
     `,
     image: "/images/blog/gartenbau-saison.png",
-    date: "2026-02-20",
+    date: "2026-03-16",
     readTime: "4 Min.",
     tags: ["Gartenbau", "Saisonplanung", "Pflanzendokumentation"],
   },
@@ -428,7 +428,7 @@ Dokumentieren Sie den Zustand aller Gegenstände lückenlos. Bei Reklamationen h
 Digitale Dokumentation schützt Umzugsunternehmen vor Schadensforderungen und steigert die Effizienz.
     `,
     image: "/images/blog/umzug-inventar.png",
-    date: "2026-02-18",
+    date: "2026-03-20",
     readTime: "4 Min.",
     tags: ["Umzug", "Inventar", "Dokumentation"],
   },
@@ -459,7 +459,7 @@ Teilen Sie Fortschritte und Entscheidungen transparent über das Kundenportal. B
 Zentrale Dokumentenverwaltung spart Architekten täglich 30 Minuten Suchzeit und reduziert Fehler durch veraltete Dokumente.
     `,
     image: "/images/blog/architekten-projekt.png",
-    date: "2026-02-15",
+    date: "2026-03-24",
     readTime: "4 Min.",
     tags: ["Architekten", "Projektmanagement", "Dokumente"],
   },
@@ -490,7 +490,7 @@ Verwalten Sie Budgets pro Kunde und Projekt. Automatische Warnungen bei Budgetü
 Projektbasierte Zeiterfassung macht die Abrechnung transparent, fair und effizient — für Sie und Ihre Kunden.
     `,
     image: "/images/blog/agentur-zeit.png",
-    date: "2026-02-12",
+    date: "2026-03-28",
     readTime: "4 Min.",
     tags: ["Agenturen", "Zeiterfassung", "Budget"],
   },
@@ -521,7 +521,7 @@ Alle Einnahmen und Ausgaben werden automatisch erfasst. Am Jahresende exportiere
 Finito Pro ist für Einmann-Betriebe die günstigste und einfachste Lösung, um professionell und effizient zu arbeiten.
     `,
     image: "/images/blog/einmann-smartphone.png",
-    date: "2026-02-10",
+    date: "2026-04-01",
     readTime: "4 Min.",
     tags: ["Einmann-Betrieb", "Smartphone", "Selbstständig"],
   },
@@ -566,7 +566,7 @@ Mit Finito Pro erstellen Sie QR-Rechnungen in Sekunden:
 QR-Rechnungen sind Pflicht in der Schweiz. Mit Finito Pro erstellen Sie konforme Rechnungen in Sekunden — nicht Stunden.
     `,
     image: "/images/blog/qr-rechnungen.png",
-    date: "2026-03-20",
+    date: "2025-04-21",
     readTime: "6 Min.",
     tags: ["QR-Rechnung", "Schweiz", "Pflicht"],
   },
@@ -604,7 +604,7 @@ Mit Finito Pro erfassen Ihre Mitarbeiter die Arbeitszeit direkt auf dem Smartpho
 Zeiterfassung ist in der Schweiz Pflicht. Mit einer digitalen Lösung erfüllen Sie die Vorgaben mühelos und sparen gleichzeitig Administrationszeit.
     `,
     image: "/images/blog/zeiterfassung-pflicht.png",
-    date: "2026-03-18",
+    date: "2025-05-12",
     readTime: "7 Min.",
     tags: ["Zeiterfassung", "Gesetz", "Schweiz"],
   },
@@ -639,7 +639,7 @@ Ferientage werden automatisch in der Zeiterfassung berücksichtigt. Monatsrappor
 Digitales Ferienmanagement spart KMU wöchentlich Stunden an Administration und eliminiert Fehler bei der Ferienplanung.
     `,
     image: "/images/blog/ferienmanagement.png",
-    date: "2026-03-16",
+    date: "2025-06-02",
     readTime: "5 Min.",
     tags: ["Ferienmanagement", "KMU", "Abwesenheit"],
   },
@@ -675,7 +675,7 @@ Finito Pro erinnert Sie, wenn eine Offerte seit 7 Tagen nicht beantwortet wurde.
 Schnelle, professionelle Offerten gewinnen Aufträge. Mit Finito Pro erstellen Sie sie in 3 Minuten.
     `,
     image: "/images/blog/offerten-erstellen.png",
-    date: "2026-03-14",
+    date: "2025-06-23",
     readTime: "5 Min.",
     tags: ["Offerten", "Handwerker", "Tipps"],
   },
@@ -706,7 +706,7 @@ Alle Projektdokumente — Offerten, Pläne, Fotos, Rapporte — sind an einem Or
 Digitales Projektmanagement ist der Schlüssel zu effizientem Arbeiten auf mehreren Baustellen gleichzeitig.
     `,
     image: "/images/blog/projektmanagement.png",
-    date: "2026-03-11",
+    date: "2025-07-14",
     readTime: "5 Min.",
     tags: ["Projektmanagement", "Handwerker", "Organisation"],
   },
@@ -737,7 +737,7 @@ Wenn ein Kunde anruft, haben Sie sofort alle Infos parat: letzte Aufträge, offe
 Ein CRM macht selbst den kleinsten Handwerksbetrieb professioneller und hilft, Kundenbeziehungen langfristig zu pflegen.
     `,
     image: "/images/blog/crm-handwerker.png",
-    date: "2026-03-09",
+    date: "2025-08-04",
     readTime: "5 Min.",
     tags: ["CRM", "Kundenverwaltung", "Handwerker"],
   },
@@ -767,7 +767,7 @@ Das Dashboard aktualisiert sich automatisch. Keine manuellen Reports, keine vera
 Ein Dashboard macht Ihr KMU transparenter, schneller und erfolgreicher. Datenbasierte Entscheidungen statt Bauchgefühl.
     `,
     image: "/images/blog/dashboard-kmu.png",
-    date: "2026-03-07",
+    date: "2025-08-25",
     readTime: "4 Min.",
     tags: ["Dashboard", "KMU", "Kennzahlen"],
   },
@@ -802,7 +802,7 @@ Dokumentieren Sie den Zustand vor und nach der Arbeit. Perfekt als Qualitätsnac
 Digitale Fotodokumentation ist schneller, sicherer und professioneller als jede Papier-Lösung.
     `,
     image: "/images/blog/foto-dokumentation.png",
-    date: "2026-03-04",
+    date: "2025-09-15",
     readTime: "4 Min.",
     tags: ["Fotodokumentation", "Baustelle", "Digital"],
   },
@@ -833,7 +833,7 @@ Verknüpfen Sie Artikel mit Ihren Lieferanten. Nachbestellungen erfolgen mit wen
 Digitale Lagerverwaltung spart Geld, verhindert Engpässe und gibt Ihnen volle Kontrolle über Ihr Material.
     `,
     image: "/images/blog/lagerverwaltung.png",
-    date: "2026-03-02",
+    date: "2025-10-06",
     readTime: "4 Min.",
     tags: ["Lagerverwaltung", "KMU", "Material"],
   },
@@ -864,7 +864,7 @@ Am Jahresende exportieren Sie alle Daten in einem Format, das Ihr Treuhänder di
 Gut vorbereitete Buchhaltung spart CHF 1'000–3'000 pro Jahr an Treuhänderkosten. Finito Pro macht die Vorbereitung automatisch.
     `,
     image: "/images/blog/buchhaltung-kmu.png",
-    date: "2026-02-28",
+    date: "2025-10-27",
     readTime: "5 Min.",
     tags: ["Buchhaltung", "KMU", "Treuhänder"],
   },
@@ -899,7 +899,7 @@ Kein Empfang auf der Baustelle? Kein Problem. Die App arbeitet offline und synch
 Die Mitarbeiter-App macht jeden Handwerker produktiver — auf der Baustelle, beim Kunden und unterwegs.
     `,
     image: "/images/blog/mitarbeiter-app.png",
-    date: "2026-02-25",
+    date: "2025-11-17",
     readTime: "5 Min.",
     tags: ["Mitarbeiter-App", "Handwerker", "Mobil"],
   },
@@ -930,7 +930,7 @@ Wenn Kunden jederzeit den aktuellen Stand sehen können, reduzieren sich Rückfr
 Ein Kundenportal ist ein Zeichen von Professionalität. Es stärkt Vertrauen und reduziert Ihren Kommunikationsaufwand.
     `,
     image: "/images/blog/kundenportal.png",
-    date: "2026-02-22",
+    date: "2025-12-08",
     readTime: "4 Min.",
     tags: ["Kundenportal", "Transparenz", "Kommunikation"],
   },
@@ -961,7 +961,7 @@ Sehen Sie alle aktiven Service-Abos auf einen Blick. Welcher Kunde hat welchen V
 Service-Abos automatisieren bedeutet: planbare Einnahmen, zufriedene Kunden und null Administrationsaufwand.
     `,
     image: "/images/blog/service-abos.png",
-    date: "2026-02-20",
+    date: "2025-12-29",
     readTime: "4 Min.",
     tags: ["Service-Abos", "Automatisierung", "Wartung"],
   },
@@ -1008,7 +1008,7 @@ Nutzen Sie die gewonnenen Daten, um Prozesse weiter zu optimieren. Das Dashboard
 Digitalisierung ist kein Projekt mit Enddatum — sie ist ein fortlaufender Prozess. Aber der erste Schritt ist der wichtigste. Starten Sie heute.
     `,
     image: "/images/blog/digitalisierung-leitfaden.png",
-    date: "2026-03-25",
+    date: "2024-12-02",
     readTime: "8 Min.",
     tags: ["Digitalisierung", "KMU", "Schweiz", "Leitfaden"],
   },
@@ -1048,7 +1048,7 @@ Finito Pro wurde speziell für Schweizer KMU entwickelt. Swiss Made, All-in-One,
 Die beste Software ist die, die zu Ihrem Betrieb passt. Testen Sie verschiedene Lösungen und entscheiden Sie auf Basis Ihrer eigenen Erfahrung.
     `,
     image: "/images/blog/software-vergleich.png",
-    date: "2026-03-22",
+    date: "2025-01-06",
     readTime: "7 Min.",
     tags: ["Software", "Vergleich", "Handwerker"],
   },
@@ -1082,7 +1082,7 @@ Automatische Erfassung aller Geschäftsvorgänge. Export für den Treuhänder mi
 Papierlos arbeiten ist einfacher als gedacht. Starten Sie mit einem Schritt und bauen Sie aus. In wenigen Wochen sparen Sie Stunden pro Woche.
     `,
     image: "/images/blog/papierlos-arbeiten.png",
-    date: "2026-03-19",
+    date: "2025-02-03",
     readTime: "6 Min.",
     tags: ["Papierlos", "Digital", "KMU"],
   },
@@ -1120,7 +1120,7 @@ Ab dem Moment, wo Sie:
 Excel hat seinen Platz — aber nicht im Projektmanagement auf der Baustelle. Spezialisierte Software zahlt sich ab dem ersten Monat aus.
     `,
     image: "/images/blog/projekt-vs-excel.png",
-    date: "2026-03-13",
+    date: "2025-03-03",
     readTime: "5 Min.",
     tags: ["Projektmanagement", "Excel", "Baustelle"],
   },
@@ -1162,7 +1162,7 @@ Mit einem CRM-System wird Kundenpflege zum System. Nichts wird vergessen, alles 
 Systematische Kundenpflege ist der Schlüssel zu nachhaltigem Geschäftserfolg. Ein CRM-System macht es einfach.
     `,
     image: "/images/blog/kundenverwaltung-tipps.png",
-    date: "2026-03-06",
+    date: "2025-03-31",
     readTime: "6 Min.",
     tags: ["Kundenverwaltung", "Tipps", "KMU"],
   },
