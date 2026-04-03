@@ -152,7 +152,7 @@ export const branches: Branch[] = [
     ],
   },
   {
-    id: 'sanitär',
+    id: 'sanitaer',
     icon: 'Droplets',
     titleDe: 'Sanitär',
     titleEn: 'Plumbers',
@@ -160,7 +160,7 @@ export const branches: Branch[] = [
       'Mobile Zeiterfassung beim Kunden und digitale Regierapporte für Sanitärinstallationen und Reparaturen.',
     descriptionEn:
       'Mobile time tracking at the customer site and digital time-and-material reports for plumbing installations and repairs.',
-    slug: 'sanitär',
+    slug: 'sanitaer',
     useCasesDe: [
       {
         title: 'Mobile Zeiterfassung beim Kunden',
@@ -332,7 +332,7 @@ export const branches: Branch[] = [
     ],
   },
   {
-    id: 'gerüstbauer',
+    id: 'geruestbauer',
     icon: 'Building2',
     titleDe: 'Gerüstbauer',
     titleEn: 'Scaffolders',
@@ -340,7 +340,7 @@ export const branches: Branch[] = [
       'Gerüstteile-Tracking und automatische Mietabrechnung. Behalten Sie den Überblick über alle Teile und Standorte.',
     descriptionEn:
       'Scaffolding parts tracking and automatic rental billing. Keep track of all parts and locations.',
-    slug: 'gerüstbauer',
+    slug: 'geruestbauer',
     useCasesDe: [
       {
         title: 'Gerüstteile-Tracking',

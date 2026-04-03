@@ -34,11 +34,11 @@ const branchImageMap: Record<string, { hero: string; mobile: string }> = {
   maler: { hero: "/images/branches/maler-hero.png", mobile: "/images/branches/maler-mobile.png" },
   gipser: { hero: "/images/branches/gipser-hero.png", mobile: "/images/branches/gipser-mobile.png" },
   elektriker: { hero: "/images/branches/elektriker-hero.png", mobile: "/images/branches/elektriker-mobile.png" },
-  "sanitär": { hero: "/images/branches/sanitaer-hero.png", mobile: "/images/branches/sanitaer-mobile.png" },
+  "sanitaer": { hero: "/images/branches/sanitaer-hero.png", mobile: "/images/branches/sanitaer-mobile.png" },
   schreiner: { hero: "/images/branches/schreiner-hero.png", mobile: "/images/branches/schreiner-mobile.png" },
   dachdecker: { hero: "/images/branches/dachdecker-hero.png", mobile: "/images/branches/dachdecker-mobile.png" },
   bodenleger: { hero: "/images/branches/bodenleger-hero.png", mobile: "/images/branches/bodenleger-mobile.png" },
-  "gerüstbauer": { hero: "/images/branches/geruestbauer-hero.png", mobile: "/images/branches/geruestbauer-mobile.png" },
+  "geruestbauer": { hero: "/images/branches/geruestbauer-hero.png", mobile: "/images/branches/geruestbauer-mobile.png" },
   maurer: { hero: "/images/branches/maurer-hero.png", mobile: "/images/branches/maurer-mobile.png" },
   "facility-service": { hero: "/images/branches/facility-service-hero.png", mobile: "/images/branches/facility-service-mobile.png" },
   reinigung: { hero: "/images/branches/maler-hero.png", mobile: "/images/branches/maler-mobile.png" },
@@ -78,7 +78,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "QR-Rechnungen direkt aus erfassten Daten generieren",
     "Alle Normen und Zertifikate pro Projekt archiviert",
   ],
-  "sanitär": [
+  "sanitaer": [
     "Mobile Zeiterfassung mit Trennung von Fahr- und Arbeitszeit",
     "Digitale Regierapporte mit sofortiger Kundenunterschrift",
     "Ersatzteil-Verwaltung für den Servicebus",
@@ -110,7 +110,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "Vorher/Nachher-Dokumentation für den Kunden",
     "QR-Rechnungen nach Abnahme sofort versenden",
   ],
-  "gerüstbauer": [
+  "geruestbauer": [
     "Jedes Geruest-Teil von Auslieferung bis Ruecknahme tracken",
     "Automatische Mietabrechnung basierend auf Standzeit",
     "Sicherheitsinspektionen mit Checklisten dokumentieren",
@@ -218,7 +218,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
     { task: "Lagerbestand pruefen", vorher: "15 Min.", nachher: "1 Min.", ersparnis: "14 Min. pro Pruefung" },
     { task: "Rechnung mit QR-Code", vorher: "20 Min.", nachher: "1 Min.", ersparnis: "19 Min. pro Rechnung" },
   ],
-  "sanitär": [
+  "sanitaer": [
     { task: "Regierapport mit Unterschrift", vorher: "25 Min.", nachher: "3 Min.", ersparnis: "22 Min. pro Einsatz" },
     { task: "Zeitrapport Monatsende", vorher: "2 Std.", nachher: "0 Min.", ersparnis: "24 Std./Jahr" },
     { task: "Rechnung erstellen", vorher: "20 Min.", nachher: "1 Min.", ersparnis: "19 Min. pro Rechnung" },
@@ -238,7 +238,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
     { task: "Verlegedokumentation", vorher: "15 Min.", nachher: "0 Min.", ersparnis: "15 Min. pro Projekt" },
     { task: "Abnahmeprotokoll + Rechnung", vorher: "25 Min.", nachher: "3 Min.", ersparnis: "22 Min. pro Abnahme" },
   ],
-  "gerüstbauer": [
+  "geruestbauer": [
     { task: "Mietabrechnung", vorher: "30 Min.", nachher: "1 Min.", ersparnis: "29 Min. pro Abrechnung" },
     { task: "Inventurpruefung", vorher: "2 Std.", nachher: "15 Min.", ersparnis: "105 Min. pro Pruefung" },
     { task: "Sicherheitsinspektion", vorher: "20 Min.", nachher: "5 Min.", ersparnis: "15 Min. pro Inspektion" },
@@ -297,11 +297,11 @@ const testimonialMap: Record<string, { quote: string; author: string; role: stri
   maler: { quote: "Seit wir Finito nutzen, erstellen wir Offerten in 3 statt 30 Minuten.", author: "M. Keller", role: "Malermeister, 8 Mitarbeiter" },
   gipser: { quote: "Die automatische Fotodokumentation spart uns jede Woche Stunden an Bueroarbeit.", author: "R. Baumann", role: "Gipsermeister, 5 Mitarbeiter" },
   elektriker: { quote: "Endlich habe ich alle Schemas auf dem Smartphone und muss keine Ordner mehr schleppen.", author: "S. Mueller", role: "Elektroinstallateur, 12 Mitarbeiter" },
-  "sanitär": { quote: "Die digitalen Regierapporte mit Kundenunterschrift sparen uns enorm viel Zeit.", author: "P. Brunner", role: "Sanitaerinstallateur, 6 Mitarbeiter" },
+  "sanitaer": { quote: "Die digitalen Regierapporte mit Kundenunterschrift sparen uns enorm viel Zeit.", author: "P. Brunner", role: "Sanitaerinstallateur, 6 Mitarbeiter" },
   schreiner: { quote: "Das Dashboard zeigt mir sofort, welche Auftraege in der Werkstatt sind und wann geliefert wird.", author: "T. Meier", role: "Schreinermeister, 4 Mitarbeiter" },
   dachdecker: { quote: "Die lueckenlose Archivierung ueber 25 Jahre gibt uns Sicherheit bei Garantiefaellen.", author: "H. Weber", role: "Dachdeckermeister, 10 Mitarbeiter" },
   bodenleger: { quote: "Die automatische Materialberechnung mit Verschnitt-Zuschlag ist genial einfach.", author: "L. Fischer", role: "Bodenlegermeister, 3 Mitarbeiter" },
-  "gerüstbauer": { quote: "Wir wissen jetzt immer, welche Teile wo stehen - die Mietabrechnung laeuft automatisch.", author: "D. Schmid", role: "Geruestbau, 15 Mitarbeiter" },
+  "geruestbauer": { quote: "Wir wissen jetzt immer, welche Teile wo stehen - die Mietabrechnung laeuft automatisch.", author: "D. Schmid", role: "Geruestbau, 15 Mitarbeiter" },
   maurer: { quote: "Das automatische Bautagebuch spart mir jeden Abend 20 Minuten Schreibarbeit.", author: "A. Huber", role: "Bauunternehmer, 8 Mitarbeiter" },
   "facility-service": { quote: "Kein Wartungstermin wird mehr vergessen - die Automatisierung ist perfekt.", author: "C. Roth", role: "Facility Manager, 20 Mitarbeiter" },
   reinigung: { quote: "Unsere Teams wissen genau, was zu tun ist - Checklisten und Fotos machen den Unterschied.", author: "N. Steiner", role: "Reinigungsfirma, 25 Mitarbeiter" },

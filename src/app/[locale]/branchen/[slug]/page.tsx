@@ -160,7 +160,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
     description: "Software für Elektriker: Elektroschemas auf dem Smartphone, Lagerverwaltung mit Lieferanten-Links und digitale Regierapporte.",
     keywords: ["Elektriker Software", "Elektriker Software Schweiz", "Elektroinstallateur Software", "Lagerverwaltung Elektriker", "Regierapport digital"],
   },
-  "sanitär": {
+  "sanitaer": {
     title: "Sanitaer Software Schweiz - Zeiterfassung & Regierapporte | Finito Pro",
     description: "Software für Sanitaerinstallateur: Mobile Zeiterfassung, digitale Regierapporte mit Kundenunterschrift und automatische QR-Rechnungen.",
     keywords: ["Sanitaer Software", "Sanitaer Software Schweiz", "Sanitaerinstallateur Software", "Zeiterfassung Sanitaer", "Regierapport Sanitaer"],
@@ -180,7 +180,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
     description: "Software für Bodenleger: Automatische Quadratmeterberechnung, Restmaterial-Tracking und Verlegemuster-Dokumentation.",
     keywords: ["Bodenleger Software", "Bodenleger Software Schweiz", "Parkett Software", "Fliesen Software", "Materialberechnung Bodenleger"],
   },
-  "gerüstbauer": {
+  "geruestbauer": {
     title: "Geruestbau Software Schweiz - Teile-Tracking & Mietabrechnung | Finito Pro",
     description: "Software für Geruestbauer: Geruest-Teile von Auslieferung bis Ruecknahme tracken, automatische Mietabrechnung und Sicherheitsinspektionen.",
     keywords: ["Geruestbau Software", "Geruestbauer Software Schweiz", "Geruest-Tracking", "Mietabrechnung Geruest", "Sicherheitsinspektion"],
