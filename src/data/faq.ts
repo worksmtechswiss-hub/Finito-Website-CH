@@ -30,7 +30,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Kann ich individuelle Funktionen anfordern?',
     questionEn: 'Can I request custom features?',
     answerDe:
-      'Ja, wir freuen uns über Ihr Feedback! Teilen Sie uns Ihre Wuensche über das Feedback-Formular in der App mit. Wir prüfen jeden Vorschlag und setzen häufig gewuenschte Funktionen in unsere Roadmap auf. Im Grossfirmen-Paket können individuelle Anpassungen direkt umgesetzt werden.',
+      'Ja, wir freuen uns über Ihr Feedback! Teilen Sie uns Ihre Wünsche über das Feedback-Formular in der App mit. Wir prüfen jeden Vorschlag und setzen häufig gewünschte Funktionen in unsere Roadmap auf. Im Grossfirmen-Paket können individuelle Anpassungen direkt umgesetzt werden.',
     answerEn:
       'Yes, we welcome your feedback! Share your wishes through the feedback form in the app. We review every suggestion and add frequently requested features to our roadmap. In the Enterprise plan, custom adaptations can be implemented directly.',
   },
@@ -102,7 +102,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Welchen technischen Support gibt es?',
     questionEn: 'What technical support is available?',
     answerDe:
-      'Unser Support-Team steht Ihnen per E-Mail und In-App-Chat zur Verfügung. Im KMU-Paket erhalten Sie Prioritaets-Support mit schnelleren Antwortzeiten. Im Grossfirmen-Paket haben Sie einen dedizierten Ansprechpartner mit garantierter Reaktionszeit gemaess SLA. Zusaetzlich gibt es eine umfangreiche Wissensdatenbank mit Anleitungen und Videos.',
+      'Unser Support-Team steht Ihnen per E-Mail und In-App-Chat zur Verfügung. Im KMU-Paket erhalten Sie Prioritaets-Support mit schnelleren Antwortzeiten. Im Grossfirmen-Paket haben Sie einen dedizierten Ansprechpartner mit garantierter Reaktionszeit gemäss SLA. Zusaetzlich gibt es eine umfangreiche Wissensdatenbank mit Anleitungen und Videos.',
     answerEn:
       'Our support team is available via email and in-app chat. In the SME plan, you receive priority support with faster response times. In the Enterprise plan, you have a dedicated contact person with guaranteed response times per SLA. Additionally, there is a comprehensive knowledge base with guides and videos.',
   },

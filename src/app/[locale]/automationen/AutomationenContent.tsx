@@ -89,7 +89,7 @@ const automationExamples: AutomationExample[] = [
   {
     icon: CalendarClock,
     title: "Monatsrapport Zeiterfassung",
-    vorher: "Excel zusammentragen, pruefen, formatieren",
+    vorher: "Excel zusammentragen, prüfen, formatieren",
     vorherZeit: "2 Std./Monat",
     nachher: "Automatischer Monatsrapport auf Knopfdruck",
     nachherZeit: "0 Min.",
@@ -108,12 +108,12 @@ const automationExamples: AutomationExample[] = [
   },
   {
     icon: RefreshCw,
-    title: "Wiederkehrende Auftraege (Service-Abos)",
+    title: "Wiederkehrende Aufträge (Service-Abos)",
     vorher: "Manuell erinnern, Projekt anlegen, Rechnung schreiben",
     vorherZeit: "30 Min./Auftrag",
     nachher: "Automatisch neues Projekt + Rechnung zum richtigen Zeitpunkt",
     nachherZeit: "0 Min.",
-    ersparnis: "0 vergessene Auftraege, 100% automatisch",
+    ersparnis: "0 vergessene Aufträge, 100% automatisch",
     prozent: 100,
   },
   {
@@ -457,19 +457,19 @@ export function AutomationenContent() {
                 Enterprise
               </div>
               <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 mb-6">
-                Noch mehr Automatisierung gewuenscht?
+                Noch mehr Automatisierung gewünscht?
               </h2>
               <p className="text-lg text-neutral-500 mb-6 leading-relaxed">
-                Fuer Grossfirmen entwickeln wir Custom Apps und Automationen auf
+                Für Grossfirmen entwickeln wir Custom Apps und Automationen auf
                 Basis von Finito. Individuelle Workflows, Schnittstellen und
-                Integrationen - massgeschneidert fuer Ihr Unternehmen.
+                Integrationen - massgeschneidert für Ihr Unternehmen.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
                   "Individuelle Workflows und Prozesse",
                   "API-Schnittstellen zu Ihrer bestehenden Software",
-                  "Custom Apps fuer spezifische Anforderungen",
-                  "Persoenliche Beratung und Implementierung",
+                  "Custom Apps für spezifische Anforderungen",
+                  "Persönliche Beratung und Implementierung",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-violet-100 flex items-center justify-center mt-0.5 shrink-0">
@@ -552,7 +552,7 @@ export function AutomationenContent() {
               Starten Sie jetzt und sparen Sie ab dem ersten Tag
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              30 Tage kostenlos, keine Kreditkarte noetig. Ueberzeugen Sie sich
+              30 Tage kostenlos, keine Kreditkarte nötig. Überzeugen Sie sich
               selbst, wie viel Zeit Finito Pro Ihnen spart.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

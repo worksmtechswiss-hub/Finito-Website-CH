@@ -183,7 +183,7 @@ const whyFinitoMap: Record<string, string[]> = {
     "QR-Rechnungen basierend auf erfassten Zeiten",
   ],
   "einmann-betriebe": [
-    "Komplettes Buero auf dem Smartphone - kein PC noetig",
+    "Komplettes Büro auf dem Smartphone - kein PC nötig",
     "Vorlagen sparen bis zu 80% Administrationszeit",
     "Automatische Buchhaltungsvorbereitung für den Treuhaender",
     "Offerten, Rechnungen und Rapporte in einer App",
@@ -295,7 +295,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
 /* ------------------------------------------------------------------ */
 const testimonialMap: Record<string, { quote: string; author: string; role: string }> = {
   maler: { quote: "Seit wir Finito nutzen, erstellen wir Offerten in 3 statt 30 Minuten.", author: "M. Keller", role: "Malermeister, 8 Mitarbeiter" },
-  gipser: { quote: "Die automatische Fotodokumentation spart uns jede Woche Stunden an Bueroarbeit.", author: "R. Baumann", role: "Gipsermeister, 5 Mitarbeiter" },
+  gipser: { quote: "Die automatische Fotodokumentation spart uns jede Woche Stunden an Büroarbeit.", author: "R. Baumann", role: "Gipsermeister, 5 Mitarbeiter" },
   elektriker: { quote: "Endlich habe ich alle Schemas auf dem Smartphone und muss keine Ordner mehr schleppen.", author: "S. Mueller", role: "Elektroinstallateur, 12 Mitarbeiter" },
   "sanitaer": { quote: "Die digitalen Regierapporte mit Kundenunterschrift sparen uns enorm viel Zeit.", author: "P. Brunner", role: "Sanitaerinstallateur, 6 Mitarbeiter" },
   schreiner: { quote: "Das Dashboard zeigt mir sofort, welche Auftraege in der Werkstatt sind und wann geliefert wird.", author: "T. Meier", role: "Schreinermeister, 4 Mitarbeiter" },
@@ -308,9 +308,9 @@ const testimonialMap: Record<string, { quote: string; author: string; role: stri
   gartenbau: { quote: "Die saisonale Planung mit automatischen Erinnerungen hat unsere Organisation revolutioniert.", author: "F. Gerber", role: "Gartenbauunternehmer, 7 Mitarbeiter" },
   umzug: { quote: "Die Inventarlisten mit Fotos schuetzen uns vor unberechtigten Schadensforderungen.", author: "K. Schneider", role: "Umzugsunternehmer, 10 Mitarbeiter" },
   haustechnik: { quote: "Die Wartungsplanung laeuft automatisch - wir verpassen keinen Termin mehr.", author: "J. Wyss", role: "Haustechnik, 6 Mitarbeiter" },
-  architekten: { quote: "Alle Projektdokumente an einem Ort und immer aktuell - das spart enorm viel Suchzeit.", author: "B. Lang", role: "Architekturbuero, 4 Mitarbeiter" },
+  architekten: { quote: "Alle Projektdokumente an einem Ort und immer aktuell - das spart enorm viel Suchzeit.", author: "B. Lang", role: "Architekturbüro, 4 Mitarbeiter" },
   agenturen: { quote: "Die projektbasierte Zeiterfassung macht unsere Abrechnung transparent und fair.", author: "E. Zuercher", role: "Agenturinhaber, 8 Mitarbeiter" },
-  "einmann-betriebe": { quote: "Finito ist mein komplettes Buero - ich mache alles vom Smartphone aus.", author: "I. Marti", role: "Selbststaendiger Handwerker" },
+  "einmann-betriebe": { quote: "Finito ist mein komplettes Büro - ich mache alles vom Smartphone aus.", author: "I. Marti", role: "Selbststaendiger Handwerker" },
 };
 
 /* ------------------------------------------------------------------ */
@@ -787,8 +787,8 @@ export function BranchPageContent({
               Bereit, Ihren {branch.titleDe}-Betrieb zu digitalisieren?
             </h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Starten Sie jetzt mit Finito Pro - 30 Tage kostenlos, keine Kreditkarte noetig.
-              Ueberzeugen Sie sich selbst.
+              Starten Sie jetzt mit Finito Pro - 30 Tage kostenlos, keine Kreditkarte nötig.
+              Überzeugen Sie sich selbst.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a

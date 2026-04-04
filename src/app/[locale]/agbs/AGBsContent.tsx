@@ -15,7 +15,7 @@ const sections = [
     title: "3. Registrierung und Kontofuehrung",
     content: `- Die Registrierung ist kostenlos und fuehrt zu einer 30-taegigen Testphase
 - Sie sind für die Richtigkeit Ihrer Angaben verantwortlich
-- Login-Daten muessen vertraulich behandelt werden
+- Login-Daten müssen vertraulich behandelt werden
 - Jedes Konto darf nur von einer Organisation genutzt werden
 - Sie sind für alle Aktivitaeten unter Ihrem Konto verantwortlich`,
   },

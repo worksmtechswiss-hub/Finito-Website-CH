@@ -80,7 +80,7 @@ export const branches: Branch[] = [
       {
         title: 'Lagerverwaltung für Material',
         description:
-          'Behalten Sie den Überblick über Gips, Putz, Armierungsgewebe und Werkzeuge. Automatischer Abzug pro Projekt zeigt den tatsaechlichen Verbrauch.',
+          'Behalten Sie den Überblick über Gips, Putz, Armierungsgewebe und Werkzeuge. Automatischer Abzug pro Projekt zeigt den tatsächlichen Verbrauch.',
       },
       {
         title: 'Aufmass und Flaechenberechnung',

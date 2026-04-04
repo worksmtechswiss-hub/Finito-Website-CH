@@ -218,7 +218,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Handwerker Offerte",
     ],
     problemText:
-      "Offerten werden oft in Word oder Excel erstellt - jedes Mal von Grund auf. Leistungen und Preise muessen aus dem Kopf zusammengesucht werden. Die Nachverfolgung offener Angebote geht unter und potenzielle Aufträge gehen verloren, weil zu spaet nachgehakt wird.",
+      "Offerten werden oft in Word oder Excel erstellt - jedes Mal von Grund auf. Leistungen und Preise müssen aus dem Kopf zusammengesucht werden. Die Nachverfolgung offener Angebote geht unter und potenzielle Aufträge gehen verloren, weil zu spaet nachgehakt wird.",
     solutionText:
       "Finito Pro speichert Ihre Leistungskataloge und Preislisten zentral. Erstellen Sie eine neue Offerte in Minuten, indem Sie einfach die passenden Leistungen auswählen. Wird die Offerte akzeptiert, wandeln Sie sie mit einem Klick in einen Auftrag um - ohne Neueingabe.",
     subFeatures: [
@@ -342,7 +342,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "CRM Software Schweiz",
     ],
     problemText:
-      "Kundendaten liegen in verschiedenen Ordnern, im Handy und in E-Mails verteilt. Wer hat wann was bestellt? Welche Absprachen wurden getroffen? Ohne zentrale Verwaltung kostet jede Kundenanfrage unnötig Zeit und die persoenliche Betreuung leidet.",
+      "Kundendaten liegen in verschiedenen Ordnern, im Handy und in E-Mails verteilt. Wer hat wann was bestellt? Welche Absprachen wurden getroffen? Ohne zentrale Verwaltung kostet jede Kundenanfrage unnötig Zeit und die persönliche Betreuung leidet.",
     solutionText:
       "Finito Pro sammelt alle Informationen zu einem Kunden an einem Ort: Kontaktdaten, alle Projekte, Offerten, Rechnungen, Fotos und Notizen. So können Sie bei jedem Anruf sofort sehen, worum es geht, und bieten Ihren Kunden einen erstklassigen Service.",
     subFeatures: [
@@ -776,7 +776,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Servicevertrag KMU",
     ],
     problemText:
-      "Wiederkehrende Aufträge muessen jedes Mal manuell angelegt werden. Wartungsintervalle werden vergessen, und der Kunde ist unzufrieden. Die Abrechnung von Serviceabos ist aufwaendig und fehleranfaellig, und irgendwann verliert man den Überblick, welcher Kunde welchen Service hat.",
+      "Wiederkehrende Aufträge müssen jedes Mal manuell angelegt werden. Wartungsintervalle werden vergessen, und der Kunde ist unzufrieden. Die Abrechnung von Serviceabos ist aufwaendig und fehleranfaellig, und irgendwann verliert man den Überblick, welcher Kunde welchen Service hat.",
     solutionText:
       "Finito Pro automatisiert wiederkehrende Aufträge komplett. Definieren Sie einmalig den Rhythmus (woechentlich, monatlich, jaehrlich) und Finito Pro erstellt automatisch das Projekt, die Aufgaben und die Rechnung. Kein Vergessen, keine doppelte Arbeit.",
     subFeatures: [

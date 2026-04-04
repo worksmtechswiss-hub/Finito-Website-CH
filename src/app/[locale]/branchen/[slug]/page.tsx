@@ -62,7 +62,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Kunde unterschreibt", desc: "Nach Unterschrift wird die Rechnung automatisch erstellt." },
   ],
   schreiner: [
-    { step: "Auftrag mit Massen", desc: "Individuelle Masse und Materialwuensche dokumentieren." },
+    { step: "Auftrag mit Massen", desc: "Individuelle Masse und Materialwünsche dokumentieren." },
     { step: "Werkstattplanung", desc: "Aktuelle Auslastung sehen und Produktionszeiten planen." },
     { step: "Fortschritt festhalten", desc: "Produktionsfortschritt mit Fotos und Status dokumentieren." },
     { step: "Lieferung & Rechnung", desc: "Montage dokumentieren und Schlussrechnung erstellen." },
@@ -135,7 +135,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
   ],
   "einmann-betriebe": [
     { step: "Offerte aus Vorlage", desc: "Vorlagen nutzen - Minuten statt Stunden." },
-    { step: "Unterwegs verwalten", desc: "Alles vom Smartphone, kein PC noetig." },
+    { step: "Unterwegs verwalten", desc: "Alles vom Smartphone, kein PC nötig." },
     { step: "Zeiten & Fotos erfassen", desc: "Arbeit in Echtzeit dokumentieren." },
     { step: "QR-Rechnung senden", desc: "Rechnung erstellen und direkt versenden." },
   ],
@@ -218,7 +218,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   architekten: {
     title: "Architekten Software Schweiz - Projektdokumente & Task-Board | Finito Pro",
     description: "Software für Architekten: Zentrale Projektdokumente, Task-Board für Bauphasen und transparente Bauherren-Kommunikation ueber das Kundenportal.",
-    keywords: ["Architekten Software", "Architekten Software Schweiz", "Architekturbuero Software", "Projektmanagement Architekten", "Task-Board Bauphasen"],
+    keywords: ["Architekten Software", "Architekten Software Schweiz", "Architekturbüro Software", "Projektmanagement Architekten", "Task-Board Bauphasen"],
   },
   agenturen: {
     title: "Agentur Software Schweiz - Zeiterfassung & Budgetverwaltung | Finito Pro",
@@ -226,9 +226,9 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
     keywords: ["Agentur Software", "Agentur Software Schweiz", "Zeiterfassung Agentur", "Projektmanagement Agentur", "Budget Software Agentur"],
   },
   "einmann-betriebe": {
-    title: "Software für Einmann-Betriebe Schweiz - Buero auf dem Smartphone | Finito Pro",
+    title: "Software für Einmann-Betriebe Schweiz - Büro auf dem Smartphone | Finito Pro",
     description: "Software für Einzelunternehmer und Einmann-Betriebe: Offerten, QR-Rechnungen, Zeiterfassung - alles in einer App auf dem Smartphone.",
-    keywords: ["Einmann-Betrieb Software", "Selbststaendiger Software Schweiz", "Einzelunternehmer Software", "Handwerker App", "Buero Smartphone"],
+    keywords: ["Einmann-Betrieb Software", "Selbststaendiger Software Schweiz", "Einzelunternehmer Software", "Handwerker App", "Büro Smartphone"],
   },
 };
 

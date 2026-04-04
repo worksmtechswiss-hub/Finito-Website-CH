@@ -4,87 +4,87 @@ export const modulePosts: BlogPost[] = [
   {
     slug: "qr-rechnungen-schweiz-pflicht",
     category: "modul",
-    titleDe: "QR-Rechnungen Schweiz: Alles was KMU wissen muessen",
+    titleDe: "QR-Rechnungen Schweiz: Alles was KMU wissen müssen",
     excerptDe:
-      "Seit dem 30. September 2022 sind QR-Rechnungen in der Schweiz Pflicht. Erfahren Sie alles ueber ISO 20022, MwSt-Saetze, eBill und wie Ihr KMU den Umstieg meistert.",
+      "Seit dem 30. September 2022 sind QR-Rechnungen in der Schweiz Pflicht. Erfahren Sie alles über ISO 20022, MwSt-Sätze, eBill und wie Ihr KMU den Umstieg meistert.",
     contentDe: `
-## QR-Rechnungen in der Schweiz: Der vollstaendige Leitfaden fuer KMU
+## QR-Rechnungen in der Schweiz: Der vollständige Leitfaden für KMU
 
-Die Schweizer Finanzlandschaft hat sich grundlegend veraendert. Seit dem **30. September 2022** sind die alten orangen und roten Einzahlungsscheine (ESR) endgueltig Geschichte. An ihre Stelle tritt die **QR-Rechnung** — ein modernes, standardisiertes Zahlungsinstrument, das auf dem internationalen Standard **ISO 20022** basiert. Fuer KMU in der Schweiz bedeutet dies: Wer noch nicht umgestellt hat, riskiert Zahlungsverzoegerungen und veraergerte Kunden.
+Die Schweizer Finanzlandschaft hat sich grundlegend verändert. Seit dem **30. September 2022** sind die alten orangen und roten Einzahlungsscheine (ESR) endgültig Geschichte. An ihre Stelle tritt die **QR-Rechnung** — ein modernes, standardisiertes Zahlungsinstrument, das auf dem internationalen Standard **ISO 20022** basiert. Für KMU in der Schweiz bedeutet dies: Wer noch nicht umgestellt hat, riskiert Zahlungsverzögerungen und verärgerte Kunden.
 
 ### Was ist eine QR-Rechnung?
 
 Eine QR-Rechnung besteht aus einem **Zahlteil** und einem **Empfangsschein**. Das Herzstuck ist der **Swiss QR Code**, der saemtliche Zahlungsinformationen in einem zweidimensionalen Barcode enthaelt. Dieser Code kann mit jedem Smartphone oder QR-Reader gescannt werden, wodurch die manuelle Eingabe von Kontonummern und Referenznummern entfaellt.
 
-Die technischen Spezifikationen werden von **SIX Interbank Clearing** verwaltet und regelmaessig aktualisiert. Der QR-Code enthaelt unter anderem:
+Die technischen Spezifikationen werden von **SIX Interbank Clearing** verwaltet und regelmässig aktualisiert. Der QR-Code enthaelt unter anderem:
 
 - **IBAN oder QR-IBAN** des Zahlungsempfaengers
-- Betrag und Waehrung (CHF oder EUR)
+- Betrag und Währung (CHF oder EUR)
 - Zahlungsreferenz (QR-Referenz oder Creditor Reference)
-- Zusaetzliche Informationen fuer die Buchhaltung
+- Zusaetzliche Informationen für die Buchhaltung
 
 ### ISO 20022: Der internationale Standard
 
-Der Wechsel zu QR-Rechnungen ist Teil der umfassenden **ISO-20022-Migration** im Schweizer Zahlungsverkehr. Dieser internationale Standard fuer den elektronischen Datenaustausch zwischen Finanzinstituten bietet zahlreiche Vorteile:
+Der Wechsel zu QR-Rechnungen ist Teil der umfassenden **ISO-20022-Migration** im Schweizer Zahlungsverkehr. Dieser internationale Standard für den elektronischen Datenaustausch zwischen Finanzinstituten bietet zahlreiche Vorteile:
 
 - **Strukturierte Daten**: Alle Zahlungsinformationen sind einheitlich formatiert
 - **Automatisierung**: Buchungen koennen automatisch zugeordnet werden
-- **Kompatibilitaet**: Der Standard wird weltweit von ueber 70 Laendern genutzt
-- **Zukunftssicherheit**: Regelmaessige Updates durch die ISO-Organisation
+- **Kompatibilitaet**: Der Standard wird weltweit von über 70 Ländern genutzt
+- **Zukunftssicherheit**: Regelmässige Updates durch die ISO-Organisation
 
-Fuer KMU bedeutet dies konkret: Wer seine Buchhaltungssoftware auf ISO 20022 umstellt, profitiert von **weniger manuellen Fehlern**, **schnellerer Zahlungszuordnung** und **geringeren Bankgebuehren**.
+Für KMU bedeutet dies konkret: Wer seine Buchhaltungssoftware auf ISO 20022 umstellt, profitiert von **weniger manuellen Fehlern**, **schnellerer Zahlungszuordnung** und **geringeren Bankgebühren**.
 
-### MwSt-Saetze korrekt abbilden
+### MwSt-Sätze korrekt abbilden
 
-Ein haeufiger Stolperstein bei QR-Rechnungen sind die **Mehrwertsteuersaetze**. In der Schweiz gelten seit dem 1. Januar 2024 folgende Saetze:
+Ein häufiger Stolperstein bei QR-Rechnungen sind die **Mehrwertsteuersätze**. In der Schweiz gelten seit dem 1. Januar 2024 folgende Sätze:
 
-- **Normalsatz: 8.1%** — fuer die meisten Waren und Dienstleistungen
-- **Reduzierter Satz: 2.6%** — fuer Lebensmittel, Medikamente, Zeitungen, Buecher
-- **Sondersatz fuer Beherbergung: 3.8%** — fuer Hotelleistungen
-- **0% (befreit)** — fuer bestimmte Leistungen wie Gesundheit und Bildung
+- **Normalsatz: 8.1%** — für die meisten Waren und Dienstleistungen
+- **Reduzierter Satz: 2.6%** — für Lebensmittel, Medikamente, Zeitungen, Buecher
+- **Sondersatz für Beherbergung: 3.8%** — für Hotelleistungen
+- **0% (befreit)** — für bestimmte Leistungen wie Gesundheit und Bildung
 
-Auf der QR-Rechnung muessen die MwSt-Informationen **korrekt und transparent** ausgewiesen werden. Die ESTV (Eidgenoessische Steuerverwaltung) verlangt eine klare Aufschluesselung nach Steuersaetzen. Fehlerhafte MwSt-Angaben koennen bei einer Revision zu **Nachforderungen und Bussen** fuehren.
+Auf der QR-Rechnung müssen die MwSt-Informationen **korrekt und transparent** ausgewiesen werden. Die ESTV (Eidgenoessische Steuerverwaltung) verlangt eine klare Aufschluesselung nach Steuersätzen. Fehlerhafte MwSt-Angaben koennen bei einer Revision zu **Nachforderungen und Bussen** fuehren.
 
 ### Von ESR zu QR: Der Umstieg in der Praxis
 
-Der alte ESR-Einzahlungsschein hatte ueber 30 Jahre lang treue Dienste geleistet. Der Umstieg auf QR-Rechnungen erfordert jedoch einige Anpassungen:
+Der alte ESR-Einzahlungsschein hatte über 30 Jahre lang treue Dienste geleistet. Der Umstieg auf QR-Rechnungen erfordert jedoch einige Anpassungen:
 
-**1. Software aktualisieren**: Die Buchhaltungs- und Fakturierungssoftware muss QR-Rechnungen erstellen und verarbeiten koennen. Die meisten Schweizer Anbieter haben laengst Updates bereitgestellt.
+**1. Software aktualisieren**: Die Buchhaltungs- und Fakturierungssoftware muss QR-Rechnungen erstellen und verarbeiten koennen. Die meisten Schweizer Anbieter haben längst Updates bereitgestellt.
 
-**2. QR-IBAN beantragen**: Bei der Hausbank eine QR-IBAN beantragen, falls noch nicht geschehen. Diese beginnt in der Schweiz immer mit "CH" gefolgt von einer zweistelligen Pruefziffer.
+**2. QR-IBAN beantragen**: Bei der Hausbank eine QR-IBAN beantragen, falls noch nicht geschehen. Diese beginnt in der Schweiz immer mit "CH" gefolgt von einer zweistelligen Prüfziffer.
 
-**3. Vorlagen anpassen**: Rechnungsvorlagen muessen den Zahlteil mit Swiss QR Code enthalten. Die Masse sind genau vorgeschrieben: **105 x 210 mm** fuer den gesamten Zahlteil.
+**3. Vorlagen anpassen**: Rechnungsvorlagen müssen den Zahlteil mit Swiss QR Code enthalten. Die Masse sind genau vorgeschrieben: **105 x 210 mm** für den gesamten Zahlteil.
 
 **4. Testen**: Vor dem Go-Live sollten Testrechnungen an verschiedene Banken gesendet werden, um die korrekte Verarbeitung sicherzustellen.
 
-> **Praxis-Tipp**: Viele KMU haben den Umstieg unterschaetzt. Planen Sie mindestens **2-4 Wochen** fuer die vollstaendige Migration ein, inklusive Tests mit Ihren wichtigsten Kunden und Lieferanten.
+> **Praxis-Tipp**: Viele KMU haben den Umstieg unterschätzt. Planen Sie mindestens **2-4 Wochen** für die vollständige Migration ein, inklusive Tests mit Ihren wichtigsten Kunden und Lieferanten.
 
-### eBill: Die naechste Stufe der Digitalisierung
+### eBill: Die nächste Stufe der Digitalisierung
 
-Waehrend die QR-Rechnung ein physisches oder digitales Dokument ist, geht **eBill** einen Schritt weiter. Bei eBill wird die Rechnung direkt ins E-Banking des Kunden geliefert — ohne Papier, ohne Scannen, ohne manuelle Eingabe.
+Während die QR-Rechnung ein physisches oder digitales Dokument ist, geht **eBill** einen Schritt weiter. Bei eBill wird die Rechnung direkt ins E-Banking des Kunden geliefert — ohne Papier, ohne Scannen, ohne manuelle Eingabe.
 
-Die Vorteile von eBill fuer KMU:
+Die Vorteile von eBill für KMU:
 
 - **Kostenersparnis**: Kein Druck, kein Porto, keine Papierkosten
 - **Schnellere Zahlung**: Kunden zahlen eBill-Rechnungen im Durchschnitt **5-7 Tage frueher**
 - **Weniger Fehler**: Keine falsch eingetippten Referenznummern
 - **Automatisierung**: Kunden koennen Dauerauftraege und automatische Freigaben einrichten
 
-Aktuell nutzen ueber **2.5 Millionen Schweizer** eBill aktiv. Die Tendenz ist stark steigend, insbesondere bei juengeren Zielgruppen. Fuer KMU lohnt es sich, eBill als **zusaetzlichen Kanal** neben der QR-Rechnung anzubieten.
+Aktuell nutzen über **2.5 Millionen Schweizer** eBill aktiv. Die Tendenz ist stark steigend, insbesondere bei jüngeren Zielgruppen. Für KMU lohnt es sich, eBill als **zusaetzlichen Kanal** neben der QR-Rechnung anzubieten.
 
-### Haeufige Fehler bei QR-Rechnungen
+### Häufige Fehler bei QR-Rechnungen
 
 Aus der Praxis kennen wir zahlreiche Fehler, die KMU bei der Erstellung von QR-Rechnungen machen:
 
 - **Falsche QR-IBAN**: Verwechslung zwischen normaler IBAN und QR-IBAN fuehrt zu Fehlbuchungen
-- **Fehlende Referenznummer**: Ohne Referenz ist die automatische Zuordnung unmoeglich
+- **Fehlende Referenznummer**: Ohne Referenz ist die automatische Zuordnung unmöglich
 - **Falsches Format**: Der Zahlteil muss exakt den SIX-Spezifikationen entsprechen
-- **Unleserlicher QR-Code**: Zu kleine Druckgroesse oder schlechte Druckqualitaet
+- **Unleserlicher QR-Code**: Zu kleine Druckgrösse oder schlechte Druckqualitaet
 - **MwSt-Fehler**: Falsche oder fehlende Steuerangaben auf der Rechnung
 
-### Kosten und Nutzen fuer KMU
+### Kosten und Nutzen für KMU
 
-Die Umstellung auf QR-Rechnungen verursacht zunaechst Kosten: Software-Updates, eventuell neue Drucker, Schulung der Mitarbeiter. Langfristig rechnet sich der Umstieg jedoch deutlich:
+Die Umstellung auf QR-Rechnungen verursacht zunächst Kosten: Software-Updates, eventuell neue Drucker, Schulung der Mitarbeiter. Langfristig rechnet sich der Umstieg jedoch deutlich:
 
 | Aspekt | Alter ESR | QR-Rechnung |
 |--------|-----------|-------------|
@@ -97,13 +97,13 @@ Studien zeigen, dass KMU durch die Umstellung auf QR-Rechnungen jaehrlich **CHF 
 
 ### Rechtliche Grundlagen
 
-Die rechtliche Basis fuer QR-Rechnungen bildet das **Bundesgesetz ueber den Zahlungsverkehr**. SIX Group als Betreiberin der Schweizer Finanzmarktinfrastruktur hat die technischen Standards definiert und durchgesetzt. Banken sind verpflichtet, QR-Rechnungen zu verarbeiten — alte ESR-Belege werden seit Oktober 2022 nicht mehr akzeptiert.
+Die rechtliche Basis für QR-Rechnungen bildet das **Bundesgesetz über den Zahlungsverkehr**. SIX Group als Betreiberin der Schweizer Finanzmarktinfrastruktur hat die technischen Standards definiert und durchgesetzt. Banken sind verpflichtet, QR-Rechnungen zu verarbeiten — alte ESR-Belege werden seit Oktober 2022 nicht mehr akzeptiert.
 
 ### Fazit: Jetzt handeln
 
-QR-Rechnungen sind keine Option mehr, sondern **Pflicht**. KMU, die den Umstieg noch nicht vollzogen haben, sollten sofort handeln. Mit der richtigen Software laesst sich der gesamte Rechnungsprozess — von der Erstellung ueber den Versand bis zur Zahlungszuordnung — vollstaendig automatisieren. Das spart Zeit, reduziert Fehler und verbessert den Cashflow.
+QR-Rechnungen sind keine Option mehr, sondern **Pflicht**. KMU, die den Umstieg noch nicht vollzogen haben, sollten sofort handeln. Mit der richtigen Software laesst sich der gesamte Rechnungsprozess — von der Erstellung über den Versand bis zur Zahlungszuordnung — vollständig automatisieren. Das spart Zeit, reduziert Fehler und verbessert den Cashflow.
 
-> **Unser Tipp**: Nutzen Sie eine integrierte Loesung, die QR-Rechnungen, eBill und Buchhaltung in einer Plattform vereint. So vermeiden Sie Medienbrueche und haben jederzeit den vollen Ueberblick ueber Ihre Finanzen.
+> **Unser Tipp**: Nutzen Sie eine integrierte Lösung, die QR-Rechnungen, eBill und Buchhaltung in einer Plattform vereint. So vermeiden Sie Medienbrueche und haben jederzeit den vollen Überblick über Ihre Finanzen.
     `,
     image: "/images/blog/qr-rechnungen.png",
     date: "2025-04-21",
@@ -113,117 +113,117 @@ QR-Rechnungen sind keine Option mehr, sondern **Pflicht**. KMU, die den Umstieg 
   {
     slug: "zeiterfassung-pflicht-schweiz",
     category: "modul",
-    titleDe: "Zeiterfassung Pflicht Schweiz: Was KMU gesetzlich beachten muessen",
+    titleDe: "Zeiterfassung Pflicht Schweiz: Was KMU gesetzlich beachten müssen",
     excerptDe:
-      "Das Schweizer Arbeitsgesetz verpflichtet Arbeitgeber zur Zeiterfassung. Erfahren Sie alles ueber ArG Art.46, ArGV1 Art.73, SECO-Vorgaben und drohende Bussen.",
+      "Das Schweizer Arbeitsgesetz verpflichtet Arbeitgeber zur Zeiterfassung. Erfahren Sie alles über ArG Art.46, ArGV1 Art.73, SECO-Vorgaben und drohende Bussen.",
     contentDe: `
-## Zeiterfassung in der Schweiz: Gesetzliche Pflicht fuer jeden Arbeitgeber
+## Zeiterfassung in der Schweiz: Gesetzliche Pflicht für jeden Arbeitgeber
 
-Die Zeiterfassung gehoert zu den am haeufigsten unterschaetzten Pflichten von Schweizer Arbeitgebern. Dabei ist die Rechtslage eindeutig: **Artikel 46 des Arbeitsgesetzes (ArG)** verpflichtet jeden Arbeitgeber, die Arbeitszeiten seiner Mitarbeitenden lueckenlos zu dokumentieren. Verstoesse koennen empfindliche Bussen nach sich ziehen — und bei Arbeitsunfaellen sogar strafrechtliche Konsequenzen haben.
+Die Zeiterfassung gehoert zu den am häufigsten unterschätzten Pflichten von Schweizer Arbeitgebern. Dabei ist die Rechtslage eindeutig: **Artikel 46 des Arbeitsgesetzes (ArG)** verpflichtet jeden Arbeitgeber, die Arbeitszeiten seiner Mitarbeitenden lueckenlos zu dokumentieren. Verstösse koennen empfindliche Bussen nach sich ziehen — und bei Arbeitsunfaellen sogar strafrechtliche Konsequenzen haben.
 
 ### Die gesetzlichen Grundlagen im Detail
 
 Das Schweizer Arbeitsrecht kennt mehrere Bestimmungen zur Zeiterfassung:
 
-**Arbeitsgesetz (ArG) Art. 46**: Der Arbeitgeber muss Verzeichnisse und Unterlagen fuehren, die fuer den Vollzug des Gesetzes erforderlich sind. Dazu gehoeren insbesondere die Arbeits- und Ruhezeiten der Arbeitnehmer.
+**Arbeitsgesetz (ArG) Art. 46**: Der Arbeitgeber muss Verzeichnisse und Unterlagen fuehren, die für den Vollzug des Gesetzes erforderlich sind. Dazu gehoeren insbesondere die Arbeits- und Ruhezeiten der Arbeitnehmer.
 
 **Verordnung 1 zum Arbeitsgesetz (ArGV1) Art. 73**: Konkretisiert die Aufzeichnungspflicht. Der Arbeitgeber muss folgende Daten erfassen:
 
-- **Beginn und Ende der taeglichen Arbeitszeit** (inklusive Pausen)
+- **Beginn und Ende der täglichen Arbeitszeit** (inklusive Pausen)
 - **Wochenarbeitszeit** und deren Verteilung auf die einzelnen Tage
-- **Ueberstunden und Ueberzeit** mit genauer Stundenangabe
+- **Überstunden und Überzeit** mit genauer Stundenangabe
 - **Ausgleichsruhezeiten** und deren Lage
 - **Sonntags- und Feiertagsarbeit** sowie Nachtarbeit
 
 ### SECO-Vorgaben und Ausnahmen
 
-Das **Staatssekretariat fuer Wirtschaft (SECO)** als Aufsichtsbehoerde hat die Regelungen zur Zeiterfassung in zwei Modelle unterteilt:
+Das **Staatssekretariat für Wirtschaft (SECO)** als Aufsichtsbehoerde hat die Regelungen zur Zeiterfassung in zwei Modelle unterteilt:
 
-**1. Systematische Zeiterfassung (Standard)**: Alle Mitarbeitenden erfassen taegliche Arbeitszeiten vollstaendig — Beginn, Ende, Pausen. Dies ist der Normalfall und gilt fuer die grosse Mehrheit der Arbeitnehmenden.
+**1. Systematische Zeiterfassung (Standard)**: Alle Mitarbeitenden erfassen tägliche Arbeitszeiten vollständig — Beginn, Ende, Pausen. Dies ist der Normalfall und gilt für die grosse Mehrheit der Arbeitnehmenden.
 
-**2. Vereinfachte Zeiterfassung (Art. 73a ArGV1)**: Seit 2016 koennen Unternehmen mit einem GAV (Gesamtarbeitsvertrag) fuer bestimmte Mitarbeitende eine vereinfachte Erfassung vereinbaren. Dabei wird nur die **Gesamtdauer der taeglichen Arbeitszeit** erfasst — ohne Angabe von Beginn, Ende und Pausen. Voraussetzungen:
+**2. Vereinfachte Zeiterfassung (Art. 73a ArGV1)**: Seit 2016 koennen Unternehmen mit einem GAV (Gesamtarbeitsvertrag) für bestimmte Mitarbeitende eine vereinfachte Erfassung vereinbaren. Dabei wird nur die **Gesamtdauer der täglichen Arbeitszeit** erfasst — ohne Angabe von Beginn, Ende und Pausen. Voraussetzungen:
 
-- Jahreseinkommen ueber CHF 120'000
+- Jahreseinkommen über CHF 120'000
 - Autonomie bei der Arbeitszeitgestaltung
 - Schriftliche Vereinbarung mit dem Arbeitnehmer
 - Verankerung in einem GAV
 
-**3. Verzicht auf Zeiterfassung (Art. 73b ArGV1)**: In Ausnahmefaellen koennen Arbeitnehmende mit einem Bruttojahreseinkommen von ueber **CHF 120'000** und weitgehender Autonomie gaenzlich auf die Zeiterfassung verzichten. Dies erfordert ebenfalls eine Verankerung im GAV und die individuelle schriftliche Zustimmung.
+**3. Verzicht auf Zeiterfassung (Art. 73b ArGV1)**: In Ausnahmefaellen koennen Arbeitnehmende mit einem Bruttojahreseinkommen von über **CHF 120'000** und weitgehender Autonomie gaenzlich auf die Zeiterfassung verzichten. Dies erfordert ebenfalls eine Verankerung im GAV und die individuelle schriftliche Zustimmung.
 
 ### Gesamtarbeitsvertraege (GAV) und Branchenregelungen
 
-In vielen Branchen enthalten die GAV spezifische Regelungen zur Zeiterfassung, die ueber die gesetzlichen Mindestanforderungen hinausgehen:
+In vielen Branchen enthalten die GAV spezifische Regelungen zur Zeiterfassung, die über die gesetzlichen Mindestanforderungen hinausgehen:
 
 - **Bauhauptgewerbe (LMV)**: Detaillierte Erfassung inklusive Wegzeiten und Schlechtwetterzeiten
 - **Gastgewerbe (L-GAV)**: Erfassung inklusive geteilter Dienste und Ruhezeiten
 - **Detailhandel**: Praezise Erfassung von Ladenoefffnungszeiten und Sonntagsarbeit
 - **Temporaerarbeit**: Lueckenlose Erfassung durch den Verleiher
 
-> **Wichtig**: GAV-Bestimmungen gehen als **speziellere Regelung** den allgemeinen Gesetzesbestimmungen vor. Pruefen Sie daher immer zuerst, ob fuer Ihre Branche ein GAV gilt.
+> **Wichtig**: GAV-Bestimmungen gehen als **speziellere Regelung** den allgemeinen Gesetzesbestimmungen vor. Prüfen Sie daher immer zuerst, ob für Ihre Branche ein GAV gilt.
 
 ### Drohende Bussen und Sanktionen
 
 Die Nichteinhaltung der Zeiterfassungspflicht kann teuer werden:
 
 - **Verwaltungsrechtliche Bussen**: Bis zu **CHF 10'000** bei erstmaliger Feststellung
-- **Wiederholte Verstoesse**: Hoehere Bussen und verschaerfte Kontrollen
-- **Bei Arbeitsunfaellen**: Fehlt die Zeiterfassung, kann dies als **Beweis gegen den Arbeitgeber** gewertet werden — insbesondere bei Ueberzeitfragen
-- **SUVA-Regress**: Bei Unfaellen wegen Uebermuedung kann die SUVA Regressforderungen stellen
+- **Wiederholte Verstösse**: Höhere Bussen und verschaerfte Kontrollen
+- **Bei Arbeitsunfaellen**: Fehlt die Zeiterfassung, kann dies als **Beweis gegen den Arbeitgeber** gewertet werden — insbesondere bei Überzeitfragen
+- **SUVA-Regress**: Bei Unfaellen wegen Übermuedung kann die SUVA Regressforderungen stellen
 
-Die kantonalen Arbeitsinspektorate fuehren regelmaessig **Kontrollen** durch. Besonders im Fokus stehen Branchen mit bekannten Problemen wie Gastronomie, Bau und Reinigung. Im Jahr 2023 wurden schweizweit ueber **8'000 Betriebskontrollen** durchgefuehrt.
+Die kantonalen Arbeitsinspektorate fuehren regelmässig **Kontrollen** durch. Besonders im Fokus stehen Branchen mit bekannten Problemen wie Gastronomie, Bau und Reinigung. Im Jahr 2023 wurden schweizweit über **8'000 Betriebskontrollen** durchgefuehrt.
 
 ### Anforderungen an ein Zeiterfassungssystem
 
-Ein rechtlich konformes Zeiterfassungssystem muss folgende Kriterien erfuellen:
+Ein rechtlich konformes Zeiterfassungssystem muss folgende Kriterien erfüllen:
 
-**Unveraenderbarkeit**: Einmal erfasste Zeiten duerfen nicht rueckwirkend ohne Dokumentation geaendert werden. Jede Aenderung muss nachvollziehbar protokolliert werden (Audit-Trail).
+**Unveränderbarkeit**: Einmal erfasste Zeiten duerfen nicht rückwirkend ohne Dokumentation geändert werden. Jede Änderung muss nachvollziehbar protokolliert werden (Audit-Trail).
 
-**Vollstaendigkeit**: Alle relevanten Zeitdaten muessen erfasst werden — Arbeitszeit, Pausen, Ueberzeit, Ruhezeiten, Abwesenheiten.
+**Vollständigkeit**: Alle relevanten Zeitdaten müssen erfasst werden — Arbeitszeit, Pausen, Überzeit, Ruhezeiten, Abwesenheiten.
 
-**Aufbewahrungspflicht**: Die Zeiterfassungsdaten muessen **mindestens 5 Jahre** aufbewahrt werden (Art. 73 Abs. 2 ArGV1). Bei laufenden Rechtsstreitigkeiten entsprechend laenger.
+**Aufbewahrungspflicht**: Die Zeiterfassungsdaten müssen **mindestens 5 Jahre** aufbewahrt werden (Art. 73 Abs. 2 ArGV1). Bei laufenden Rechtsstreitigkeiten entsprechend länger.
 
-**Zugaenglichkeit**: Arbeitsinspektoren muessen jederzeit Einsicht nehmen koennen. Die Daten muessen in einer verstaendlichen Form vorliegen.
+**Zugaenglichkeit**: Arbeitsinspektoren müssen jederzeit Einsicht nehmen koennen. Die Daten müssen in einer verstaendlichen Form vorliegen.
 
 ### Digitale vs. analoge Zeiterfassung
 
-Grundsaetzlich schreibt das Gesetz keine bestimmte **Form** der Zeiterfassung vor. Theoretisch genuegt eine handschriftliche Tabelle. In der Praxis empfiehlt sich jedoch eine digitale Loesung:
+Grundsaetzlich schreibt das Gesetz keine bestimmte **Form** der Zeiterfassung vor. Theoretisch genuegt eine handschriftliche Tabelle. In der Praxis empfiehlt sich jedoch eine digitale Lösung:
 
 **Vorteile digitaler Zeiterfassung**:
-- Automatische Berechnung von Ueberzeit und Saldi
-- Echtzeit-Uebersicht fuer Vorgesetzte
+- Automatische Berechnung von Überzeit und Saldi
+- Echtzeit-Übersicht für Vorgesetzte
 - Einfache Auswertungen und Berichte
 - Revisionssichere Speicherung
 - Integration mit Lohnbuchhaltung
 - Mobile Erfassung per App
 
 **Typische Kosten**:
-- Einfache Cloud-Loesungen: **CHF 5-15 pro Mitarbeiter/Monat**
+- Einfache Cloud-Lösungen: **CHF 5-15 pro Mitarbeiter/Monat**
 - Umfassende Systeme mit Hardware: **CHF 20-40 pro Mitarbeiter/Monat**
 - Einmalige Einrichtung: **CHF 500-5'000** je nach Komplexitaet
 
 ### Besondere Situationen
 
-**Home-Office**: Auch im Home-Office gilt die Zeiterfassungspflicht. Das SECO hat klargestellt, dass die Verlagerung des Arbeitsortes nichts an der Pflicht aendert.
+**Home-Office**: Auch im Home-Office gilt die Zeiterfassungspflicht. Das SECO hat klargestellt, dass die Verlagerung des Arbeitsortes nichts an der Pflicht ändert.
 
-**Pikettdienst**: Pikett- und Bereitschaftszeiten muessen ebenfalls erfasst werden. Dabei wird zwischen aktivem Pikett (zaehlt als Arbeitszeit) und passivem Pikett (zaehlt teilweise) unterschieden.
+**Pikettdienst**: Pikett- und Bereitschaftszeiten müssen ebenfalls erfasst werden. Dabei wird zwischen aktivem Pikett (zaehlt als Arbeitszeit) und passivem Pikett (zaehlt teilweise) unterschieden.
 
-**Reisezeit**: Reisezeit, die waehrend der normalen Arbeitszeit anfaellt, gilt als Arbeitszeit. Reisezeit ausserhalb der normalen Arbeitszeit ist grundsaetzlich keine Arbeitszeit, sofern waehrenddessen nicht gearbeitet wird.
+**Reisezeit**: Reisezeit, die während der normalen Arbeitszeit anfaellt, gilt als Arbeitszeit. Reisezeit ausserhalb der normalen Arbeitszeit ist grundsaetzlich keine Arbeitszeit, sofern währenddessen nicht gearbeitet wird.
 
-**Teilzeitarbeit**: Fuer Teilzeitmitarbeitende gelten die gleichen Erfassungspflichten. Besonders wichtig ist hier die korrekte Erfassung von Mehrstunden.
+**Teilzeitarbeit**: Für Teilzeitmitarbeitende gelten die gleichen Erfassungspflichten. Besonders wichtig ist hier die korrekte Erfassung von Mehrstunden.
 
-### Praktische Tipps fuer KMU
+### Praktische Tipps für KMU
 
-1. **System waehlen**: Entscheiden Sie sich fuer eine digitale Loesung, die zu Ihrer Unternehmensgroesse passt
+1. **System waehlen**: Entscheiden Sie sich für eine digitale Lösung, die zu Ihrer Unternehmensgrösse passt
 2. **Mitarbeitende schulen**: Erklaeren Sie den Sinn und die Handhabung der Zeiterfassung
-3. **Regelmaessig pruefen**: Kontrollieren Sie monatlich die Erfassungsdisziplin
-4. **Ueberzeit managen**: Definieren Sie klare Regeln fuer Ueberzeit und deren Kompensation
-5. **Datenschutz beachten**: Zeiterfassungsdaten sind besonders schuetzenswerte Personendaten gemaess DSG
+3. **Regelmässig prüfen**: Kontrollieren Sie monatlich die Erfassungsdisziplin
+4. **Überzeit managen**: Definieren Sie klare Regeln für Überzeit und deren Kompensation
+5. **Datenschutz beachten**: Zeiterfassungsdaten sind besonders schützenswerte Personendaten gemäss DSG
 
 ### Fazit
 
-Die Zeiterfassungspflicht ist kein buerokratisches Uebel, sondern schuetzt sowohl Arbeitgeber als auch Arbeitnehmer. Fuer KMU ist eine digitale Zeiterfassung die effizienteste Loesung: Sie erfuellt die gesetzlichen Anforderungen, reduziert den Verwaltungsaufwand und liefert wertvolle Daten fuer die Unternehmenssteuerung.
+Die Zeiterfassungspflicht ist kein bürokratisches Übel, sondern schützt sowohl Arbeitgeber als auch Arbeitnehmer. Für KMU ist eine digitale Zeiterfassung die effizienteste Lösung: Sie erfüllt die gesetzlichen Anforderungen, reduziert den Verwaltungsaufwand und liefert wertvolle Daten für die Unternehmenssteuerung.
 
-> **Unser Rat**: Investieren Sie in eine integrierte Loesung, die Zeiterfassung, Abwesenheitsmanagement und Lohnbuchhaltung verbindet. So vermeiden Sie doppelte Erfassung und haben stets einen aktuellen Ueberblick ueber die Arbeitsstunden Ihres Teams.
+> **Unser Rat**: Investieren Sie in eine integrierte Lösung, die Zeiterfassung, Abwesenheitsmanagement und Lohnbuchhaltung verbindet. So vermeiden Sie doppelte Erfassung und haben stets einen aktuellen Überblick über die Arbeitsstunden Ihres Teams.
     `,
     image: "/images/blog/zeiterfassung-pflicht.png",
     date: "2025-05-12",
@@ -233,13 +233,13 @@ Die Zeiterfassungspflicht ist kein buerokratisches Uebel, sondern schuetzt sowoh
   {
     slug: "ferienmanagement-kmu",
     category: "modul",
-    titleDe: "Ferienmanagement fuer KMU: Gesetzliche Pflichten und digitale Loesungen",
+    titleDe: "Ferienmanagement für KMU: Gesetzliche Pflichten und digitale Lösungen",
     excerptDe:
-      "Schweizer Arbeitgeber muessen Ferienansprueche korrekt verwalten. Von OR Art.329a bis zu kantonalen Feiertagen — so meistern KMU das Abwesenheitsmanagement.",
+      "Schweizer Arbeitgeber müssen Ferienansprueche korrekt verwalten. Von OR Art.329a bis zu kantonalen Feiertagen — so meistern KMU das Abwesenheitsmanagement.",
     contentDe: `
-## Ferienmanagement fuer Schweizer KMU: Recht, Praxis und digitale Werkzeuge
+## Ferienmanagement für Schweizer KMU: Recht, Praxis und digitale Werkzeuge
 
-Die korrekte Verwaltung von Ferien und Abwesenheiten gehoert zu den anspruchsvollsten Aufgaben in der Personaladministration. Schweizer KMU stehen vor der Herausforderung, gesetzliche Vorschriften einzuhalten, die Wuensche der Mitarbeitenden zu beruecksichtigen und gleichzeitig den Betrieb aufrechtzuerhalten. Ein durchdachtes Ferienmanagement ist daher kein Luxus, sondern betriebliche Notwendigkeit.
+Die korrekte Verwaltung von Ferien und Abwesenheiten gehoert zu den anspruchsvollsten Aufgaben in der Personaladministration. Schweizer KMU stehen vor der Herausforderung, gesetzliche Vorschriften einzuhalten, die Wünsche der Mitarbeitenden zu berücksichtigen und gleichzeitig den Betrieb aufrechtzuerhalten. Ein durchdachtes Ferienmanagement ist daher kein Luxus, sondern betriebliche Notwendigkeit.
 
 ### Gesetzliche Grundlagen: OR Art. 329a-d
 
@@ -248,26 +248,26 @@ Das Schweizerische Obligationenrecht (OR) regelt den Ferienanspruch in den Artik
 **Art. 329a — Dauer der Ferien**:
 - Arbeitnehmer haben Anspruch auf **mindestens 4 Wochen Ferien pro Dienstjahr** (20 Tage bei einem 100%-Pensum)
 - Jugendliche bis zum vollendeten 20. Altersjahr: **5 Wochen** (25 Tage)
-- Viele GAV und Einzelarbeitsvertraege gewaehren **5 Wochen** ab einem bestimmten Alter (haeufig ab 50 oder 60 Jahren)
+- Viele GAV und Einzelarbeitsvertraege gewähren **5 Wochen** ab einem bestimmten Alter (häufig ab 50 oder 60 Jahren)
 
 **Art. 329b — Kuerzung der Ferien**:
 - Bei Abwesenheiten wegen Krankheit, Unfall, Militaerdienst oder Schwangerschaft kann der Ferienanspruch **gekuerzt** werden
 - Kuerzung erst ab dem **zweiten vollen Abwesenheitsmonat** im Dienstjahr
 - Pro weiteren vollen Monat Abwesenheit: Kuerzung um **1/12 des Jahresanspruchs**
 
-**Art. 329c — Gewaehrung und Zeitpunkt**:
-- Ferien sind im Verlauf des betreffenden Dienstjahres zu gewaehren
-- Mindestens **2 Ferienwochen muessen zusammenhaengend** gewaehrt werden
-- Der Arbeitgeber bestimmt den Zeitpunkt unter Beruecksichtigung der Wuensche des Arbeitnehmers
+**Art. 329c — Gewährung und Zeitpunkt**:
+- Ferien sind im Verlauf des betreffenden Dienstjahres zu gewähren
+- Mindestens **2 Ferienwochen müssen zusammenhaengend** gewährt werden
+- Der Arbeitgeber bestimmt den Zeitpunkt unter Berücksichtigung der Wünsche des Arbeitnehmers
 
-**Art. 329d — Lohn waehrend der Ferien**:
-- Waehrend der Ferien ist der **volle Lohn** zu bezahlen
+**Art. 329d — Lohn während der Ferien**:
+- Während der Ferien ist der **volle Lohn** zu bezahlen
 - Bei Stundenlohn: Der Ferienzuschlag betraegt **8.33%** bei 4 Wochen Ferien bzw. **10.64%** bei 5 Wochen
-- **Auszahlung des Ferienlohns in bar ist unzulaessig** (Abgeltungsverbot), ausser bei Beendigung des Arbeitsverhaeltnisses
+- **Auszahlung des Ferienlohns in bar ist unzulässig** (Abgeltungsverbot), ausser bei Beendigung des Arbeitsverhaeltnisses
 
 ### Kantonale Feiertage: Ein komplexes Puzzle
 
-Die Schweiz kennt neben dem **Bundesfeiertag am 1. August** keine einheitlichen gesetzlichen Feiertage. Jeder Kanton bestimmt seine eigenen Feiertage, was fuer KMU mit Mitarbeitenden in verschiedenen Kantonen eine besondere Herausforderung darstellt:
+Die Schweiz kennt neben dem **Bundesfeiertag am 1. August** keine einheitlichen gesetzlichen Feiertage. Jeder Kanton bestimmt seine eigenen Feiertage, was für KMU mit Mitarbeitenden in verschiedenen Kantonen eine besondere Herausforderung darstellt:
 
 - **Zuerich**: 8 gesetzliche Feiertage (inkl. Sechselaeuten als halber Tag)
 - **Bern**: 9 gesetzliche Feiertage
@@ -275,66 +275,66 @@ Die Schweiz kennt neben dem **Bundesfeiertag am 1. August** keine einheitlichen 
 - **Waadt**: 7 gesetzliche Feiertage
 - **Graubuenden**: Variiert stark nach Gemeinde
 
-> **Praxis-Tipp**: Fuehren Sie eine Feiertags-Matrix, die fuer jeden Mitarbeiter den zutreffenden kantonalen Kalender abbildet. Digitale Abwesenheitssysteme erledigen dies automatisch.
+> **Praxis-Tipp**: Fuehren Sie eine Feiertags-Matrix, die für jeden Mitarbeiter den zutreffenden kantonalen Kalender abbildet. Digitale Abwesenheitssysteme erledigen dies automatisch.
 
 ### Typische Herausforderungen im Ferienmanagement
 
-**1. Ferienuebertrag**: Grundsaetzlich sind Ferien im laufenden Dienstjahr zu beziehen. Das Bundesgericht hat jedoch entschieden, dass ein Uebertrag in bestimmten Faellen zulaessig ist. Viele Unternehmen regeln den Uebertrag im Personalreglement — typischerweise maximal **5-10 Tage**, die bis Ende Maerz oder Juni des Folgejahres bezogen werden muessen.
+**1. Ferienübertrag**: Grundsaetzlich sind Ferien im laufenden Dienstjahr zu beziehen. Das Bundesgericht hat jedoch entschieden, dass ein Übertrag in bestimmten Faellen zulässig ist. Viele Unternehmen regeln den Übertrag im Personalreglement — typischerweise maximal **5-10 Tage**, die bis Ende Maerz oder Juni des Folgejahres bezogen werden müssen.
 
-**2. Ferienplanung im Team**: Besonders in kleinen Teams kann die gleichzeitige Abwesenheit mehrerer Mitarbeiter problematisch sein. Es empfiehlt sich, **Sperrperioden** zu definieren (z.B. waehrend Hochsaison) und eine **fruehzeitige Planung** zu foerdern.
+**2. Ferienplanung im Team**: Besonders in kleinen Teams kann die gleichzeitige Abwesenheit mehrerer Mitarbeiter problematisch sein. Es empfiehlt sich, **Sperrperioden** zu definieren (z.B. während Hochsaison) und eine **fruehzeitige Planung** zu foerdern.
 
-**3. Krankheit waehrend der Ferien**: Wird ein Arbeitnehmer waehrend der Ferien krank, gelten die Krankheitstage **nicht als Ferientage** — sofern ein Arztzeugnis vorliegt. Der Ferienanspruch lebt wieder auf.
+**3. Krankheit während der Ferien**: Wird ein Arbeitnehmer während der Ferien krank, gelten die Krankheitstage **nicht als Ferientage** — sofern ein Arztzeugnis vorliegt. Der Ferienanspruch lebt wieder auf.
 
-**4. Kuendigung und Ferien**: Waehrend der Kuendigungsfrist duerfen Ferien grundsaetzlich bezogen werden. Der Arbeitgeber kann dies anordnen, muss aber die zweiwoechige Zusammenhangsregel beachten.
+**4. Kündigung und Ferien**: Während der Kündigungsfrist duerfen Ferien grundsaetzlich bezogen werden. Der Arbeitgeber kann dies anordnen, muss aber die zweiwoechige Zusammenhangsregel beachten.
 
 **5. Teilzeit-Berechnung**: Bei Teilzeitarbeit wird der Ferienanspruch proportional berechnet. Ein 60%-Pensum ergibt 12 Ferientage (bei 4 Wochen Anspruch und 3-Tage-Woche: 12 Tage).
 
-### Abwesenheitsarten im Ueberblick
+### Abwesenheitsarten im Überblick
 
-Neben Ferien muessen KMU zahlreiche weitere Abwesenheitsgruende verwalten:
+Neben Ferien müssen KMU zahlreiche weitere Abwesenheitsgruende verwalten:
 
-- **Krankheit**: Lohnfortzahlung gemaess OR Art. 324a (Berner/Basler/Zuercher Skala oder Krankentaggeldversicherung)
+- **Krankheit**: Lohnfortzahlung gemäss OR Art. 324a (Berner/Basler/Zuercher Skala oder Krankentaggeldversicherung)
 - **Unfall**: Lohnfortzahlung durch UVG-Versicherung ab 3. Tag (80% des versicherten Lohns)
 - **Militaer/Zivildienst/Zivilschutz**: EO-Entschaedigung (80% des Lohns, max. CHF 245/Tag)
 - **Mutterschaftsurlaub**: 14 Wochen (98 Tage), 80% des Lohns via MSE
 - **Vaterschaftsurlaub**: 2 Wochen (10 Tage), 80% des Lohns via EO
 - **Betreuungsurlaub**: Bis 14 Wochen bei schwer erkranktem Kind
-- **Kurzabsenzen**: Umzug (1 Tag), Hochzeit (1-2 Tage), Todesfall (1-3 Tage) — gemaess Reglement oder GAV
+- **Kurzabsenzen**: Umzug (1 Tag), Hochzeit (1-2 Tage), Todesfall (1-3 Tage) — gemäss Reglement oder GAV
 
 ### Der finanzielle Impact schlechten Ferienmanagements
 
-Die Kosten mangelhafter Ferienverwaltung werden oft unterschaetzt:
+Die Kosten mangelhafter Ferienverwaltung werden oft unterschätzt:
 
-- **Nicht bezogene Ferien**: Muessen bei Austritt als Lohn ausbezahlt werden — inkl. Sozialversicherungsbeitraege
-- **Ferienrueckstellungen**: Muessen gemaess OR Art. 958c in der Bilanz korrekt ausgewiesen werden
+- **Nicht bezogene Ferien**: Müssen bei Austritt als Lohn ausbezahlt werden — inkl. Sozialversicherungsbeitraege
+- **Ferienrückstellungen**: Müssen gemäss OR Art. 958c in der Bilanz korrekt ausgewiesen werden
 - **Absenzenkosten**: Schweizer KMU verlieren durchschnittlich **6.5 Arbeitstage pro Mitarbeiter und Jahr** durch krankheitsbedingte Abwesenheiten (BFS-Statistik)
-- **Planungsfehler**: Unterbesetzung fuehrt zu Ueberstunden, Ueberbelastung und weiteren Absenzen
+- **Planungsfehler**: Unterbesetzung fuehrt zu Überstunden, Überbelastung und weiteren Absenzen
 
-### Digitales Ferienmanagement: Vorteile fuer KMU
+### Digitales Ferienmanagement: Vorteile für KMU
 
-Ein digitales Abwesenheitssystem bietet gegenueber Excel-Listen und Papierformularen entscheidende Vorteile:
+Ein digitales Abwesenheitssystem bietet gegenüber Excel-Listen und Papierformularen entscheidende Vorteile:
 
-**Automatische Berechnung**: Ferienansprueche, Restsaldi, Kuerzungen und Uebertragungen werden automatisch berechnet — fehlerfrei und in Echtzeit.
+**Automatische Berechnung**: Ferienansprueche, Restsaldi, Kuerzungen und Übertragungen werden automatisch berechnet — fehlerfrei und in Echtzeit.
 
-**Self-Service fuer Mitarbeitende**: Ferienantraege koennen direkt ueber eine App oder ein Portal eingereicht werden. Vorgesetzte genehmigen per Klick.
+**Self-Service für Mitarbeitende**: Ferienantraege koennen direkt über eine App oder ein Portal eingereicht werden. Vorgesetzte genehmigen per Klick.
 
 **Teamkalender**: Auf einen Blick sehen, wer wann abwesend ist. Konflikte werden automatisch erkannt.
 
-**Reporting**: Aussagekraeftige Berichte ueber Ferienrueckstellungen, Absenzenquoten und Trends.
+**Reporting**: Aussagekraeftige Berichte über Ferienrückstellungen, Absenzenquoten und Trends.
 
-**Compliance**: Automatische Warnungen bei Verstoessen gegen gesetzliche Vorgaben (z.B. zu lange nicht bezogene Ferien).
+**Compliance**: Automatische Warnungen bei Verstössen gegen gesetzliche Vorgaben (z.B. zu lange nicht bezogene Ferien).
 
-### Best Practices fuer KMU
+### Best Practices für KMU
 
-1. **Reglement erstellen**: Definieren Sie klare Regeln fuer Ferienplanung, Uebertrag, Sperrperioden und Genehmigungsprozesse
+1. **Reglement erstellen**: Definieren Sie klare Regeln für Ferienplanung, Übertrag, Sperrperioden und Genehmigungsprozesse
 2. **Frueh planen**: Fordern Sie Mitarbeitende auf, Ferien bis **Ende Januar** grob zu planen
 3. **Stellvertretung regeln**: Jede Abwesenheit braucht eine definierte Stellvertretung
 4. **Daten pflegen**: Halten Sie Feriensaldi stets aktuell — idealerweise in Echtzeit
-5. **Erholung foerdern**: Ermutigen Sie Mitarbeitende, Ferien tatsaechlich zu beziehen. Erholung steigert die Produktivitaet nachweislich um **15-25%**
+5. **Erholung foerdern**: Ermutigen Sie Mitarbeitende, Ferien tatsächlich zu beziehen. Erholung steigert die Produktivitaet nachweislich um **15-25%**
 
 ### Fazit
 
-Professionelles Ferienmanagement ist fuer KMU eine Investition, die sich mehrfach auszahlt. Es schuetzt vor rechtlichen Risiken, reduziert den administrativen Aufwand und traegt zu zufriedenen, erholten Mitarbeitenden bei. Digitale Loesungen machen die Verwaltung von Ferien und Abwesenheiten auch fuer kleine Teams effizient und transparent.
+Professionelles Ferienmanagement ist für KMU eine Investition, die sich mehrfach auszahlt. Es schützt vor rechtlichen Risiken, reduziert den administrativen Aufwand und traegt zu zufriedenen, erholten Mitarbeitenden bei. Digitale Lösungen machen die Verwaltung von Ferien und Abwesenheiten auch für kleine Teams effizient und transparent.
 
 > **Empfehlung**: Waehlen Sie ein System, das Ferien, Krankheit, Militaer und alle weiteren Abwesenheitsarten in einer einzigen Plattform abbildet — mit automatischer Berechnung der Saldi und nahtloser Integration in die Lohnbuchhaltung.
     `,
@@ -346,13 +346,13 @@ Professionelles Ferienmanagement ist fuer KMU eine Investition, die sich mehrfac
   {
     slug: "offerten-erstellen-tipps",
     category: "modul",
-    titleDe: "Offerten erstellen: Tipps fuer Schweizer Handwerker und KMU",
+    titleDe: "Offerten erstellen: Tipps für Schweizer Handwerker und KMU",
     excerptDe:
-      "Professionelle Offerten gewinnen Auftraege. Erfahren Sie alles ueber OR Art.7, NPK-Positionen, SIA 118 und bewaehrte Vorlagen fuer Schweizer Handwerksbetriebe.",
+      "Professionelle Offerten gewinnen Auftraege. Erfahren Sie alles über OR Art.7, NPK-Positionen, SIA 118 und bewährte Vorlagen für Schweizer Handwerksbetriebe.",
     contentDe: `
-## Professionelle Offerten erstellen: Der Leitfaden fuer Schweizer Handwerker
+## Professionelle Offerten erstellen: Der Leitfaden für Schweizer Handwerker
 
-Eine ueberzeugende Offerte ist der Schluessel zum Auftrag. Doch viele Schweizer Handwerksbetriebe verschenken Potenzial durch unvollstaendige, unprofessionelle oder zu spaet abgegebene Angebote. Dabei entscheidet die Qualitaet der Offerte oft mehr als der Preis allein. In diesem Leitfaden erfahren Sie, wie Sie **rechtlich korrekte**, **professionelle** und **gewinnende** Offerten erstellen.
+Eine überzeugende Offerte ist der Schluessel zum Auftrag. Doch viele Schweizer Handwerksbetriebe verschenken Potenzial durch unvollständige, unprofessionelle oder zu spaet abgegebene Angebote. Dabei entscheidet die Qualitaet der Offerte oft mehr als der Preis allein. In diesem Leitfaden erfahren Sie, wie Sie **rechtlich korrekte**, **professionelle** und **gewinnende** Offerten erstellen.
 
 ### Rechtliche Grundlagen: OR Art. 7
 
@@ -360,20 +360,20 @@ Das Schweizerische Obligationenrecht regelt die Offerte in den Artikeln 3 bis 10
 
 - Eine Offerte ist ein **verbindliches Angebot** zum Abschluss eines Vertrages
 - Der Offertsteller ist an sein Angebot gebunden, sofern er keine **Freizeichnung** anbringt
-- Freizeichnungsklauseln wie "unverbindlich", "freibleibend" oder "Aenderungen vorbehalten" sind zulaessig, muessen aber klar formuliert sein
-- Eine **Auslobung** (z.B. "Angebot gueltig bis 30.06.2025") begrenzt die Bindungsfrist
+- Freizeichnungsklauseln wie "unverbindlich", "freibleibend" oder "Änderungen vorbehalten" sind zulässig, müssen aber klar formuliert sein
+- Eine **Auslobung** (z.B. "Angebot gültig bis 30.06.2025") begrenzt die Bindungsfrist
 
-> **Rechtlicher Hinweis**: Ohne Freizeichnung bleibt eine Offerte grundsaetzlich **so lange gueltig, wie nach den Umstaenden eine Antwort erwartet werden kann**. Im Handwerk sind dies typischerweise 2-4 Wochen.
+> **Rechtlicher Hinweis**: Ohne Freizeichnung bleibt eine Offerte grundsaetzlich **so lange gültig, wie nach den Umstaenden eine Antwort erwartet werden kann**. Im Handwerk sind dies typischerweise 2-4 Wochen.
 
-### NPK: Der Schweizer Standard fuer Bau-Offerten
+### NPK: Der Schweizer Standard für Bau-Offerten
 
-Der **Normpositionen-Katalog (NPK)** ist das Standardwerk fuer die Beschreibung von Bauleistungen in der Schweiz. Herausgegeben von der **CRB (Schweizerische Zentralstelle fuer Baurationalisierung)**, umfasst der NPK ueber **30'000 standardisierte Leistungspositionen**.
+Der **Normpositionen-Katalog (NPK)** ist das Standardwerk für die Beschreibung von Bauleistungen in der Schweiz. Herausgegeben von der **CRB (Schweizerische Zentralstelle für Baurationalisierung)**, umfasst der NPK über **30'000 standardisierte Leistungspositionen**.
 
 **Warum NPK verwenden?**
 
 - **Einheitliche Sprache**: Alle Beteiligten verstehen dieselben Positionen
 - **Vergleichbarkeit**: Offerten verschiedener Anbieter sind direkt vergleichbar
-- **Vollstaendigkeit**: Keine Leistung wird vergessen
+- **Vollständigkeit**: Keine Leistung wird vergessen
 - **Rechtssicherheit**: NPK-Positionen sind bei Streitigkeiten anerkannt
 
 **Aufbau einer NPK-Position**:
@@ -385,36 +385,36 @@ Der **Normpositionen-Katalog (NPK)** ist das Standardwerk fuer die Beschreibung 
 
 ### SIA 118: Die Werkvertragsnorm
 
-Die **SIA-Norm 118** regelt die allgemeinen Bedingungen fuer Bauarbeiten und ist quasi die "Bibel" des Schweizer Bauwesens. Fuer Offerten sind folgende Aspekte besonders relevant:
+Die **SIA-Norm 118** regelt die allgemeinen Bedingungen für Bauarbeiten und ist quasi die "Bibel" des Schweizer Bauwesens. Für Offerten sind folgende Aspekte besonders relevant:
 
 **Art. 36-42 SIA 118 — Vergabearten**:
 - **Freie Vergabe**: Direktauftrag ohne Ausschreibung
 - **Einladungsverfahren**: 3-5 Anbieter werden eingeladen
-- **Offenes Verfahren**: Oeffentliche Ausschreibung
+- **Offenes Verfahren**: Öffentliche Ausschreibung
 
 **Art. 55-60 SIA 118 — Werkvertrag**:
 - Die Offerte wird durch die Annahme zum verbindlichen Werkvertrag
-- Nachtraege und Aenderungen muessen schriftlich vereinbart werden
-- Die Verguetueng erfolgt nach den vereinbarten Positionen
+- Nachtraege und Änderungen müssen schriftlich vereinbart werden
+- Die Vergütueng erfolgt nach den vereinbarten Positionen
 
 **Art. 84-86 SIA 118 — Nachtragsforderungen**:
-- Nicht in der Offerte enthaltene Leistungen muessen separat bestellt werden
+- Nicht in der Offerte enthaltene Leistungen müssen separat bestellt werden
 - Regiearbeiten sind gesondert zu erfassen und abzurechnen
-- Die Preisbasis fuer Nachtraege sollte in der Offerte definiert sein
+- Die Preisbasis für Nachtraege sollte in der Offerte definiert sein
 
 ### Aufbau einer professionellen Offerte
 
-Eine ueberzeugende Offerte fuer Schweizer Handwerker enthaelt folgende Elemente:
+Eine überzeugende Offerte für Schweizer Handwerker enthaelt folgende Elemente:
 
 **1. Deckblatt**:
 - Firmenlogo und Kontaktdaten
 - Projekt- und Offert-Nummer
-- Datum und Gueltigkeitsdauer
+- Datum und Gültigkeitsdauer
 - Name und Adresse des Auftraggebers
 - Projekttitel und -adresse
 
 **2. Anschreiben**:
-- Persoenliche Ansprache
+- Persönliche Ansprache
 - Bezug auf Besichtigung oder Anfrage
 - Zusammenfassung des Angebots
 - Alleinstellungsmerkmale hervorheben
@@ -423,25 +423,25 @@ Eine ueberzeugende Offerte fuer Schweizer Handwerker enthaelt folgende Elemente:
 - Detaillierte Positionen mit Mengen, Einheiten und Preisen
 - NPK-Positionen wo anwendbar
 - Optionale Positionen separat ausweisen
-- Zwischensummen fuer Gewerke/Bereiche
+- Zwischensummen für Gewerke/Bereiche
 
 **4. Preiszusammenstellung**:
 - Nettobetrag
-- Rabatt (falls gewaehrt)
+- Rabatt (falls gewährt)
 - MwSt (8.1%)
 - Bruttobetrag
 - Zahlungsbedingungen
 
 **5. Allgemeine Bedingungen**:
-- Gueltigkeitsdauer der Offerte
+- Gültigkeitsdauer der Offerte
 - Ausfuehrungszeitraum
-- Garantie und Gewaehrleistung
+- Garantie und Gewährleistung
 - Verweis auf SIA 118 oder eigene AGB
 - Versicherungsschutz
 
 ### Kalkulation: Vom Einstandspreis zum Angebotspreis
 
-Die korrekte Kalkulation entscheidet ueber Gewinn oder Verlust. Ein bewaehrtes Schema:
+Die korrekte Kalkulation entscheidet über Gewinn oder Verlust. Ein bewährtes Schema:
 
 **Materialkosten** (Einkaufspreis + Zuschlag 15-25%)
 + **Lohnkosten** (Produktivstunden x Stundenansatz CHF 55-85)
@@ -453,31 +453,31 @@ Die korrekte Kalkulation entscheidet ueber Gewinn oder Verlust. Ein bewaehrtes S
 + **Gewinnzuschlag** (5-15%)
 = **Angebotspreis exkl. MwSt**
 
-> **Branchenstatistik**: Schweizer Handwerksbetriebe erzielen im Durchschnitt eine **Nettogewinnmarge von 3-8%**. Betriebe mit professioneller Kalkulation und Nachkalkulation liegen deutlich hoeher.
+> **Branchenstatistik**: Schweizer Handwerksbetriebe erzielen im Durchschnitt eine **Nettogewinnmarge von 3-8%**. Betriebe mit professioneller Kalkulation und Nachkalkulation liegen deutlich höher.
 
-### Haeufige Fehler bei der Offert-Erstellung
+### Häufige Fehler bei der Offert-Erstellung
 
 **Fehlende Positionen**: Die Offerte deckt nicht alle erforderlichen Leistungen ab. Bei Festpreisofferten fuehrt dies zu Verlusten.
 
-**Zu lange Reaktionszeiten**: Wer mehr als **5 Arbeitstage** fuer eine Offerte braucht, verliert bereits 30% der potenziellen Auftraege.
+**Zu lange Reaktionszeiten**: Wer mehr als **5 Arbeitstage** für eine Offerte braucht, verliert bereits 30% der potenziellen Auftraege.
 
 **Kein Follow-up**: Studien zeigen, dass ein telefonisches Follow-up die Auftragsquote um **20-35%** steigert.
 
-**Fehlende Visualisierung**: Bilder, Skizzen und Referenzfotos machen die Offerte greifbar und erhoehen die Abschlusswahrscheinlichkeit.
+**Fehlende Visualisierung**: Bilder, Skizzen und Referenzfotos machen die Offerte greifbar und erhöhen die Abschlusswahrscheinlichkeit.
 
-**Unklare Abgrenzung**: Was ist im Preis enthalten, was nicht? Unklare Abgrenzungen fuehren zu Streitigkeiten waehrend der Ausfuehrung.
+**Unklare Abgrenzung**: Was ist im Preis enthalten, was nicht? Unklare Abgrenzungen fuehren zu Streitigkeiten während der Ausfuehrung.
 
 ### Digitale Offert-Erstellung: Vorteile
 
-Moderne Offert-Software bietet gegenueber Word/Excel entscheidende Vorteile:
+Moderne Offert-Software bietet gegenüber Word/Excel entscheidende Vorteile:
 
 - **Vorlagen und Textbausteine**: Wiederkehrende Positionen per Klick einfuegen
 - **NPK-Integration**: Direkter Zugriff auf NPK-Positionen
 - **Automatische Berechnung**: Mengen, Preise, MwSt und Rabatte
-- **Versionierung**: Alle Aenderungen werden dokumentiert
+- **Versionierung**: Alle Änderungen werden dokumentiert
 - **PDF-Versand**: Professionelles Layout per Knopfdruck
 - **Nachverfolgung**: Status (offen, gewonnen, verloren) auf einen Blick
-- **Nachkalkulation**: Vergleich Offerte vs. tatsaechliche Kosten
+- **Nachkalkulation**: Vergleich Offerte vs. tatsächliche Kosten
 
 ### Die Offerte als Verkaufsinstrument
 
@@ -491,9 +491,9 @@ Eine Offerte ist nicht nur ein Preisangebot — sie ist Ihr **Verkaufsargument**
 
 ### Fazit
 
-Die professionelle Offert-Erstellung ist eine Kernkompetenz fuer jeden Schweizer Handwerksbetrieb. Wer schnell, vollstaendig und ueberzeugend offeriert, gewinnt mehr Auftraege — und vermeidet Verluste durch fehlerhafte Kalkulationen. Digitale Tools machen den Offert-Prozess schneller, professioneller und nachvollziehbarer.
+Die professionelle Offert-Erstellung ist eine Kernkompetenz für jeden Schweizer Handwerksbetrieb. Wer schnell, vollständig und überzeugend offeriert, gewinnt mehr Auftraege — und vermeidet Verluste durch fehlerhafte Kalkulationen. Digitale Tools machen den Offert-Prozess schneller, professioneller und nachvollziehbarer.
 
-> **Empfehlung**: Investieren Sie in ein Offert-System, das mit Ihrer Projektverwaltung und Buchhaltung verbunden ist. So fliesst die Offerte nahtlos in den Auftrag und spaeter in die Abrechnung ueber — ohne Doppelerfassung.
+> **Empfehlung**: Investieren Sie in ein Offert-System, das mit Ihrer Projektverwaltung und Buchhaltung verbunden ist. So fliesst die Offerte nahtlos in den Auftrag und später in die Abrechnung über — ohne Doppelerfassung.
     `,
     image: "/images/blog/offerten-erstellen.png",
     date: "2025-06-23",
@@ -503,28 +503,28 @@ Die professionelle Offert-Erstellung ist eine Kernkompetenz fuer jeden Schweizer
   {
     slug: "projektmanagement-handwerker",
     category: "modul",
-    titleDe: "Projektmanagement fuer Handwerker: Auftraege effizient steuern",
+    titleDe: "Projektmanagement für Handwerker: Auftraege effizient steuern",
     excerptDe:
       "Vom Auftrag bis zur Abnahme: Wie Schweizer Handwerksbetriebe mit Kanban, Ressourcenplanung und Multi-Projektmanagement ihre Effizienz steigern.",
     contentDe: `
-## Projektmanagement fuer Handwerker: Struktur statt Chaos
+## Projektmanagement für Handwerker: Struktur statt Chaos
 
-Viele Handwerksbetriebe in der Schweiz kaempfen mit demselben Problem: Auftraege werden gleichzeitig abgewickelt, Termine verschieben sich, Material fehlt, Mitarbeiter sind doppelt eingeplant. Was auf der Baustelle als "normales Chaos" akzeptiert wird, kostet in Wahrheit bares Geld. **Professionelles Projektmanagement** ist der Schluessel zu mehr Effizienz, weniger Stress und hoeheren Margen.
+Viele Handwerksbetriebe in der Schweiz kaempfen mit demselben Problem: Auftraege werden gleichzeitig abgewickelt, Termine verschieben sich, Material fehlt, Mitarbeiter sind doppelt eingeplant. Was auf der Baustelle als "normales Chaos" akzeptiert wird, kostet in Wahrheit bares Geld. **Professionelles Projektmanagement** ist der Schluessel zu mehr Effizienz, weniger Stress und höheren Margen.
 
-### Warum klassisches Projektmanagement fuer Handwerker nicht funktioniert
+### Warum klassisches Projektmanagement für Handwerker nicht funktioniert
 
-Herkoemmliche Projektmanagement-Methoden wie **PRINCE2** oder **Wasserfall** wurden fuer Grossprojekte in der IT oder Industrie entwickelt. Fuer einen Handwerksbetrieb mit 5-50 Mitarbeitern sind sie viel zu komplex und buerokratisch. Handwerker brauchen ein System, das:
+Herkoemmliche Projektmanagement-Methoden wie **PRINCE2** oder **Wasserfall** wurden für Grossprojekte in der IT oder Industrie entwickelt. Für einen Handwerksbetrieb mit 5-50 Mitarbeitern sind sie viel zu komplex und bürokratisch. Handwerker brauchen ein System, das:
 
 - **Einfach** zu bedienen ist — auch auf der Baustelle
-- **Flexibel** auf Aenderungen reagiert
+- **Flexibel** auf Änderungen reagiert
 - **Visuell** den Status aller Projekte zeigt
 - **Mobil** auf dem Smartphone funktioniert
 
-### Kanban: Das ideale System fuer Handwerksbetriebe
+### Kanban: Das ideale System für Handwerksbetriebe
 
-Die **Kanban-Methode** stammt urspruenglich aus der japanischen Automobilindustrie (Toyota) und hat sich als ideales Projektmanagement-Tool fuer Handwerker bewaehrt. Das Prinzip ist denkbar einfach:
+Die **Kanban-Methode** stammt urspruenglich aus der japanischen Automobilindustrie (Toyota) und hat sich als ideales Projektmanagement-Tool für Handwerker bewährt. Das Prinzip ist denkbar einfach:
 
-**Spalten definieren**: Typische Spalten fuer einen Handwerksbetrieb:
+**Spalten definieren**: Typische Spalten für einen Handwerksbetrieb:
 - **Anfrage/Offerte** — Neue Anfragen und offene Offerten
 - **Auftrag erteilt** — Bestaetigt, aber noch nicht geplant
 - **In Planung** — Material bestellt, Termine geplant
@@ -539,23 +539,23 @@ Die **Kanban-Methode** stammt urspruenglich aus der japanischen Automobilindustr
 - Status und Prioritaet
 - Anhaenge (Plaene, Fotos)
 
-**WIP-Limits (Work in Progress)**: Das Herzstuck von Kanban. Begrenzen Sie die Anzahl gleichzeitiger Auftraege pro Phase. Beispiel: Maximal **5 Projekte gleichzeitig in Ausfuehrung**. Das verhindert Ueberlastung und sorgt dafuer, dass Auftraege fertiggestellt werden, bevor neue begonnen werden.
+**WIP-Limits (Work in Progress)**: Das Herzstuck von Kanban. Begrenzen Sie die Anzahl gleichzeitiger Auftraege pro Phase. Beispiel: Maximal **5 Projekte gleichzeitig in Ausfuehrung**. Das verhindert Überlastung und sorgt dafür, dass Auftraege fertiggestellt werden, bevor neue begonnen werden.
 
 > **Praxis-Tipp**: Starten Sie mit einem physischen Kanban-Board (Whiteboard mit Post-its) und wechseln Sie erst nach 2-4 Wochen auf ein digitales System. So versteht das Team das Prinzip, bevor die Software ins Spiel kommt.
 
 ### Multi-Projektmanagement: Mehrere Baustellen im Griff
 
-Die groesste Herausforderung fuer Handwerksbetriebe ist das gleichzeitige Management mehrerer Projekte. Typischerweise hat ein Betrieb mit 10 Mitarbeitern **15-30 aktive Projekte** in verschiedenen Stadien.
+Die groesste Herausforderung für Handwerksbetriebe ist das gleichzeitige Management mehrerer Projekte. Typischerweise hat ein Betrieb mit 10 Mitarbeitern **15-30 aktive Projekte** in verschiedenen Stadien.
 
-**Portfoliouebersicht**: Eine uebergeordnete Ansicht zeigt alle laufenden Projekte mit Status, Fortschritt und kritischem Pfad. Auf einen Blick erkennt der Chef:
+**Portfolioübersicht**: Eine übergeordnete Ansicht zeigt alle laufenden Projekte mit Status, Fortschritt und kritischem Pfad. Auf einen Blick erkennt der Chef:
 - Welche Projekte planmaessig laufen
-- Wo es Verzoegerungen gibt
-- Welche Projekte naechste Woche starten
-- Wo Ressourcenengpaesse drohen
+- Wo es Verzögerungen gibt
+- Welche Projekte nächste Woche starten
+- Wo Ressourcenengpässe drohen
 
-**Abhaengigkeiten erkennen**: Wenn Projekt A sich verzoegert und ein Mitarbeiter auch fuer Projekt B eingeplant ist, muss dies sofort sichtbar sein. Digitale Systeme warnen automatisch bei Konflikten.
+**Abhaengigkeiten erkennen**: Wenn Projekt A sich verzögert und ein Mitarbeiter auch für Projekt B eingeplant ist, muss dies sofort sichtbar sein. Digitale Systeme warnen automatisch bei Konflikten.
 
-**Meilensteine setzen**: Definieren Sie fuer jedes Projekt klare Meilensteine:
+**Meilensteine setzen**: Definieren Sie für jedes Projekt klare Meilensteine:
 1. Auftrag erteilt
 2. Material bestellt
 3. Baustelleneinrichtung
@@ -567,40 +567,40 @@ Die groesste Herausforderung fuer Handwerksbetriebe ist das gleichzeitige Manage
 
 ### Ressourcenplanung: Der Engpass Mensch
 
-In den meisten Handwerksbetrieben ist nicht das Material der Engpass, sondern die **Verfuegbarkeit qualifizierter Mitarbeiter**. Eine professionelle Ressourcenplanung umfasst:
+In den meisten Handwerksbetrieben ist nicht das Material der Engpass, sondern die **Verfügbarkeit qualifizierter Mitarbeiter**. Eine professionelle Ressourcenplanung umfasst:
 
-**Kapazitaetsplanung**: Wie viele Produktivstunden stehen pro Woche zur Verfuegung?
+**Kapazitaetsplanung**: Wie viele Produktivstunden stehen pro Woche zur Verfügung?
 - Theoretisch: 42h x Anzahl Mitarbeiter
-- Abzug fuer Ferien, Krankheit, Weiterbildung: ca. **15-20%**
-- Abzug fuer Wegzeiten, Administration: ca. **10-15%**
+- Abzug für Ferien, Krankheit, Weiterbildung: ca. **15-20%**
+- Abzug für Wegzeiten, Administration: ca. **10-15%**
 - **Effektive Produktivstunden**: Ca. **65-75%** der Bruttoarbeitszeit
 
 **Qualifikationsmatrix**: Nicht jeder Mitarbeiter kann jede Aufgabe erledigen. Eine Qualifikationsmatrix zeigt:
 - Wer welche Faehigkeiten hat
 - Wer wen vertreten kann
 - Wo Schulungsbedarf besteht
-- Welche Spezialisten fuer welche Projekte vorgesehen sind
+- Welche Spezialisten für welche Projekte vorgesehen sind
 
-**Auslastungsgrad optimieren**: Der ideale Auslastungsgrad liegt bei **80-85%**. Darunter verlieren Sie Geld, darueber riskieren Sie Qualitaetsprobleme und Burnout.
+**Auslastungsgrad optimieren**: Der ideale Auslastungsgrad liegt bei **80-85%**. Darunter verlieren Sie Geld, darüber riskieren Sie Qualitaetsprobleme und Burnout.
 
 ### Bauzeitenplaene und Terminmanagement
 
-Zuverlaessige Termine sind fuer Kunden eines der wichtigsten Kriterien bei der Auftragsvergabe. Ein professioneller Bauzeitenplan umfasst:
+Zuverlaessige Termine sind für Kunden eines der wichtigsten Kriterien bei der Auftragsvergabe. Ein professioneller Bauzeitenplan umfasst:
 
 - **Vorarbeiten**: Planung, Bewilligungen, Materialbestellung
-- **Ausfuehrungsphasen**: Mit realistischen Zeitansaetzen
+- **Ausfuehrungsphasen**: Mit realistischen Zeitansätzen
 - **Pufferzeiten**: Mindestens **15-20%** der geplanten Ausfuehrungszeit
-- **Abhaengigkeiten**: Welche Arbeiten muessen vorher abgeschlossen sein
-- **Schnittstellen**: Wann muessen andere Gewerke fertig sein
+- **Abhaengigkeiten**: Welche Arbeiten müssen vorher abgeschlossen sein
+- **Schnittstellen**: Wann müssen andere Gewerke fertig sein
 
 ### Kosten-Tracking: Nachkalkulation als Lernprozess
 
-Einer der groessten Hebel fuer die Rentabilitaet ist die **konsequente Nachkalkulation** abgeschlossener Projekte:
+Einer der groessten Hebel für die Rentabilitaet ist die **konsequente Nachkalkulation** abgeschlossener Projekte:
 
-- **Geplante vs. effektive Stunden**: Wo wurden mehr Stunden benoetigt als offeriert?
+- **Geplante vs. effektive Stunden**: Wo wurden mehr Stunden benötigt als offeriert?
 - **Materialkosten**: Stimmen die kalkulierten Materialpreise noch?
 - **Regiestunden**: Wie viel unbezahlte Zusatzarbeit ist angefallen?
-- **Deckungsbeitrag**: Was bleibt nach Abzug aller direkten Kosten uebrig?
+- **Deckungsbeitrag**: Was bleibt nach Abzug aller direkten Kosten übrig?
 
 Betriebe, die konsequent nachkalkulieren, steigern ihre Margen laut Branchenstudien um **2-5 Prozentpunkte** innerhalb eines Jahres.
 
@@ -610,24 +610,24 @@ Effiziente Kommunikation ist der Schluessel zu reibungslosen Projekten:
 
 - **Tagesrapport**: Kurze Erfassung der geleisteten Arbeiten, des Materialverbrauchs und besonderer Vorkommnisse — idealerweise direkt per App
 - **Wochenmeeting**: 15-30 Minuten Besprechung der kommenden Woche
-- **Echtzeit-Updates**: Statusaenderungen werden sofort an alle Beteiligten kommuniziert
-- **Kundenkommunikation**: Regelmaessige Updates an den Auftraggeber — proaktiv, nicht reaktiv
+- **Echtzeit-Updates**: Statusänderungen werden sofort an alle Beteiligten kommuniziert
+- **Kundenkommunikation**: Regelmässige Updates an den Auftraggeber — proaktiv, nicht reaktiv
 
 ### Digitale Werkzeuge: Was braucht ein Handwerksbetrieb?
 
-Das ideale Projektmanagement-Tool fuer Handwerker vereint:
+Das ideale Projektmanagement-Tool für Handwerker vereint:
 
-- **Kanban-Board** fuer die visuelle Auftragsuebersicht
-- **Kalender** fuer Terminplanung und Mitarbeitereinsatz
+- **Kanban-Board** für die visuelle Auftragsübersicht
+- **Kalender** für Terminplanung und Mitarbeitereinsatz
 - **Zeiterfassung** direkt am Projekt
-- **Dokumentenverwaltung** fuer Plaene, Fotos und Berichte
+- **Dokumentenverwaltung** für Plaene, Fotos und Berichte
 - **Kostenverfolgung** in Echtzeit
-- **Mobile App** fuer die Nutzung auf der Baustelle
-- **Kundenzugang** fuer Transparenz und Kommunikation
+- **Mobile App** für die Nutzung auf der Baustelle
+- **Kundenzugang** für Transparenz und Kommunikation
 
 ### Fazit: Struktur schafft Freiheit
 
-Professionelles Projektmanagement bedeutet nicht mehr Buerokratie, sondern **weniger Chaos**. Wer seine Auftraege strukturiert verwaltet, Ressourcen vorausschauend plant und Kosten im Blick behaelt, arbeitet profitabler und stressfreier. Fuer Schweizer Handwerksbetriebe ist es die Investition, die sich am schnellsten auszahlt.
+Professionelles Projektmanagement bedeutet nicht mehr Bürokratie, sondern **weniger Chaos**. Wer seine Auftraege strukturiert verwaltet, Ressourcen vorausschauend plant und Kosten im Blick behaelt, arbeitet profitabler und stressfreier. Für Schweizer Handwerksbetriebe ist es die Investition, die sich am schnellsten auszahlt.
 
 > **Empfehlung**: Beginnen Sie mit den Grundlagen — einem Kanban-Board und einer einfachen Zeiterfassung am Projekt. Wenn das Team den Nutzen erkennt, erweitern Sie schrittweise um Ressourcenplanung, Kostenverfolgung und Kundenkommunikation.
     `,
@@ -639,23 +639,23 @@ Professionelles Projektmanagement bedeutet nicht mehr Buerokratie, sondern **wen
   {
     slug: "crm-handwerker-kundenpflege",
     category: "modul",
-    titleDe: "CRM fuer Handwerker: Kundenpflege die sich auszahlt",
+    titleDe: "CRM für Handwerker: Kundenpflege die sich auszahlt",
     excerptDe:
       "Neukundengewinnung kostet 5x mehr als Bestandskundenpflege. Erfahren Sie, wie Schweizer Handwerker mit CRM ihre Kundenbeziehungen systematisch steuern.",
     contentDe: `
-## CRM fuer Handwerker: Kundenbeziehungen als Wettbewerbsvorteil
+## CRM für Handwerker: Kundenbeziehungen als Wettbewerbsvorteil
 
-Die Neukundengewinnung kostet **fuenfmal mehr** als die Pflege bestehender Kunden — diese Faustformel gilt besonders fuer Handwerksbetriebe. Dennoch konzentrieren sich viele Betriebe auf die Akquise und vernachlaessigen ihre Bestandskunden. Ein **Customer Relationship Management (CRM)** System aendert das grundlegend und verwandelt Kundenbeziehungen in einen messbaren Wettbewerbsvorteil.
+Die Neukundengewinnung kostet **fuenfmal mehr** als die Pflege bestehender Kunden — diese Faustformel gilt besonders für Handwerksbetriebe. Dennoch konzentrieren sich viele Betriebe auf die Akquise und vernachlaessigen ihre Bestandskunden. Ein **Customer Relationship Management (CRM)** System ändert das grundlegend und verwandelt Kundenbeziehungen in einen messbaren Wettbewerbsvorteil.
 
-### Warum CRM gerade fuer Handwerker wichtig ist
+### Warum CRM gerade für Handwerker wichtig ist
 
-Handwerksbetriebe leben von **Empfehlungen und Wiederkaufkunden**. Laut einer Studie des Schweizerischen Gewerbeverbands (sgv) generieren erfolgreiche Handwerksbetriebe ueber **60% ihres Umsatzes** mit bestehenden Kunden. Gleichzeitig kommen rund **40% der Neukunden** ueber Empfehlungen.
+Handwerksbetriebe leben von **Empfehlungen und Wiederkaufkunden**. Laut einer Studie des Schweizerischen Gewerbeverbands (sgv) generieren erfolgreiche Handwerksbetriebe über **60% ihres Umsatzes** mit bestehenden Kunden. Gleichzeitig kommen rund **40% der Neukunden** über Empfehlungen.
 
-Diese Zahlen zeigen: Wer seine Kunden kennt, pflegt und begeistert, hat den groessten Hebel fuer nachhaltiges Wachstum. Genau hier setzt CRM an.
+Diese Zahlen zeigen: Wer seine Kunden kennt, pflegt und begeistert, hat den groessten Hebel für nachhaltiges Wachstum. Genau hier setzt CRM an.
 
-### Was ist CRM fuer Handwerker?
+### Was ist CRM für Handwerker?
 
-CRM fuer Handwerker ist kein ueberladenes Enterprise-System. Es ist ein **praktisches Werkzeug** fuer den Alltag:
+CRM für Handwerker ist kein überladenes Enterprise-System. Es ist ein **praktisches Werkzeug** für den Alltag:
 
 **Zentrale Kundendatenbank**: Alle Informationen zu einem Kunden an einem Ort:
 - Kontaktdaten (Adresse, Telefon, E-Mail)
@@ -663,7 +663,7 @@ CRM fuer Handwerker ist kein ueberladenes Enterprise-System. Es ist ein **prakti
 - Historie aller Auftraege, Offerten und Rechnungen
 - Notizen aus Gespraechen und Besichtigungen
 - Fotos und Dokumente
-- Servicehistorie und naechste Wartungstermine
+- Servicehistorie und nächste Wartungstermine
 
 **Kontakthistorie**: Jeder Kontakt mit dem Kunden wird dokumentiert — Anrufe, E-Mails, Besuche, Reklamationen. So weiss jeder Mitarbeiter sofort, was zuletzt besprochen wurde.
 
@@ -671,43 +671,43 @@ CRM fuer Handwerker ist kein ueberladenes Enterprise-System. Es ist ein **prakti
 
 ### Der Customer Lifetime Value (CLV)
 
-Der **Customer Lifetime Value** — der Gesamtwert eines Kunden ueber die gesamte Geschaeftsbeziehung — ist fuer Handwerker enorm:
+Der **Customer Lifetime Value** — der Gesamtwert eines Kunden über die gesamte Geschaeftsbeziehung — ist für Handwerker enorm:
 
-- Ein Hausbesitzer beauftragt ueber 20 Jahre durchschnittlich **CHF 50'000-150'000** an Handwerkerleistungen
+- Ein Hausbesitzer beauftragt über 20 Jahre durchschnittlich **CHF 50'000-150'000** an Handwerkerleistungen
 - Eine Hausverwaltung mit 50 Liegenschaften kann jaehrlich **CHF 100'000+** an Auftraegen vergeben
 - Ein zufriedener Kunde empfiehlt Sie durchschnittlich an **3-5 Personen** weiter
 
-> **Rechenbeispiel**: Ein Kunde gibt jaehrlich CHF 5'000 fuer Handwerkerleistungen aus. Ueber 15 Jahre sind das CHF 75'000. Dazu kommen 3 Empfehlungen mit je CHF 25'000 Umsatz. **Gesamtwert: CHF 150'000** — pro Kunde!
+> **Rechenbeispiel**: Ein Kunde gibt jaehrlich CHF 5'000 für Handwerkerleistungen aus. Über 15 Jahre sind das CHF 75'000. Dazu kommen 3 Empfehlungen mit je CHF 25'000 Umsatz. **Gesamtwert: CHF 150'000** — pro Kunde!
 
-### Datenschutzgesetz (DSG): Was Sie beachten muessen
+### Datenschutzgesetz (DSG): Was Sie beachten müssen
 
-Seit dem **1. September 2023** gilt das revidierte **Datenschutzgesetz (DSG)** in der Schweiz. Fuer CRM-Systeme sind folgende Punkte relevant:
+Seit dem **1. September 2023** gilt das revidierte **Datenschutzgesetz (DSG)** in der Schweiz. Für CRM-Systeme sind folgende Punkte relevant:
 
-**Informationspflicht**: Kunden muessen wissen, welche Daten Sie ueber sie speichern und zu welchem Zweck.
+**Informationspflicht**: Kunden müssen wissen, welche Daten Sie über sie speichern und zu welchem Zweck.
 
-**Zweckbindung**: Daten duerfen nur fuer den angegebenen Zweck verwendet werden. Kundendaten fuer den Auftragsabwicklung duerfen nicht ohne Weiteres fuer Marketing verwendet werden.
+**Zweckbindung**: Daten duerfen nur für den angegebenen Zweck verwendet werden. Kundendaten für den Auftragsabwicklung duerfen nicht ohne Weiteres für Marketing verwendet werden.
 
-**Datensparsamkeit**: Erfassen Sie nur Daten, die Sie tatsaechlich benoetigen. "Nice to have" Informationen ohne konkreten Zweck sind problematisch.
+**Datensparsamkeit**: Erfassen Sie nur Daten, die Sie tatsächlich benötigen. "Nice to have" Informationen ohne konkreten Zweck sind problematisch.
 
-**Auskunftsrecht**: Kunden haben das Recht, Auskunft ueber ihre gespeicherten Daten zu verlangen. Das CRM muss dies technisch unterstuetzen.
+**Auskunftsrecht**: Kunden haben das Recht, Auskunft über ihre gespeicherten Daten zu verlangen. Das CRM muss dies technisch unterstützen.
 
-**Loeschpflicht**: Nicht mehr benoetigte Daten muessen geloescht werden. Achtung: Aufbewahrungspflichten (z.B. 10 Jahre fuer Rechnungen gemaess OR) gehen vor.
+**Löschpflicht**: Nicht mehr benötigte Daten müssen gelöscht werden. Achtung: Aufbewahrungspflichten (z.B. 10 Jahre für Rechnungen gemäss OR) gehen vor.
 
-**Datensicherheit**: Angemessene technische und organisatorische Massnahmen zum Schutz der Daten sind Pflicht. Cloud-Loesungen muessen den Schweizer Datenschutzstandards entsprechen.
+**Datensicherheit**: Angemessene technische und organisatorische Massnahmen zum Schutz der Daten sind Pflicht. Cloud-Lösungen müssen den Schweizer Datenschutzstandards entsprechen.
 
 ### Kundenpflege in der Praxis
 
-Systematische Kundenpflege besteht aus kleinen, regelmaessigen Massnahmen:
+Systematische Kundenpflege besteht aus kleinen, regelmässigen Massnahmen:
 
 **1. After-Sales-Kontakt**: 2-4 Wochen nach Auftragsabschluss beim Kunden nachfragen, ob alles in Ordnung ist. Dieser einfache Anruf erhoet die Kundenzufriedenheit dramatisch.
 
-**2. Wartungserinnerungen**: Proaktiv an faellige Wartungen erinnern — Heizungsservice, Dachinspektion, Fassadenpflege. Das generiert planbare Umsaetze und zeigt dem Kunden, dass Sie mitdenken.
+**2. Wartungserinnerungen**: Proaktiv an faellige Wartungen erinnern — Heizungsservice, Dachinspektion, Fassadenpflege. Das generiert planbare Umsätze und zeigt dem Kunden, dass Sie mitdenken.
 
 **3. Saisonale Aktionen**: Im Herbst auf Winterdienst hinweisen, im Fruehjahr auf Gartengestaltung. Relevante, zeitlich passende Kommunikation wird als Service empfunden, nicht als Werbung.
 
-**4. Geburtstags- und Jubilaeumsgruesse**: Eine persoenliche Karte zum Geburtstag oder zum Jubilaeum der Geschaeftsbeziehung bleibt in Erinnerung.
+**4. Geburtstags- und Jubilaeumsgruesse**: Eine persönliche Karte zum Geburtstag oder zum Jubilaeum der Geschaeftsbeziehung bleibt in Erinnerung.
 
-**5. Empfehlungsprogramm**: Zufriedene Kunden aktiv um Empfehlungen bitten und belohnen — z.B. mit einem Rabatt auf den naechsten Auftrag.
+**5. Empfehlungsprogramm**: Zufriedene Kunden aktiv um Empfehlungen bitten und belohnen — z.B. mit einem Rabatt auf den nächsten Auftrag.
 
 ### Lead-Management: Vom Erstkontakt zum Auftrag
 
@@ -726,7 +726,7 @@ Ein CRM hilft nicht nur bei der Pflege bestehender Kunden, sondern auch bei der 
 - Wie viele davon zu Offerten werden (typisch: 60-80%)
 - Wie viele Offerten zu Auftraegen werden (typisch: 30-50%)
 - Durchschnittlicher Auftragswert
-- Hauptgruende fuer verlorene Offerten
+- Hauptgruende für verlorene Offerten
 
 ### Segmentierung: Die richtigen Kunden richtig ansprechen
 
@@ -737,13 +737,13 @@ Nicht jeder Kunde ist gleich. Segmentieren Sie Ihre Kunden nach:
 - **Region**: Welche Kunden liegen in Ihrem bevorzugten Einzugsgebiet
 - **Potenzial**: Wer hat Wachstumspotenzial, wer ist gesaettigt
 
-Jedes Segment erhaelt eine angepasste Betreuungsstrategie. A-Kunden verdienen persoenliche Besuche, C-Kunden reichen regelmaessige E-Mails.
+Jedes Segment erhaelt eine angepasste Betreuungsstrategie. A-Kunden verdienen persönliche Besuche, C-Kunden reichen regelmässige E-Mails.
 
 ### ROI eines CRM-Systems
 
 Die Investition in ein CRM-System rechnet sich schnell:
 
-- **Hoehere Wiederkaufrate**: +15-25% durch systematische Kundenpflege
+- **Höhere Wiederkaufrate**: +15-25% durch systematische Kundenpflege
 - **Mehr Empfehlungen**: +20-30% durch aktives Empfehlungsmanagement
 - **Bessere Offert-Quote**: +10-15% durch konsequentes Follow-up
 - **Weniger verlorene Anfragen**: Keine Anfrage geht mehr unter
@@ -751,9 +751,9 @@ Die Investition in ein CRM-System rechnet sich schnell:
 
 ### Fazit
 
-CRM ist fuer Handwerker kein Luxus, sondern ein **essenzielles Werkzeug** fuer nachhaltiges Wachstum. Wer seine Kunden systematisch pflegt, generiert mehr Folgeauftraege, erhaelt mehr Empfehlungen und steigert seinen Umsatz — ohne teure Werbung. Das revidierte DSG macht zudem eine saubere Datenverwaltung zur Pflicht.
+CRM ist für Handwerker kein Luxus, sondern ein **essenzielles Werkzeug** für nachhaltiges Wachstum. Wer seine Kunden systematisch pflegt, generiert mehr Folgeauftraege, erhaelt mehr Empfehlungen und steigert seinen Umsatz — ohne teure Werbung. Das revidierte DSG macht zudem eine saubere Datenverwaltung zur Pflicht.
 
-> **Empfehlung**: Starten Sie mit den Basics — einer sauberen Kundendatenbank und automatischen Erinnerungen fuer Wartungen und Follow-ups. Wenn Sie den Nutzen erkennen, erweitern Sie das System schrittweise um Lead-Management, Segmentierung und Reporting.
+> **Empfehlung**: Starten Sie mit den Basics — einer sauberen Kundendatenbank und automatischen Erinnerungen für Wartungen und Follow-ups. Wenn Sie den Nutzen erkennen, erweitern Sie das System schrittweise um Lead-Management, Segmentierung und Reporting.
     `,
     image: "/images/blog/crm-handwerker.png",
     date: "2025-08-04",
@@ -763,9 +763,9 @@ CRM ist fuer Handwerker kein Luxus, sondern ein **essenzielles Werkzeug** fuer n
   {
     slug: "dashboard-kmu-kennzahlen",
     category: "modul",
-    titleDe: "Dashboard fuer KMU: Die wichtigsten Kennzahlen im Blick",
+    titleDe: "Dashboard für KMU: Die wichtigsten Kennzahlen im Blick",
     excerptDe:
-      "Umsatz, Marge, Auslastung — welche KPIs muessen Schweizer KMU kennen? So bauen Sie ein Dashboard, das echte Entscheidungen ermoeglicht.",
+      "Umsatz, Marge, Auslastung — welche KPIs müssen Schweizer KMU kennen? So bauen Sie ein Dashboard, das echte Entscheidungen ermöglicht.",
     contentDe: `
 ## KMU-Dashboard: Datengetriebene Entscheidungen statt Bauchgefuehl
 
@@ -773,14 +773,14 @@ Die meisten Schweizer KMU treffen ihre Entscheidungen auf Basis von **Erfahrung 
 
 ### Warum KMU ein Dashboard brauchen
 
-Gemaess einer Studie der **Fachhochschule Nordwestschweiz** nutzen weniger als **30% der Schweizer KMU** ein systematisches Kennzahlen-Cockpit. Dabei zeigt die Forschung eindeutig: Unternehmen, die ihre Leistung messen und ueberwachen, wachsen schneller und sind profitabler als solche, die es nicht tun.
+Gemäss einer Studie der **Fachhochschule Nordwestschweiz** nutzen weniger als **30% der Schweizer KMU** ein systematisches Kennzahlen-Cockpit. Dabei zeigt die Forschung eindeutig: Unternehmen, die ihre Leistung messen und überwachen, wachsen schneller und sind profitabler als solche, die es nicht tun.
 
 Ein Dashboard beantwortet die drei wichtigsten Fragen jedes Unternehmers:
 1. **Wie geht es meinem Unternehmen heute?**
 2. **Wohin entwickelt es sich?**
 3. **Wo muss ich eingreifen?**
 
-### Die wichtigsten KPIs fuer Schweizer KMU
+### Die wichtigsten KPIs für Schweizer KMU
 
 #### Finanzielle Kennzahlen
 
@@ -792,17 +792,17 @@ Ein Dashboard beantwortet die drei wichtigsten Fragen jedes Unternehmers:
 
 **Bruttogewinnmarge**:
 - (Umsatz - direkte Kosten) / Umsatz x 100
-- Zeigt, wie viel nach Abzug von Material und Fremdleistungen uebrig bleibt
+- Zeigt, wie viel nach Abzug von Material und Fremdleistungen übrig bleibt
 - **Branchenwerte Handwerk**: 35-55%
-- **Warnsignal**: Sinkende Marge ueber 2-3 Monate
+- **Warnsignal**: Sinkende Marge über 2-3 Monate
 
 **EBITDA-Marge**:
 - Operativer Gewinn vor Zinsen, Steuern und Abschreibungen
-- Der wichtigste Indikator fuer die operative Leistungsfaehigkeit
+- Der wichtigste Indikator für die operative Leistungsfaehigkeit
 - **Zielwert KMU**: 8-15%
 
 **Cashflow**:
-- Wie viel Geld fliesst tatsaechlich in die Kasse und wieder hinaus
+- Wie viel Geld fliesst tatsächlich in die Kasse und wieder hinaus
 - Unterschied zum Gewinn: Gewinn ist eine Meinung, Cashflow ist ein Fakt
 - **Kritisch**: Mehr KMU scheitern an Liquiditaet als an mangelnder Profitabilitaet
 
@@ -814,8 +814,8 @@ Ein Dashboard beantwortet die drei wichtigsten Fragen jedes Unternehmers:
 #### Operative Kennzahlen
 
 **Auslastungsgrad**:
-- Produktive Stunden / verfuegbare Stunden x 100
-- **Zielwert**: 80-85% (darunter: Umsatzverlust, darueber: Qualitaetsrisiko)
+- Produktive Stunden / verfügbare Stunden x 100
+- **Zielwert**: 80-85% (darunter: Umsatzverlust, darüber: Qualitaetsrisiko)
 - Aufgeschluesselt nach Mitarbeiter, Team und Gesamtbetrieb
 
 **Offert-Erfolgsquote**:
@@ -829,16 +829,16 @@ Ein Dashboard beantwortet die drei wichtigsten Fragen jedes Unternehmers:
 - **Zielwert**: Max. 10% Abweichung vom Plan
 
 **Nachkalkulations-Abweichung**:
-- Offerierte Kosten vs. tatsaechliche Kosten
+- Offerierte Kosten vs. tatsächliche Kosten
 - **Zielwert**: Maximal +/-5%
-- Systematische Ueberschreitungen deuten auf Kalkulationsfehler hin
+- Systematische Überschreitungen deuten auf Kalkulationsfehler hin
 
 #### Kunden-Kennzahlen
 
 **Kundenzufriedenheit (NPS — Net Promoter Score)**:
 - "Wie wahrscheinlich empfehlen Sie uns weiter?" (0-10)
 - Promotoren (9-10) minus Detraktoren (0-6) = NPS
-- **Guter NPS**: Ueber 30 | **Exzellent**: Ueber 50
+- **Guter NPS**: Über 30 | **Exzellent**: Über 50
 
 **Wiederkaufrate**:
 - Anteil der Kunden, die innerhalb von 12-24 Monaten erneut bestellen
@@ -859,23 +859,23 @@ Ein effektives Dashboard folgt klaren Designprinzipien:
 **3. Farbcodierung**:
 - **Gruen**: Im Zielbereich
 - **Gelb**: Aufmerksamkeit erforderlich
-- **Rot**: Sofortiges Handeln noetig
+- **Rot**: Sofortiges Handeln nötig
 
 **4. Zeitvergleich**: Jede Kennzahl mit Vergleich zum Vormonat, Vorquartal oder Vorjahr. Absolute Zahlen ohne Kontext sind wertlos.
 
-**5. Aktualtitaet**: Ein Dashboard, das nur monatlich aktualisiert wird, ist wenig nuetzlich. Idealerweise werden Finanzdaten **woechentlich** und operative Daten **taeglich** aktualisiert.
+**5. Aktualtitaet**: Ein Dashboard, das nur monatlich aktualisiert wird, ist wenig nuetzlich. Idealerweise werden Finanzdaten **woechentlich** und operative Daten **täglich** aktualisiert.
 
 ### Datenquellen und Integration
 
 Ein KMU-Dashboard speist sich typischerweise aus folgenden Quellen:
 
 - **Buchhaltung**: Umsatz, Kosten, Gewinn, Cashflow, Debitoren
-- **Zeiterfassung**: Auslastung, Produktivstunden, Ueberstunden
+- **Zeiterfassung**: Auslastung, Produktivstunden, Überstunden
 - **Offert-System**: Offert-Volumen, Erfolgsquote, Pipeline
 - **Projektmanagement**: Durchlaufzeiten, Termintreue, Nachkalkulation
 - **CRM**: Kundenentwicklung, Zufriedenheit, Wiederkaufrate
 
-> **Entscheidend**: Die Daten muessen aus einer **einzigen Quelle** kommen, nicht aus verschiedenen Excel-Listen zusammengetragen werden. Nur so sind sie konsistent und aktuell.
+> **Entscheidend**: Die Daten müssen aus einer **einzigen Quelle** kommen, nicht aus verschiedenen Excel-Listen zusammengetragen werden. Nur so sind sie konsistent und aktuell.
 
 ### Typische Fehler bei KMU-Dashboards
 
@@ -883,7 +883,7 @@ Ein KMU-Dashboard speist sich typischerweise aus folgenden Quellen:
 
 **Vanity Metrics**: Kennzahlen, die gut aussehen, aber keine Handlung ausloesen (z.B. Gesamtumsatz ohne Margenbetrachtung).
 
-**Fehlende Massnahmen**: Ein Dashboard ist nutzlos, wenn niemand auf die Ergebnisse reagiert. Definieren Sie fuer jede Kennzahl: Wer ist verantwortlich? Was passiert bei Rot?
+**Fehlende Massnahmen**: Ein Dashboard ist nutzlos, wenn niemand auf die Ergebnisse reagiert. Definieren Sie für jede Kennzahl: Wer ist verantwortlich? Was passiert bei Rot?
 
 **Keine Zielwerte**: Ohne Benchmarks und Ziele fehlt der Bezugspunkt. Setzen Sie realistische Ziele basierend auf historischen Daten und Branchenwerten.
 
@@ -891,14 +891,14 @@ Ein KMU-Dashboard speist sich typischerweise aus folgenden Quellen:
 
 Die beste Praxis ist ein **woechentliches Dashboard-Meeting** von 15-20 Minuten:
 
-- **Montag morgens**: Rueckblick auf die Vorwoche
+- **Montag morgens**: Rückblick auf die Vorwoche
 - **Teilnehmer**: Geschaeftsfuehrer und Abteilungsleiter
 - **Agenda**: Jeder KPI kurz durchgehen, Abweichungen besprechen, Massnahmen definieren
-- **Ergebnis**: 2-3 konkrete Aktionen fuer die Woche
+- **Ergebnis**: 2-3 konkrete Aktionen für die Woche
 
 ### Fazit
 
-Ein Dashboard ist das **Cockpit Ihres Unternehmens**. Es ersetzt nicht das Bauchgefuehl, sondern ergaenzt es mit Fakten. Schweizer KMU, die ihre Kennzahlen im Blick behalten, reagieren schneller auf Veraenderungen, treffen bessere Entscheidungen und sind langfristig erfolgreicher.
+Ein Dashboard ist das **Cockpit Ihres Unternehmens**. Es ersetzt nicht das Bauchgefuehl, sondern ergaenzt es mit Fakten. Schweizer KMU, die ihre Kennzahlen im Blick behalten, reagieren schneller auf Veränderungen, treffen bessere Entscheidungen und sind langfristig erfolgreicher.
 
 > **Starten Sie klein**: Beginnen Sie mit drei Kennzahlen — Umsatz, Auslastung und Cashflow. Wenn diese sauber funktionieren, fuegen Sie weitere KPIs hinzu. Ein einfaches Dashboard, das genutzt wird, ist unendlich wertvoller als ein komplexes, das niemand anschaut.
     `,
@@ -929,19 +929,19 @@ Die Schweizerische Zivilprozessordnung (ZPO) kennt verschiedene Beweismittel. **
 - **Oertliche Zuordnung**: Wo wurde das Foto aufgenommen? (GPS-Daten)
 - **Zusammenhang**: Das Foto muss den streitigen Sachverhalt dokumentieren
 
-> **Wichtig**: Digitale Fotos mit vollstaendigen **EXIF-Daten** (Datum, Uhrzeit, GPS-Koordinaten, Kameramodell) haben vor Gericht eine deutlich hoehere **Beweiskraft** als Fotos ohne Metadaten.
+> **Wichtig**: Digitale Fotos mit vollständigen **EXIF-Daten** (Datum, Uhrzeit, GPS-Koordinaten, Kameramodell) haben vor Gericht eine deutlich höhere **Beweiskraft** als Fotos ohne Metadaten.
 
-#### SIA 118 Art. 172 — Maengelruege
+#### SIA 118 Art. 172 — Mängelruege
 
-Die SIA-Norm 118 regelt in **Art. 172** die Maengelruege bei Bauwerken. Maengel muessen dem Unternehmer "unverzueglich" angezeigt werden. Fotografische Dokumentation spielt hier eine zentrale Rolle:
+Die SIA-Norm 118 regelt in **Art. 172** die Mängelruege bei Bauwerken. Mängel müssen dem Unternehmer "unverzueglich" angezeigt werden. Fotografische Dokumentation spielt hier eine zentrale Rolle:
 
-- **Verdeckte Maengel**: Fotos waehrend der Bauphase dokumentieren den Zustand vor dem Verdecken (z.B. Leitungen vor dem Verputzen)
-- **Abnahmeprotokoll**: Fotos bei der Abnahme dokumentieren den Zustand bei Uebergabe
+- **Verdeckte Mängel**: Fotos während der Bauphase dokumentieren den Zustand vor dem Verdecken (z.B. Leitungen vor dem Verputzen)
+- **Abnahmeprotokoll**: Fotos bei der Abnahme dokumentieren den Zustand bei Übergabe
 - **Garantiefaelle**: Fotos beweisen, wann ein Mangel erstmals sichtbar wurde
 
 #### Aufbewahrungspflicht
 
-Baurechtlich relevante Dokumentation sollte mindestens **10 Jahre** aufbewahrt werden — entsprechend der Verjaehrungsfrist fuer verdeckte Maengel nach SIA 118. Fuer Arbeiten an tragenden Strukturen empfehlen Experten sogar eine laengere Aufbewahrung.
+Baurechtlich relevante Dokumentation sollte mindestens **10 Jahre** aufbewahrt werden — entsprechend der Verjährungsfrist für verdeckte Mängel nach SIA 118. Für Arbeiten an tragenden Strukturen empfehlen Experten sogar eine längere Aufbewahrung.
 
 ### EXIF-Daten: Die versteckten Metadaten
 
@@ -955,30 +955,30 @@ Jedes digitale Foto enthaelt **EXIF-Daten** (Exchangeable Image File Format), di
 
 **Warum EXIF-Daten wichtig sind**:
 
-Vor Gericht koennen EXIF-Daten als Beweis dafuer dienen, dass ein Foto zu einem bestimmten Zeitpunkt an einem bestimmten Ort aufgenommen wurde. Dies ist besonders relevant bei:
+Vor Gericht koennen EXIF-Daten als Beweis dafür dienen, dass ein Foto zu einem bestimmten Zeitpunkt an einem bestimmten Ort aufgenommen wurde. Dies ist besonders relevant bei:
 
-- Streitigkeiten ueber den Bauzustand zu einem bestimmten Zeitpunkt
-- Nachweis der rechtzeitigen Maengelruege
+- Streitigkeiten über den Bauzustand zu einem bestimmten Zeitpunkt
+- Nachweis der rechtzeitigen Mängelruege
 - Dokumentation des Arbeitsfortschritts
 - Nachweis der Anwesenheit auf der Baustelle
 
-> **Achtung**: Manche Messaging-Apps (z.B. WhatsApp) **entfernen EXIF-Daten** beim Versenden von Fotos. Verwenden Sie daher fuer die offizielle Dokumentation immer ein dediziertes System, das die Originaldateien bewahrt.
+> **Achtung**: Manche Messaging-Apps (z.B. WhatsApp) **entfernen EXIF-Daten** beim Versenden von Fotos. Verwenden Sie daher für die offizielle Dokumentation immer ein dediziertes System, das die Originaldateien bewahrt.
 
 ### Systematische Fotodokumentation: Was fotografieren?
 
-Eine vollstaendige Baustellendokumentation umfasst:
+Eine vollständige Baustellendokumentation umfasst:
 
 **1. Vor Baubeginn (Bestandsaufnahme)**:
 - Gesamtansicht des Objekts von allen Seiten
-- Bestehende Schaeden dokumentieren (Risse, Feuchtigkeit, Abnutzung)
+- Bestehende Schäden dokumentieren (Risse, Feuchtigkeit, Abnutzung)
 - Angrenzende Gebaeude und Grundstuecke
 - Zufahrtswege und Lagerflaechen
 
-**2. Waehrend der Bauphase**:
-- **Verdeckte Arbeiten**: Alles, was spaeter nicht mehr sichtbar ist — Leitungen, Armierungen, Daemmungen, Abdichtungen
-- **Tagesfortschritt**: Mindestens 1x taeglich den Arbeitsstand dokumentieren
+**2. Während der Bauphase**:
+- **Verdeckte Arbeiten**: Alles, was später nicht mehr sichtbar ist — Leitungen, Armierungen, Daemmungen, Abdichtungen
+- **Tagesfortschritt**: Mindestens 1x täglich den Arbeitsstand dokumentieren
 - **Materiallieferungen**: Eingehende Materialien mit Lieferschein
-- **Besondere Vorkommnisse**: Schaeden, Unfaelle, Wetterverhaeltnisse
+- **Besondere Vorkommnisse**: Schäden, Unfaelle, Wetterverhaeltnisse
 - **Abweichungen**: Alles, was vom Plan abweicht
 
 **3. Bei Abnahme**:
@@ -987,28 +987,28 @@ Eine vollstaendige Baustellendokumentation umfasst:
 - Bekannte Restarbeiten dokumentieren
 - Zustand von Umgebung und Nachbargrundstuck
 
-**4. Bei Maengeln**:
+**4. Bei Mängeln**:
 - Nahaufnahme des Mangels mit Massstab
-- Uebersichtsaufnahme zur Lokalisierung
+- Übersichtsaufnahme zur Lokalisierung
 - Betroffene Bereiche aus verschiedenen Winkeln
 
 ### Namenskonvention und Organisation
 
-Ohne klare Organisation werden Tausende von Fotos schnell unbrauchbar. Bewaehrte Struktur:
+Ohne klare Organisation werden Tausende von Fotos schnell unbrauchbar. Bewährte Struktur:
 
 **Ordnerstruktur**:
 - Projekt-Nummer / Projektname
   - 01_Bestandsaufnahme
   - 02_Bauphase / Datum
   - 03_Abnahme
-  - 04_Maengel
+  - 04_Mängel
   - 05_Nacharbeiten
 
 **Dateinamenskonvention**:
 - JJJJ-MM-TT_Projektname_Bereich_Nummer.jpg
 - Beispiel: 2025-09-15_Mueller_Badezimmer_001.jpg
 
-### Digitale Fotodokumentation: Vorteile gegenueber Smartphone-Chaos
+### Digitale Fotodokumentation: Vorteile gegenüber Smartphone-Chaos
 
 Die meisten Handwerker fotografieren heute mit dem Smartphone — das ist grundsaetzlich in Ordnung. Problematisch wird es, wenn die Fotos:
 
@@ -1027,14 +1027,14 @@ Ein dediziertes **Foto-Dokumentationssystem** loest diese Probleme:
 - **EXIF-Erhaltung**: Originale Metadaten bleiben erhalten
 - **Zeitstempel-Nachweis**: Revisionssicherer Nachweis des Aufnahmezeitpunkts
 
-### Datenschutz und Persoenlichkeitsrecht
+### Datenschutz und Persönlichkeitsrecht
 
 Auch auf der Baustelle gilt das Datenschutzrecht:
 
 - **Personen**: Fotos von Personen nur mit deren Einwilligung (DSG)
-- **Nachbargrundtsuecke**: Nur dokumentieren, soweit fuer das eigene Projekt relevant
-- **Innenraeume**: In bewohnten Raeumen besondere Zurueckhaltung
-- **Veroeffentlichung**: Baustellenfotos fuer Marketing nur mit Kundeneinwilligung
+- **Nachbargrundtsuecke**: Nur dokumentieren, soweit für das eigene Projekt relevant
+- **Innenraeume**: In bewohnten Raeumen besondere Zurückhaltung
+- **Veröffentlichung**: Baustellenfotos für Marketing nur mit Kundeneinwilligung
 
 ### Kosten und Nutzen
 
@@ -1047,11 +1047,11 @@ Der Nutzen ist dagegen erheblich:
 - **Streitvermeidung**: Ein dokumentierter Mangel ist kein Streitfall
 - **Rechtsschutz**: Fotos koennen Klagen im Wert von Zehntausenden Franken verhindern
 - **Qualitaetssicherung**: Dokumentation foerdert sorgfaeltiges Arbeiten
-- **Kundenkommunikation**: Fortschrittsfotos erhoehen das Vertrauen
+- **Kundenkommunikation**: Fortschrittsfotos erhöhen das Vertrauen
 
 ### Fazit
 
-Fotodokumentation auf der Baustelle ist keine Kuer, sondern **Pflicht** — zumindest fuer jeden Betrieb, der sich rechtlich absichern und professionell auftreten will. Mit einem digitalen System wird die Dokumentation zum selbstverstaendlichen Teil des Arbeitsalltags.
+Fotodokumentation auf der Baustelle ist keine Kuer, sondern **Pflicht** — zumindest für jeden Betrieb, der sich rechtlich absichern und professionell auftreten will. Mit einem digitalen System wird die Dokumentation zum selbstverstaendlichen Teil des Arbeitsalltags.
 
 > **Praxis-Empfehlung**: Fuehren Sie eine einfache Regel ein: **Bevor Sie etwas verdecken, fotografieren Sie es.** Dazu ein Tagesfoto des Baufortschritts. Das kostet 5 Minuten und kann Ihnen Tausende Franken sparen.
     `,
@@ -1063,23 +1063,23 @@ Fotodokumentation auf der Baustelle ist keine Kuer, sondern **Pflicht** — zumi
   {
     slug: "lagerverwaltung-kmu",
     category: "modul",
-    titleDe: "Lagerverwaltung fuer KMU: Material effizient steuern",
+    titleDe: "Lagerverwaltung für KMU: Material effizient steuern",
     excerptDe:
       "ABC-Analyse, JIT-Prinzip und OR Art.958c: Wie Schweizer KMU ihre Lagerhaltung optimieren und Kapital freisetzen.",
     contentDe: `
-## Lagerverwaltung fuer KMU: Weniger Lager, mehr Gewinn
+## Lagerverwaltung für KMU: Weniger Lager, mehr Gewinn
 
-Fuer viele Schweizer KMU — insbesondere Handwerksbetriebe — ist das Materiallager ein notwendiges Uebel. Zu viel Lager bindet Kapital, zu wenig fuehrt zu Lieferengpaessen und Produktionsausfaellen. Die Kunst liegt in der **optimalen Balance** zwischen Verfuegbarkeit und Kapitalbindung. Moderne Lagerverwaltung hilft, dieses Gleichgewicht zu finden — und dabei erhebliche Kosten einzusparen.
+Für viele Schweizer KMU — insbesondere Handwerksbetriebe — ist das Materiallager ein notwendiges Übel. Zu viel Lager bindet Kapital, zu wenig fuehrt zu Lieferengpässen und Produktionsausfällen. Die Kunst liegt in der **optimalen Balance** zwischen Verfügbarkeit und Kapitalbindung. Moderne Lagerverwaltung hilft, dieses Gleichgewicht zu finden — und dabei erhebliche Kosten einzusparen.
 
 ### Die wahren Kosten der Lagerhaltung
 
-Viele KMU unterschaetzen die **Gesamtkosten** der Lagerhaltung massiv. Neben dem offensichtlichen Kapitaleinsatz fallen weitere Kosten an:
+Viele KMU unterschätzen die **Gesamtkosten** der Lagerhaltung massiv. Neben dem offensichtlichen Kapitaleinsatz fallen weitere Kosten an:
 
 - **Kapitalbindung**: Gebundenes Kapital, das keine Rendite erwirtschaftet. Bei einem Zinssatz von 3-5% entstehen signifikante Opportunitaetskosten.
-- **Lagerraum**: Miete oder Abschreibung fuer Lagerflaeche. In Schweizer Staedten liegt die Lagerraummiete bei **CHF 80-200 pro m2 und Jahr**.
-- **Versicherung**: Lagerwaren muessen versichert werden.
+- **Lagerraum**: Miete oder Abschreibung für Lagerflaeche. In Schweizer Staedten liegt die Lagerraummiete bei **CHF 80-200 pro m2 und Jahr**.
+- **Versicherung**: Lagerwaren müssen versichert werden.
 - **Schwund und Verderb**: Durchschnittlich **2-5%** des Lagerwerts gehen jaehrlich durch Schwund, Beschaedigung oder Veralterung verloren.
-- **Handling**: Personal fuer Wareneingang, -ausgang und Inventur.
+- **Handling**: Personal für Wareneingang, -ausgang und Inventur.
 
 > **Faustregel**: Die jaehrlichen Gesamtkosten der Lagerhaltung betragen **15-25% des durchschnittlichen Lagerwerts**. Bei einem Lager im Wert von CHF 100'000 sind das CHF 15'000-25'000 pro Jahr!
 
@@ -1090,68 +1090,68 @@ Die **ABC-Analyse** ist das wichtigste Werkzeug der Lagerverwaltung. Sie teilt d
 **A-Artikel** (ca. 15-20% der Artikel, 70-80% des Werts):
 - Wenige Artikel mit hohem Wert
 - Beispiele: Teure Spezialteile, Kupferleitungen, hochwertige Armaturen
-- **Strategie**: Enge Bestandsfuehrung, haeufige Kontrolle, niedrige Sicherheitsbestaende
+- **Strategie**: Enge Bestandsfuehrung, häufige Kontrolle, niedrige Sicherheitsbestände
 
 **B-Artikel** (ca. 30-35% der Artikel, 15-20% des Werts):
 - Mittlere Anzahl Artikel mit mittlerem Wert
 - Beispiele: Standard-Installationsmaterial, Beschlaege, Farben
-- **Strategie**: Regelmaessige Kontrolle, moderate Sicherheitsbestaende
+- **Strategie**: Regelmässige Kontrolle, moderate Sicherheitsbestände
 
 **C-Artikel** (ca. 50-55% der Artikel, 5-10% des Werts):
 - Viele Artikel mit geringem Einzelwert
-- Beispiele: Schrauben, Duebel, Dichtungen, Kleinmaterial
-- **Strategie**: Groessere Bestellmengen, seltene Kontrolle, Kanban-Systeme
+- Beispiele: Schrauben, Dübel, Dichtungen, Kleinmaterial
+- **Strategie**: Grössere Bestellmengen, seltene Kontrolle, Kanban-Systeme
 
 ### Rechtliche Anforderungen: OR Art. 958c
 
 Das Schweizer Obligationenrecht stellt in **Art. 958c** klare Anforderungen an die Bewertung von Vorratsvermoegen:
 
-**Bewertungsgrundsaetze**:
+**Bewertungsgrundsätze**:
 - Vorraete sind hoechstens zu **Anschaffungs- oder Herstellkosten** zu bewerten
 - Ist der Marktwert tiefer, muss auf diesen **abgeschrieben** werden (Niederstwertprinzip)
-- Veraltete oder schwer verkaeufliche Vorraete muessen **wertberichtigt** werden
+- Veraltete oder schwer verkaeufliche Vorraete müssen **wertberichtigt** werden
 
 **Inventarpflicht**:
-- Buchfuehrungspflichtige Unternehmen muessen jaehrlich eine **Inventur** durchfuehren (OR Art. 958 Abs. 2)
-- Die Inventur muss den tatsaechlichen Bestand mit dem Buchbestand abgleichen
-- Differenzen muessen dokumentiert und korrigiert werden
+- Buchfuehrungspflichtige Unternehmen müssen jaehrlich eine **Inventur** durchfuehren (OR Art. 958 Abs. 2)
+- Die Inventur muss den tatsächlichen Bestand mit dem Buchbestand abgleichen
+- Differenzen müssen dokumentiert und korrigiert werden
 
 **Aufbewahrung**:
-- Inventarlisten muessen **10 Jahre** aufbewahrt werden
+- Inventarlisten müssen **10 Jahre** aufbewahrt werden
 - Bewertungsunterlagen ebenso
 
 ### Just-in-Time (JIT): Weniger Lager, mehr Flexibilitaet
 
-Das **JIT-Prinzip** aus der Automobilindustrie laesst sich auch auf KMU uebertragen — mit Anpassungen:
+Das **JIT-Prinzip** aus der Automobilindustrie laesst sich auch auf KMU übertragen — mit Anpassungen:
 
-**Kerngedanke**: Material wird erst dann bestellt und geliefert, wenn es benoetigt wird. Das Lager wird minimiert, die Kapitaleffizienz maximiert.
+**Kerngedanke**: Material wird erst dann bestellt und geliefert, wenn es benötigt wird. Das Lager wird minimiert, die Kapitaleffizienz maximiert.
 
-**Voraussetzungen fuer JIT im KMU**:
-- **Zuverlaessige Lieferanten**: Lieferzeiten muessen planbar sein
+**Voraussetzungen für JIT im KMU**:
+- **Zuverlaessige Lieferanten**: Lieferzeiten müssen planbar sein
 - **Gute Planung**: Der Materialbedarf muss fruehzeitig bekannt sein
-- **Digitale Prozesse**: Automatische Bestellausloesung bei Unterschreiten des Mindestbestands
-- **Pufferbestaende**: Fuer kritische Materialien dennoch Sicherheitsbestaende halten
+- **Digitale Prozesse**: Automatische Bestellauslösung bei Unterschreiten des Mindestbestands
+- **Pufferbestände**: Für kritische Materialien dennoch Sicherheitsbestände halten
 
-**Realistische Umsetzung**: Fuer die meisten KMU ist reines JIT nicht praktikabel. Empfehlenswert ist ein **hybrides Modell**:
+**Realistische Umsetzung**: Für die meisten KMU ist reines JIT nicht praktikabel. Empfehlenswert ist ein **hybrides Modell**:
 - **A-Artikel**: JIT oder produktionssynchron bestellen
-- **B-Artikel**: Wochenbestellungen mit niedrigen Sicherheitsbestaenden
-- **C-Artikel**: Quartalsbestellungen mit hoeheren Sicherheitsbestaenden (Kanban-Boxen)
+- **B-Artikel**: Wochenbestellungen mit niedrigen Sicherheitsbeständen
+- **C-Artikel**: Quartalsbestellungen mit höheren Sicherheitsbeständen (Kanban-Boxen)
 
 ### Bestellmengen optimieren
 
 Die **optimale Bestellmenge** (EOQ — Economic Order Quantity) balanciert Bestellkosten gegen Lagerhaltungskosten:
 
-**Bestellkosten** (sinken mit groesserer Menge):
+**Bestellkosten** (sinken mit grösserer Menge):
 - Administrative Kosten pro Bestellung: CHF 25-75
 - Lieferkosten und Mindermengenzuschlaege
-- Zeitaufwand fuer Bestellung und Wareneingang
+- Zeitaufwand für Bestellung und Wareneingang
 
-**Lagerhaltungskosten** (steigen mit groesserer Menge):
+**Lagerhaltungskosten** (steigen mit grösserer Menge):
 - Kapitalbindung
 - Lagerraum
 - Schwund und Verderb
 
-Fuer die meisten KMU ergibt die EOQ-Formel, dass haeufigere, kleinere Bestellungen **kostenoptimal** sind — vorausgesetzt, die Lieferanten bieten akzeptable Konditionen.
+Für die meisten KMU ergibt die EOQ-Formel, dass häufigere, kleinere Bestellungen **kostenoptimal** sind — vorausgesetzt, die Lieferanten bieten akzeptable Konditionen.
 
 ### Digitale Lagerverwaltung: Funktionen und Vorteile
 
@@ -1168,8 +1168,8 @@ Ein modernes Lagerverwaltungssystem bietet:
 - Mobile Erfassung per Smartphone
 
 **Automatische Nachbestellung**:
-- Bestellvorschlaege basierend auf Mindest- und Maximalbestaenden
-- Verbrauchsgesteuerte Bestellausloesung
+- Bestellvorschlaege basierend auf Mindest- und Maximalbeständen
+- Verbrauchsgesteuerte Bestellauslösung
 - Integration mit Lieferanten-Systemen
 
 **Projektbezogene Materialzuordnung**:
@@ -1178,31 +1178,31 @@ Ein modernes Lagerverwaltungssystem bietet:
 - Automatische Nachkalkulation
 
 **Inventurmanagement**:
-- Unterstuetzung bei Stichtags- und permanenter Inventur
+- Unterstützung bei Stichtags- und permanenter Inventur
 - Automatischer Soll-Ist-Vergleich
-- Differenzbericht fuer die Buchhaltung
+- Differenzbericht für die Buchhaltung
 
 ### Kennzahlen der Lagerverwaltung
 
-**Lagerumschlagshaeufigkeit**:
+**Lagerumschlagshäufigkeit**:
 - Materialverbrauch (zu Einstandspreisen) / durchschnittlicher Lagerbestand
 - **Zielwert**: 6-12x pro Jahr
-- Niedrige Umschlagshaeufigkeit = zu hoher Bestand oder "Ladenhuter"
+- Niedrige Umschlagshäufigkeit = zu hoher Bestand oder "Ladenhuter"
 
 **Lagerreichweite**:
-- Durchschnittlicher Lagerbestand / taeglicher Verbrauch
+- Durchschnittlicher Lagerbestand / täglicher Verbrauch
 - Zeigt, wie viele Tage der Bestand reicht
 - **Zielwert**: Je nach Artikel 5-30 Tage
 
 **Servicegrad**:
-- Anteil der sofort aus dem Lager erfuellbaren Anforderungen
+- Anteil der sofort aus dem Lager erfüllbaren Anforderungen
 - **Zielwert**: 95-98% (100% ist unwirtschaftlich)
 
 ### Fazit: Lager als strategischer Vorteil
 
-Professionelle Lagerverwaltung ist kein Thema nur fuer grosse Unternehmen. Auch KMU mit kleinem Lager profitieren von systematischer Steuerung: weniger gebundenes Kapital, weniger Schwund, weniger Produktionsausfaelle. Digitale Loesungen machen die Lagerverwaltung auch fuer kleine Betriebe erschwinglich und praktikabel.
+Professionelle Lagerverwaltung ist kein Thema nur für grosse Unternehmen. Auch KMU mit kleinem Lager profitieren von systematischer Steuerung: weniger gebundenes Kapital, weniger Schwund, weniger Produktionsausfälle. Digitale Lösungen machen die Lagerverwaltung auch für kleine Betriebe erschwinglich und praktikabel.
 
-> **Empfehlung**: Starten Sie mit einer ABC-Analyse Ihres Lagers. Sie werden ueberrascht sein, wie viel Kapital in C-Artikeln gebunden ist, die niemand braucht. Dann implementieren Sie Mindestbestaende und automatische Bestellvorschlaege fuer Ihre A- und B-Artikel.
+> **Empfehlung**: Starten Sie mit einer ABC-Analyse Ihres Lagers. Sie werden überrascht sein, wie viel Kapital in C-Artikeln gebunden ist, die niemand braucht. Dann implementieren Sie Mindestbestände und automatische Bestellvorschlaege für Ihre A- und B-Artikel.
     `,
     image: "/images/blog/lagerverwaltung.png",
     date: "2025-10-06",
@@ -1212,73 +1212,73 @@ Professionelle Lagerverwaltung ist kein Thema nur fuer grosse Unternehmen. Auch 
   {
     slug: "buchhaltung-kmu-schweiz",
     category: "modul",
-    titleDe: "Buchhaltung fuer KMU in der Schweiz: Pflichten, Kosten und digitale Loesungen",
+    titleDe: "Buchhaltung für KMU in der Schweiz: Pflichten, Kosten und digitale Lösungen",
     excerptDe:
-      "OR Art.957-958f, MwSt-Abrechnung ESTV, 10 Jahre Aufbewahrungspflicht: Alles was Schweizer KMU ueber Buchhaltung wissen muessen.",
+      "OR Art.957-958f, MwSt-Abrechnung ESTV, 10 Jahre Aufbewahrungspflicht: Alles was Schweizer KMU über Buchhaltung wissen müssen.",
     contentDe: `
-## Buchhaltung fuer Schweizer KMU: Rechtlich korrekt und effizient
+## Buchhaltung für Schweizer KMU: Rechtlich korrekt und effizient
 
-Die Buchhaltung ist fuer viele KMU-Inhaber ein leidiges Thema. Doch sie ist nicht nur gesetzliche Pflicht, sondern — richtig gemacht — ein wertvolles Steuerungsinstrument. In der Schweiz unterliegt die Buchfuehrung strengen Vorschriften, die im **Obligationenrecht (OR Art. 957-958f)** verankert sind. Wer diese kennt und einhalt, vermeidet teure Nachforderungen und trifft bessere unternehmerische Entscheidungen.
+Die Buchhaltung ist für viele KMU-Inhaber ein leidiges Thema. Doch sie ist nicht nur gesetzliche Pflicht, sondern — richtig gemacht — ein wertvolles Steuerungsinstrument. In der Schweiz unterliegt die Buchfuehrung strengen Vorschriften, die im **Obligationenrecht (OR Art. 957-958f)** verankert sind. Wer diese kennt und einhalt, vermeidet teure Nachforderungen und trifft bessere unternehmerische Entscheidungen.
 
 ### Gesetzliche Grundlagen: OR Art. 957-958f
 
 Das Schweizer Obligationenrecht regelt die Buchfuehrungspflicht umfassend:
 
 **Art. 957 — Pflicht zur Buchfuehrung**:
-- **Einzelunternehmen und Personengesellschaften** mit einem Umsatz von ueber **CHF 500'000** pro Jahr sind buchfuehrungspflichtig
+- **Einzelunternehmen und Personengesellschaften** mit einem Umsatz von über **CHF 500'000** pro Jahr sind buchfuehrungspflichtig
 - **Juristische Personen** (AG, GmbH) sind immer buchfuehrungspflichtig
-- Unternehmen unter der Umsatzgrenze muessen mindestens eine **vereinfachte Buchfuehrung** (Milchbuechleinrechnung) fuehren
+- Unternehmen unter der Umsatzgrenze müssen mindestens eine **vereinfachte Buchfuehrung** (Milchbuechleinrechnung) fuehren
 
-**Art. 957a — Grundsaetze ordnungsmaessiger Buchfuehrung**:
-- **Vollstaendigkeit**: Alle Geschaeftsvorfaelle muessen erfasst werden
-- **Richtigkeit**: Die Buchungen muessen den tatsaechlichen Verhaeltnissen entsprechen
-- **Rechtzeitigkeit**: Buchungen muessen zeitnah erfolgen
-- **Nachpruefbarkeit**: Jede Buchung muss durch einen Beleg dokumentiert sein
-- **Systematik**: Die Buchfuehrung muss planmaessig und uebersichtlich sein
+**Art. 957a — Grundsätze ordnungsmaessiger Buchfuehrung**:
+- **Vollständigkeit**: Alle Geschaeftsvorfaelle müssen erfasst werden
+- **Richtigkeit**: Die Buchungen müssen den tatsächlichen Verhaeltnissen entsprechen
+- **Rechtzeitigkeit**: Buchungen müssen zeitnah erfolgen
+- **Nachprüfbarkeit**: Jede Buchung muss durch einen Beleg dokumentiert sein
+- **Systematik**: Die Buchfuehrung muss planmaessig und übersichtlich sein
 
 **Art. 958 — Jahresrechnung**:
 - Besteht aus **Bilanz**, **Erfolgsrechnung** und **Anhang**
 - Muss innerhalb von **6 Monaten** nach Geschaeftsjahresende erstellt werden
-- Muss ein den tatsaechlichen Verhaeltnissen entsprechendes Bild der Vermogens-, Finanz- und Ertragslage vermitteln
+- Muss ein den tatsächlichen Verhaeltnissen entsprechendes Bild der Vermogens-, Finanz- und Ertragslage vermitteln
 
-**Art. 958c — Bewertungsgrundsaetze**:
+**Art. 958c — Bewertungsgrundsätze**:
 - Fortfuehrungswert (Going Concern) als Standardbewertung
 - Vorsichtsprinzip: Im Zweifel konservativ bewerten
-- Stetigkeit: Bewertungsmethoden duerfen nicht ohne Grund geaendert werden
+- Stetigkeit: Bewertungsmethoden duerfen nicht ohne Grund geändert werden
 
 **Art. 958f — Aufbewahrung**:
-- Geschaeftsbuecher und Belege muessen **10 Jahre** aufbewahrt werden
-- Die Aufbewahrung kann **elektronisch** erfolgen, wenn die Lesbarkeit und Unveraenderbarkeit sichergestellt sind
-- Geschaeftsberichte und Revisionsberichte muessen im **Original** aufbewahrt werden
+- Geschaeftsbuecher und Belege müssen **10 Jahre** aufbewahrt werden
+- Die Aufbewahrung kann **elektronisch** erfolgen, wenn die Lesbarkeit und Unveränderbarkeit sichergestellt sind
+- Geschaeftsberichte und Revisionsberichte müssen im **Original** aufbewahrt werden
 
 ### MwSt-Abrechnung mit der ESTV
 
-Die Mehrwertsteuer ist fuer die meisten KMU die komplexeste steuerliche Pflicht:
+Die Mehrwertsteuer ist für die meisten KMU die komplexeste steuerliche Pflicht:
 
 **MwSt-Pflicht**:
-- Unternehmen mit einem Jahresumsatz von ueber **CHF 100'000** sind MwSt-pflichtig
-- Freiwillige Unterstellung ist ab CHF 0 moeglich und oft vorteilhaft (Vorsteuerabzug)
+- Unternehmen mit einem Jahresumsatz von über **CHF 100'000** sind MwSt-pflichtig
+- Freiwillige Unterstellung ist ab CHF 0 möglich und oft vorteilhaft (Vorsteuerabzug)
 - Die Registrierung erfolgt bei der **ESTV (Eidgenoessische Steuerverwaltung)**
 
-**Aktuelle MwSt-Saetze (seit 01.01.2024)**:
+**Aktuelle MwSt-Sätze (seit 01.01.2024)**:
 - Normalsatz: **8.1%**
 - Reduzierter Satz: **2.6%**
 - Sondersatz Beherbergung: **3.8%**
 
 **Abrechnungsmethoden**:
 - **Effektive Methode**: Steuer auf dem Umsatz minus Vorsteuer auf Einkaufen — exakt, aber aufwendig
-- **Saldosteuersatzmethode**: Pauschaler Prozentsatz auf dem Umsatz — einfacher, aber weniger flexibel. Zulaessig bis CHF 5.005 Mio. Umsatz und CHF 109'000 Steuerbetrag
+- **Saldosteuersatzmethode**: Pauschaler Prozentsatz auf dem Umsatz — einfacher, aber weniger flexibel. Zulässig bis CHF 5.005 Mio. Umsatz und CHF 109'000 Steuerbetrag
 
 **Abrechnungsperioden**:
-- **Quartalsweise**: Standard fuer die meisten KMU (Fristen: 60 Tage nach Quartalsende)
-- **Halbjaehrlich**: Auf Antrag moeglich
-- **Monatlich**: Fuer Unternehmen mit regelmaessigem Vorsteuerueberschuss
+- **Quartalsweise**: Standard für die meisten KMU (Fristen: 60 Tage nach Quartalsende)
+- **Halbjaehrlich**: Auf Antrag möglich
+- **Monatlich**: Für Unternehmen mit regelmässigem Vorsteuerüberschuss
 
 > **Achtung**: Verspaetete MwSt-Abrechnungen fuehren zu **Verzugszinsen von 4%** und koennen bei wiederholtem Versaeumnis zu Bussen fuehren.
 
 ### Aufbewahrungspflicht: 10 Jahre und kein Tag weniger
 
-Die 10-jaehrige Aufbewahrungspflicht gemaess OR Art. 958f umfasst:
+Die 10-jaehrige Aufbewahrungspflicht gemäss OR Art. 958f umfasst:
 
 - **Geschaeftsbuecher**: Haupt- und Nebenbuecher
 - **Buchungsbelege**: Rechnungen (eingehend und ausgehend), Kontoauszuege, Quittungen
@@ -1287,10 +1287,10 @@ Die 10-jaehrige Aufbewahrungspflicht gemaess OR Art. 958f umfasst:
 - **MwSt-Abrechnungen**: Inklusive aller Unterlagen
 - **Lohnabrechnungen**: Inklusive Sozialversicherungsabrechnungen
 
-**Elektronische Aufbewahrung** ist zulaessig unter folgenden Bedingungen:
-- Daten muessen jederzeit **lesbar** gemacht werden koennen
-- Die **Unveraenderbarkeit** muss sichergestellt sein (z.B. durch WORM-Speicher oder digitale Signaturen)
-- Die **Verfuegbarkeit** muss waehrend der gesamten Aufbewahrungsfrist gewaehrleistet sein
+**Elektronische Aufbewahrung** ist zulässig unter folgenden Bedingungen:
+- Daten müssen jederzeit **lesbar** gemacht werden koennen
+- Die **Unveränderbarkeit** muss sichergestellt sein (z.B. durch WORM-Speicher oder digitale Signaturen)
+- Die **Verfügbarkeit** muss während der gesamten Aufbewahrungsfrist gewährleistet sein
 - Ein **Verfahrensdokumentation** muss die Archivierungsmethode beschreiben
 
 ### Treuhander: Kosten und Alternativen
@@ -1298,20 +1298,20 @@ Die 10-jaehrige Aufbewahrungspflicht gemaess OR Art. 958f umfasst:
 Viele KMU lagern ihre Buchhaltung ganz oder teilweise an einen **Treuhander** aus. Die Kosten variieren stark:
 
 - **Stundensatz**: CHF 150-250 pro Stunde (je nach Region und Qualifikation)
-- **Monatliche Buchhaltung** (inkl. MwSt): CHF 300-1'500 pro Monat fuer ein typisches KMU
+- **Monatliche Buchhaltung** (inkl. MwSt): CHF 300-1'500 pro Monat für ein typisches KMU
 - **Jahresabschluss**: CHF 1'500-5'000
 - **Steuererklaerung**: CHF 500-2'000
 
-**Gesamtkosten pro Jahr**: Typischerweise **CHF 6'000-25'000** fuer ein KMU mit 5-20 Mitarbeitern.
+**Gesamtkosten pro Jahr**: Typischerweise **CHF 6'000-25'000** für ein KMU mit 5-20 Mitarbeitern.
 
 **Alternativen**:
-- **Interne Buchhaltung** mit Cloud-Software: CHF 50-200/Monat fuer Software + Personalkosten
-- **Hybridmodell**: Laufende Buchungen intern, Jahresabschluss und Steuern extern — oft die kosteneffizienteste Loesung
+- **Interne Buchhaltung** mit Cloud-Software: CHF 50-200/Monat für Software + Personalkosten
+- **Hybridmodell**: Laufende Buchungen intern, Jahresabschluss und Steuern extern — oft die kosteneffizienteste Lösung
 - **Vollautomatisierung**: Moderne Software mit Bankanbindung, OCR-Beleglesung und automatischer Kontierung reduziert den manuellen Aufwand um bis zu **70%**
 
 ### Digitale Buchhaltung: Der Schweizer Markt
 
-Der Schweizer Markt fuer Buchhaltungssoftware ist vielfaeltig. Wichtige Funktionen fuer KMU:
+Der Schweizer Markt für Buchhaltungssoftware ist vielfaeltig. Wichtige Funktionen für KMU:
 
 - **Schweizer Kontenrahmen**: KMU-Kontenrahmen nach veb.ch oder individuell
 - **QR-Rechnungen**: Erstellung und Verarbeitung von QR-Rechnungen
@@ -1319,26 +1319,26 @@ Der Schweizer Markt fuer Buchhaltungssoftware ist vielfaeltig. Wichtige Funktion
 - **MwSt-Integration**: Automatische MwSt-Berechnung und Abrechnungsformular
 - **Beleglesung (OCR)**: Automatische Erfassung von Eingangsrechnungen per Foto
 - **Lohnbuchhaltung**: Integration oder Schnittstelle zur Lohnabrechnung
-- **Mehrwaehrung**: CHF, EUR und weitere Waehrungen
+- **Mehrwährung**: CHF, EUR und weitere Währungen
 - **E-Archivierung**: Gesetzeskonforme elektronische Aufbewahrung
 
-### Haeufige Buchungsfehler bei KMU
+### Häufige Buchungsfehler bei KMU
 
 **Fehlende Belege**: Jede Buchung braucht einen Beleg. "Kein Beleg = keine Buchung" ist die goldene Regel.
 
-**Falsche Periodenabgrenzung**: Ertraege und Aufwendungen muessen dem richtigen Geschaeftsjahr zugeordnet werden. Insbesondere bei Jahresende kritisch.
+**Falsche Periodenabgrenzung**: Ertraege und Aufwendungen müssen dem richtigen Geschaeftsjahr zugeordnet werden. Insbesondere bei Jahresende kritisch.
 
-**MwSt-Fehler**: Falsche Steuercodes, vergessener Vorsteuerabzug oder fehlerhafte Abrechnungen sind die haeufigsten Gruende fuer ESTV-Nachforderungen.
+**MwSt-Fehler**: Falsche Steuercodes, vergessener Vorsteuerabzug oder fehlerhafte Abrechnungen sind die häufigsten Gruende für ESTV-Nachforderungen.
 
 **Vermischung privat/geschaeftlich**: Besonders bei Einzelunternehmen ein Dauerthema. Fuehren Sie immer getrennte Konten.
 
-**Verspaetete Buchungen**: Je laenger die Buchung aufgeschoben wird, desto mehr Fehler entstehen und desto schwieriger wird die Zuordnung.
+**Verspaetete Buchungen**: Je länger die Buchung aufgeschoben wird, desto mehr Fehler entstehen und desto schwieriger wird die Zuordnung.
 
 ### Fazit
 
-Die Buchhaltung ist keine laestige Pflicht, sondern das **Nervensystem** Ihres Unternehmens. Wer seine Zahlen kennt, trifft bessere Entscheidungen. Digitale Loesungen machen die Buchhaltung auch fuer kleine Betriebe erschwinglich und effizient — und reduzieren die Abhaengigkeit von teuren Treuhaedern.
+Die Buchhaltung ist keine laestige Pflicht, sondern das **Nervensystem** Ihres Unternehmens. Wer seine Zahlen kennt, trifft bessere Entscheidungen. Digitale Lösungen machen die Buchhaltung auch für kleine Betriebe erschwinglich und effizient — und reduzieren die Abhaengigkeit von teuren Treuhaedern.
 
-> **Empfehlung**: Investieren Sie in eine Buchhaltungsloesung mit Bankanbindung und automatischer Beleglesung. Die Zeitersparnis ist enorm und die Fehlerquote sinkt drastisch. Den Jahresabschluss und die Steuererklaerung koennen Sie weiterhin dem Treuhander ueberlassen — aber die laufende Buchfuehrung gehoert in Ihre Haende.
+> **Empfehlung**: Investieren Sie in eine Buchhaltungslösung mit Bankanbindung und automatischer Beleglesung. Die Zeitersparnis ist enorm und die Fehlerquote sinkt drastisch. Den Jahresabschluss und die Steuererklaerung koennen Sie weiterhin dem Treuhander überlassen — aber die laufende Buchfuehrung gehoert in Ihre Haende.
     `,
     image: "/images/blog/buchhaltung-kmu.png",
     date: "2025-10-27",
@@ -1348,24 +1348,24 @@ Die Buchhaltung ist keine laestige Pflicht, sondern das **Nervensystem** Ihres U
   {
     slug: "mitarbeiter-app-handwerker",
     category: "modul",
-    titleDe: "Mitarbeiter-App fuer Handwerker: Mobil, offline-faehig und produktiv",
+    titleDe: "Mitarbeiter-App für Handwerker: Mobil, offline-faehig und produktiv",
     excerptDe:
-      "Mobile-first, Offline-Modus und GPS im Rahmen des ArG: So nutzen Schweizer Handwerksbetriebe eine Mitarbeiter-App fuer mehr Effizienz auf der Baustelle.",
+      "Mobile-first, Offline-Modus und GPS im Rahmen des ArG: So nutzen Schweizer Handwerksbetriebe eine Mitarbeiter-App für mehr Effizienz auf der Baustelle.",
     contentDe: `
-## Mitarbeiter-App fuer Handwerker: Das Buero in der Hosentasche
+## Mitarbeiter-App für Handwerker: Das Büro in der Hosentasche
 
-Handwerker verbringen den Grossteil ihrer Arbeitszeit **auf der Baustelle** — nicht im Buero. Trotzdem muessen sie Zeiten erfassen, Materialverbrauch melden, Tagesrapporte schreiben und mit dem Buero kommunizieren. Eine **Mitarbeiter-App** bringt alle diese Funktionen direkt auf das Smartphone und eliminiert Papierkram, Medienbrueche und Informationsluecken.
+Handwerker verbringen den Grossteil ihrer Arbeitszeit **auf der Baustelle** — nicht im Büro. Trotzdem müssen sie Zeiten erfassen, Materialverbrauch melden, Tagesrapporte schreiben und mit dem Büro kommunizieren. Eine **Mitarbeiter-App** bringt alle diese Funktionen direkt auf das Smartphone und eliminiert Papierkram, Medienbrueche und Informationsluecken.
 
-### Warum Mobile-First fuer Handwerker unverzichtbar ist
+### Warum Mobile-First für Handwerker unverzichtbar ist
 
 Die Zahlen sprechen eine klare Sprache:
 
 - **95%** der Schweizer Bevoelkerung besitzen ein Smartphone (BFS 2024)
 - Handwerker sind durchschnittlich **6-8 Stunden pro Tag** auf der Baustelle
-- **78%** der Handwerker nutzen bereits privat Apps fuer ihre Arbeit (Nachrichten, Navigation, Fotos)
+- **78%** der Handwerker nutzen bereits privat Apps für ihre Arbeit (Nachrichten, Navigation, Fotos)
 - Papierbasierte Rapporte gehen in **15-20%** der Faelle verloren oder sind unleserlich
 
-Eine native Mobile-App — nicht eine Website, die auf dem Handy "irgendwie" funktioniert — ist fuer Handwerksbetriebe der effizienteste Weg, Informationen in Echtzeit auszutauschen.
+Eine native Mobile-App — nicht eine Website, die auf dem Handy "irgendwie" funktioniert — ist für Handwerksbetriebe der effizienteste Weg, Informationen in Echtzeit auszutauschen.
 
 ### Kernfunktionen einer Mitarbeiter-App
 
@@ -1373,16 +1373,16 @@ Eine native Mobile-App — nicht eine Website, die auf dem Handy "irgendwie" fun
 - **Start/Stopp-Timer**: Ein Tipp zum Starten, ein Tipp zum Stoppen
 - **Projektzuordnung**: Zeit wird direkt dem richtigen Auftrag zugewiesen
 - **Pausenerfassung**: Automatische oder manuelle Pausenerfassung
-- **Reisezeit**: Separate Kategorie fuer An- und Abfahrt
-- **Uebersicht**: Tages-, Wochen- und Monatsuebersicht der eigenen Stunden
+- **Reisezeit**: Separate Kategorie für An- und Abfahrt
+- **Übersicht**: Tages-, Wochen- und Monatsübersicht der eigenen Stunden
 
 **2. Tagesrapport**:
 - Digitaler Rapport direkt auf der Baustelle ausfuellen
 - Ausgefuehrte Arbeiten beschreiben
 - Verbrauchtes Material erfassen
-- Fotos anhaengen (Fortschritt, Maengel, Besonderheiten)
+- Fotos anhaengen (Fortschritt, Mängel, Besonderheiten)
 - Unterschrift des Kunden direkt auf dem Smartphone
-- Automatische Uebermittlung ans Buero
+- Automatische Übermittlung ans Büro
 
 **3. Auftragsübersicht**:
 - Alle zugewiesenen Auftraege auf einen Blick
@@ -1395,12 +1395,12 @@ Eine native Mobile-App — nicht eine Website, die auf dem Handy "irgendwie" fun
 - Material direkt der Baustelle zubuchen
 - Materialanforderungen ans Lager senden
 - Lieferscheine fotografieren und zuordnen
-- Bestand pruefen (sofern mit Lagersystem verbunden)
+- Bestand prüfen (sofern mit Lagersystem verbunden)
 
 **5. Kommunikation**:
-- Projekt-Chat fuer das Baustellenteam
-- Nachrichten zwischen Buero und Baustelle
-- Push-Benachrichtigungen fuer dringende Informationen
+- Projekt-Chat für das Baustellenteam
+- Nachrichten zwischen Büro und Baustelle
+- Push-Benachrichtigungen für dringende Informationen
 - Vermeidung privater Kommunikationskanaele (WhatsApp)
 
 ### Offline-Faehigkeit: Unverzichtbar auf der Baustelle
@@ -1414,7 +1414,7 @@ Eine der wichtigsten Anforderungen an eine Handwerker-App ist die **Offline-Funk
 - Auftragsdetails und Plaene anzeigen
 - Materialverbrauch erfassen
 
-**Synchronisation**: Sobald wieder eine Internetverbindung besteht, werden alle offline erfassten Daten automatisch synchronisiert. Konflikte (z.B. gleichzeitige Aenderungen) werden intelligent aufgeloest.
+**Synchronisation**: Sobald wieder eine Internetverbindung besteht, werden alle offline erfassten Daten automatisch synchronisiert. Konflikte (z.B. gleichzeitige Änderungen) werden intelligent aufgeloest.
 
 > **Praxis-Tipp**: Testen Sie die Offline-Faehigkeit einer App gruendlich, bevor Sie sich entscheiden. Viele Apps werben mit Offline-Modus, aber in der Praxis funktioniert nur ein Bruchteil der Funktionen ohne Netz.
 
@@ -1424,26 +1424,26 @@ GPS-Tracking von Mitarbeitern ist ein sensibles Thema. Das Schweizer Arbeitsrech
 
 **Arbeitsgesetz (ArG) und DSG**:
 - GPS-Ortung von Mitarbeitern ist grundsaetzlich eine **Verhaltenskontrolle** und damit nach ArG Art. 26 eingeschraenkt
-- Permanentes GPS-Tracking ist **unzulaessig**, wenn es primaer der Ueberwachung dient
-- GPS-Daten duerfen nur fuer **sachlich gerechtfertigte Zwecke** erhoben werden
+- Permanentes GPS-Tracking ist **unzulässig**, wenn es primaer der Überwachung dient
+- GPS-Daten duerfen nur für **sachlich gerechtfertigte Zwecke** erhoben werden
 
-**Zulaessige GPS-Nutzung**:
+**Zulässige GPS-Nutzung**:
 - **Navigation**: Routenplanung zur Baustelle — unproblematisch
-- **Zeitstempel mit Standort**: GPS-Koordinaten beim Ein- und Ausstempeln — zulaessig mit Einwilligung
-- **Fahrzeugortung**: Fuer Routenoptimierung und Diebstahlschutz — zulaessig mit Information
+- **Zeitstempel mit Standort**: GPS-Koordinaten beim Ein- und Ausstempeln — zulässig mit Einwilligung
+- **Fahrzeugortung**: Für Routenoptimierung und Diebstahlschutz — zulässig mit Information
 
-**Unzulaessige GPS-Nutzung**:
-- Permanente Echtzeit-Ueberwachung des Standorts
+**Unzulässige GPS-Nutzung**:
+- Permanente Echtzeit-Überwachung des Standorts
 - Bewegungsprofile erstellen
-- GPS-Daten fuer Leistungskontrolle verwenden
+- GPS-Daten für Leistungskontrolle verwenden
 - Ortung ausserhalb der Arbeitszeit
 
-**Voraussetzungen fuer zulaessige GPS-Nutzung**:
-1. **Transparenz**: Mitarbeiter muessen ueber Art und Umfang der GPS-Nutzung informiert werden
+**Voraussetzungen für zulässige GPS-Nutzung**:
+1. **Transparenz**: Mitarbeiter müssen über Art und Umfang der GPS-Nutzung informiert werden
 2. **Einwilligung**: Idealerweise schriftliche Zustimmung einholen
-3. **Verhaeltnismaessigkeit**: Nur so viele Daten erheben, wie tatsaechlich benoetigt
-4. **Zweckbindung**: GPS-Daten nur fuer den kommunizierten Zweck verwenden
-5. **Loeschfristen**: Daten nach Erfuellung des Zwecks loeschen
+3. **Verhältnismässigkeit**: Nur so viele Daten erheben, wie tatsächlich benötigt
+4. **Zweckbindung**: GPS-Daten nur für den kommunizierten Zweck verwenden
+5. **Loeschfristen**: Daten nach Erfüllung des Zwecks loeschen
 
 ### Einfuehrung einer Mitarbeiter-App: Erfolgsfaktoren
 
@@ -1453,13 +1453,13 @@ Die groesste Huerde bei der Einfuehrung einer App ist nicht die Technik, sondern
 
 **2. Einfachheit**: Die App muss **intuitiv** bedienbar sein. Wenn ein Mitarbeiter eine Schulung braucht, ist die App zu komplex.
 
-**3. Echten Nutzen zeigen**: Zeigen Sie den Mitarbeitern, was sie persoenlich davon haben — z.B. korrekte Stundenuebersicht, kein Papierkram, schnellere Information.
+**3. Echten Nutzen zeigen**: Zeigen Sie den Mitarbeitern, was sie persönlich davon haben — z.B. korrekte Stundenübersicht, kein Papierkram, schnellere Information.
 
 **4. Pilotphase**: Starten Sie mit einem kleinen Team (3-5 Personen) und sammeln Sie Erfahrungen, bevor Sie ausrollen.
 
 **5. Support**: Bieten Sie in den ersten Wochen intensiven Support. Ein "App-Goetti" im Team, der Fragen beantwortet, wirkt Wunder.
 
-**6. Geraete stellen**: Wenn moeglich, stellen Sie Firmensmartphones bereit. So vermeiden Sie Diskussionen ueber private Geraetenutzung und haben Kontrolle ueber Updates.
+**6. Geraete stellen**: Wenn möglich, stellen Sie Firmensmartphones bereit. So vermeiden Sie Diskussionen über private Geraetenutzung und haben Kontrolle über Updates.
 
 ### Kosten und ROI
 
@@ -1472,15 +1472,15 @@ Die groesste Huerde bei der Einfuehrung einer App ist nicht die Technik, sondern
 - Zeitersparnis Rapportierung: **30-45 Minuten pro Mitarbeiter und Tag**
 - Korrektere Zeiterfassung: **5-10% weniger "verlorene" Stunden**
 - Schnellere Rechnungsstellung: **3-5 Tage frueher** (weil Rapporte sofort vorliegen)
-- Weniger Rueckfragen: **-40% Telefonanrufe** zwischen Buero und Baustelle
+- Weniger Rückfragen: **-40% Telefonanrufe** zwischen Büro und Baustelle
 
 Bei einem Betrieb mit 10 Mitarbeitern rechnet sich die App typischerweise innerhalb von **2-3 Monaten**.
 
 ### Fazit
 
-Eine Mitarbeiter-App ist fuer moderne Handwerksbetriebe kein Luxus, sondern ein **Produktivitaetswerkzeug erster Guete**. Sie eliminiert Papierkram, beschleunigt den Informationsfluss und liefert dem Buero die Daten, die es fuer Abrechnung und Steuerung braucht — in Echtzeit.
+Eine Mitarbeiter-App ist für moderne Handwerksbetriebe kein Luxus, sondern ein **Produktivitaetswerkzeug erster Guete**. Sie eliminiert Papierkram, beschleunigt den Informationsfluss und liefert dem Büro die Daten, die es für Abrechnung und Steuerung braucht — in Echtzeit.
 
-> **Empfehlung**: Waehlen Sie eine App, die nahtlos in Ihre bestehende Software integriert ist. Inselloesugen fuer Zeiterfassung, Rapportierung und Kommunikation fuehren zu Datensilos und Mehraufwand. Eine einzige, integrierte Plattform ist immer die bessere Wahl.
+> **Empfehlung**: Waehlen Sie eine App, die nahtlos in Ihre bestehende Software integriert ist. Inselloesugen für Zeiterfassung, Rapportierung und Kommunikation fuehren zu Datensilos und Mehraufwand. Eine einzige, integrierte Plattform ist immer die bessere Wahl.
     `,
     image: "/images/blog/mitarbeiter-app.png",
     date: "2025-11-17",
@@ -1490,15 +1490,15 @@ Eine Mitarbeiter-App ist fuer moderne Handwerksbetriebe kein Luxus, sondern ein 
   {
     slug: "kundenportal-transparenz",
     category: "modul",
-    titleDe: "Kundenportal: Mehr Transparenz, weniger Rueckfragen",
+    titleDe: "Kundenportal: Mehr Transparenz, weniger Rückfragen",
     excerptDe:
-      "Ein Kundenportal reduziert Anfragen um bis zu 70%. Erfahren Sie, wie Self-Service fuer Ihre Kunden funktioniert und welche Funktionen wirklich zaehlen.",
+      "Ein Kundenportal reduziert Anfragen um bis zu 70%. Erfahren Sie, wie Self-Service für Ihre Kunden funktioniert und welche Funktionen wirklich zaehlen.",
     contentDe: `
-## Kundenportal fuer Handwerker: Self-Service der begeistert
+## Kundenportal für Handwerker: Self-Service der begeistert
 
-"Wie weit ist mein Auftrag?", "Wann kommen Ihre Leute?", "Koennen Sie mir die Rechnung nochmals senden?" — diese Fragen kennt jeder Handwerksbetrieb. Sie binden wertvolle Zeit im Buero und frustrieren sowohl Mitarbeiter als auch Kunden. Ein **Kundenportal** loest dieses Problem elegant: Kunden finden alle Informationen selbst — **24 Stunden am Tag, 7 Tage die Woche**.
+"Wie weit ist mein Auftrag?", "Wann kommen Ihre Leute?", "Koennen Sie mir die Rechnung nochmals senden?" — diese Fragen kennt jeder Handwerksbetrieb. Sie binden wertvolle Zeit im Büro und frustrieren sowohl Mitarbeiter als auch Kunden. Ein **Kundenportal** loest dieses Problem elegant: Kunden finden alle Informationen selbst — **24 Stunden am Tag, 7 Tage die Woche**.
 
-### Das Problem: Telefonische Rueckfragen als Kostentreiber
+### Das Problem: Telefonische Rückfragen als Kostentreiber
 
 Schweizer Handwerksbetriebe erhalten durchschnittlich **15-30 Kundenanrufe pro Tag**, von denen ein Grossteil reine Statusabfragen sind:
 
@@ -1513,14 +1513,14 @@ Das sind **70% aller Anrufe**, die ein Kundenportal automatisch beantworten kann
 
 ### Was ist ein Kundenportal?
 
-Ein Kundenportal ist ein **passwortgeschuetzter Online-Bereich**, in dem Ihre Kunden folgende Informationen selbstaendig abrufen koennen:
+Ein Kundenportal ist ein **passwortgeschützter Online-Bereich**, in dem Ihre Kunden folgende Informationen selbständig abrufen koennen:
 
 **1. Auftragsstatus in Echtzeit**:
 - Aktueller Stand jedes Auftrags (geplant, in Bearbeitung, abgeschlossen)
 - Geplanter Start- und Endtermin
 - Zugewiesenes Team / Ansprechpartner
 - Fortschrittsanzeige in Prozent
-- Naechste geplante Schritte
+- Nächste geplante Schritte
 
 **2. Dokumentenablage**:
 - Offerten und Auftragsbestaetigungen
@@ -1533,15 +1533,15 @@ Ein Kundenportal ist ein **passwortgeschuetzter Online-Bereich**, in dem Ihre Ku
 - Baufortschrittsfotos chronologisch sortiert
 - Vorher/Nachher-Vergleiche
 - Detailfotos ausgefuehrter Arbeiten
-- Fotos von verdeckten Installationen (fuer spaetere Referenz)
+- Fotos von verdeckten Installationen (für spätere Referenz)
 
 **4. Kommunikation**:
 - Nachrichten an den Projektleiter
-- Aenderungswuensche einreichen
+- Änderungswünsche einreichen
 - Termine bestaetigen oder verschieben
 - Reklamationen melden
 
-**5. Finanzuebersicht**:
+**5. Finanzübersicht**:
 - Offene und bezahlte Rechnungen
 - Akonto-Zahlungen und Restbetraege
 - Zahlungsfristen und Mahnstatus
@@ -1549,13 +1549,13 @@ Ein Kundenportal ist ein **passwortgeschuetzter Online-Bereich**, in dem Ihre Ku
 
 ### Self-Service: Warum Kunden es lieben
 
-Die Erwartungen von Kunden haben sich grundlegend veraendert. Durch Online-Banking, E-Commerce und digitale Services sind Menschen gewohnt, **jederzeit und ueberall** auf Informationen zugreifen zu koennen.
+Die Erwartungen von Kunden haben sich grundlegend verändert. Durch Online-Banking, E-Commerce und digitale Services sind Menschen gewohnt, **jederzeit und überall** auf Informationen zugreifen zu koennen.
 
 **Studienergebnisse zur Kundenerwartung**:
-- **67%** der Kunden bevorzugen Self-Service gegenueber einem Telefonat
+- **67%** der Kunden bevorzugen Self-Service gegenüber einem Telefonat
 - **73%** erwarten, dass Unternehmen ihre Beduerfnisse und Erwartungen verstehen
 - **89%** der Kunden wechseln nach einer schlechten Service-Erfahrung zum Wettbewerber
-- **24/7-Verfuegbarkeit** ist fuer **58%** der Kunden ein entscheidendes Kriterium
+- **24/7-Verfügbarkeit** ist für **58%** der Kunden ein entscheidendes Kriterium
 
 Ein Kundenportal signalisiert Ihren Kunden: **"Wir nehmen Sie ernst, wir arbeiten transparent, und wir machen es Ihnen einfach."**
 
@@ -1563,29 +1563,29 @@ Ein Kundenportal signalisiert Ihren Kunden: **"Wir nehmen Sie ernst, wir arbeite
 
 Viele Handwerksbetriebe scheuen Transparenz. "Was, wenn der Kunde sieht, dass wir im Verzug sind?" oder "Dann sieht man ja jede Rechnung." Diese Bedenken sind verstaendlich, aber unberechtigt:
 
-**Transparenz schafft Vertrauen**: Kunden, die den Status ihres Auftrags kennen, sind **3x zufriedener** als solche, die im Dunkeln tappen — selbst wenn es Verzoegerungen gibt.
+**Transparenz schafft Vertrauen**: Kunden, die den Status ihres Auftrags kennen, sind **3x zufriedener** als solche, die im Dunkeln tappen — selbst wenn es Verzögerungen gibt.
 
-**Proaktive Kommunikation verhindert Eskalation**: Ein Kunde, der im Portal sieht "Materiallieferung verzoegert, neuer Starttermin: Montag", reagiert viel gelassener als einer, der am geplanten Starttermin vergeblich wartet.
+**Proaktive Kommunikation verhindert Eskalation**: Ein Kunde, der im Portal sieht "Materiallieferung verzögert, neuer Starttermin: Montag", reagiert viel gelassener als einer, der am geplanten Starttermin vergeblich wartet.
 
 **Reklamationen sinken**: Betriebe mit Kundenportal berichten von **30-50% weniger formellen Reklamationen**, weil Probleme frueh erkannt und geloest werden.
 
-### Implementierung: Schritt fuer Schritt
+### Implementierung: Schritt für Schritt
 
 **Phase 1: Basis (Monat 1-2)**
-- Auftragsstatus und Terminuebersicht
+- Auftragsstatus und Terminübersicht
 - Dokumentenablage (Offerten, Rechnungen)
-- Kontaktmoeglichkeit per Nachricht
+- Kontaktmöglichkeit per Nachricht
 - Einladung der wichtigsten Kunden (Top 20%)
 
 **Phase 2: Erweiterung (Monat 3-4)**
 - Fotodokumentation
-- Finanzuebersicht mit offenen Posten
-- Automatische Benachrichtigungen (Statusaenderungen)
+- Finanzübersicht mit offenen Posten
+- Automatische Benachrichtigungen (Statusänderungen)
 - Ausweitung auf alle aktiven Kunden
 
 **Phase 3: Optimierung (Monat 5-6)**
-- Terminbuchung fuer Service-Einsaetze
-- Aenderungswuensche und Nachtraege digital
+- Terminbuchung für Service-Einsätze
+- Änderungswünsche und Nachtraege digital
 - Kundenfeedback und Zufriedenheitsbefragung
 - Wartungserinnerungen und Abo-Verwaltung
 
@@ -1595,7 +1595,7 @@ Viele Handwerksbetriebe scheuen Transparenz. "Was, wenn der Kunde sieht, dass wi
 - Jeder Kunde erhaelt einen **individuellen Zugang** (E-Mail + Passwort)
 - **Zwei-Faktor-Authentifizierung** optional
 - Kunden sehen nur **ihre eigenen Projekte**
-- Verschiedene Rollen moeglich (z.B. Hausverwaltung sieht alle Liegenschaften)
+- Verschiedene Rollen möglich (z.B. Hausverwaltung sieht alle Liegenschaften)
 
 **Datenschutz (DSG)**:
 - Klare Datenschutzerklaerung im Portal
@@ -1605,35 +1605,35 @@ Viele Handwerksbetriebe scheuen Transparenz. "Was, wenn der Kunde sieht, dass wi
 
 ### Messbare Ergebnisse von Kundenportalen
 
-Betriebe, die ein Kundenportal eingefuehrt haben, berichten uebereinstimmend von:
+Betriebe, die ein Kundenportal eingefuehrt haben, berichten übereinstimmend von:
 
-- **-60 bis -70% telefonische Rueckfragen** zum Auftragsstatus
+- **-60 bis -70% telefonische Rückfragen** zum Auftragsstatus
 - **+25% Kundenzufriedenheit** (gemessen per NPS)
-- **-40% Bearbeitungszeit** fuer Kundenanliegen
+- **-40% Bearbeitungszeit** für Kundenanliegen
 - **+15% Wiederkaufrate** durch staerkere Kundenbindung
-- **3-5 Tage schnellere Zahlung** (Rechnungen sofort verfuegbar)
+- **3-5 Tage schnellere Zahlung** (Rechnungen sofort verfügbar)
 - **-30% Reklamationen** durch proaktive Transparenz
 
 ### Kosten und Nutzen
 
 **Typische Kosten**:
-- Einrichtung: Im Rahmen der Gesamtloesung (kein separates System noetig)
+- Einrichtung: Im Rahmen der Gesamtlösung (kein separates System nötig)
 - Laufende Kosten: CHF 50-200/Monat als Teil der Gesamtplattform
-- Schulung: 1-2 Stunden fuer das Buero-Team
+- Schulung: 1-2 Stunden für das Büro-Team
 
 **Typischer ROI**:
 - Eingesparte Personalkosten: CHF 1'500-3'000/Monat
 - Schnellere Zahlungen: Verbesserter Cashflow
-- Hoehere Kundenbindung: Mehr Folgeauftraege
+- Höhere Kundenbindung: Mehr Folgeauftraege
 - **Break-even**: Typischerweise nach 1-2 Monaten
 
 ### Die Zukunft: Kundenportale als Standard
 
-In wenigen Jahren wird ein Kundenportal fuer Handwerksbetriebe so selbstverstaendlich sein wie eine Website. Betriebe, die frueh investieren, verschaffen sich einen **spuerbaren Wettbewerbsvorteil** — insbesondere bei anspruchsvollen Kunden wie Hausverwaltungen, Architekten und Generalunternehmern.
+In wenigen Jahren wird ein Kundenportal für Handwerksbetriebe so selbstverstaendlich sein wie eine Website. Betriebe, die frueh investieren, verschaffen sich einen **spürbaren Wettbewerbsvorteil** — insbesondere bei anspruchsvollen Kunden wie Hausverwaltungen, Architekten und Generalunternehmern.
 
 ### Fazit
 
-Ein Kundenportal ist keine technische Spielerei, sondern ein **strategisches Werkzeug** fuer bessere Kundenbeziehungen und effizientere Prozesse. Es reduziert den Aufwand im Buero, steigert die Kundenzufriedenheit und staerkt Ihr professionelles Image.
+Ein Kundenportal ist keine technische Spielerei, sondern ein **strategisches Werkzeug** für bessere Kundenbeziehungen und effizientere Prozesse. Es reduziert den Aufwand im Büro, steigert die Kundenzufriedenheit und staerkt Ihr professionelles Image.
 
 > **Empfehlung**: Starten Sie einfach mit Auftragsstatus und Dokumentenablage. Wenn Ihre Kunden den Wert erkennen, erweitern Sie schrittweise. Das Wichtigste ist: Machen Sie den ersten Schritt. Jeder Tag ohne Kundenportal ist ein Tag voller vermeidbarer Telefonanrufe.
     `,
@@ -1645,30 +1645,30 @@ Ein Kundenportal ist keine technische Spielerei, sondern ein **strategisches Wer
   {
     slug: "service-abos-verwalten",
     category: "modul",
-    titleDe: "Service-Abos verwalten: Wiederkehrender Umsatz fuer Handwerksbetriebe",
+    titleDe: "Service-Abos verwalten: Wiederkehrender Umsatz für Handwerksbetriebe",
     excerptDe:
       "OR Art.394ff, Churn-Reduktion und Recurring Revenue: Wie Schweizer Handwerker mit Service-Abonnements planbare Einnahmen generieren.",
     contentDe: `
-## Service-Abonnements: Planbare Einnahmen fuer Handwerksbetriebe
+## Service-Abonnements: Planbare Einnahmen für Handwerksbetriebe
 
 Das klassische Geschaeftsmodell von Handwerksbetrieben basiert auf **Einzelauftraegen**: Ein Kunde ruft an, Sie erstellen eine Offerte, fuehren die Arbeit aus, stellen die Rechnung. Dieses Modell hat einen grossen Nachteil — die Einnahmen sind **unberechenbar**. Mal ist das Auftragsbuch voll, mal gaehnt eine Luecke. **Service-Abonnements** loesen dieses Problem und verwandeln einmalige Kunden in langfristige Einnahmequellen.
 
 ### Was sind Service-Abos im Handwerk?
 
-Service-Abonnements (auch Wartungsvertraege oder Service-Level-Agreements genannt) sind **wiederkehrende Vereinbarungen** zwischen Handwerksbetrieb und Kunde. Der Kunde zahlt einen regelmaessigen Betrag und erhaelt dafuer definierte Leistungen:
+Service-Abonnements (auch Wartungsvertraege oder Service-Level-Agreements genannt) sind **wiederkehrende Vereinbarungen** zwischen Handwerksbetrieb und Kunde. Der Kunde zahlt einen regelmässigen Betrag und erhaelt dafür definierte Leistungen:
 
 **Typische Service-Abos nach Branche**:
 
 **Heizung/Sanitaer/Klima**:
 - Jaehrliche Heizungswartung (Brenner, Waermepumpe)
-- Entkalkung und Pruefung von Boilern
+- Entkalkung und Prüfung von Boilern
 - Klimaanlagen-Service (Filter, Kaeltemittel)
-- Legionellen-Pruefung (gesetzlich vorgeschrieben)
+- Legionellen-Prüfung (gesetzlich vorgeschrieben)
 
 **Elektro**:
 - Periodische Kontrolle elektrischer Anlagen (NIV)
 - Wartung Notbeleuchtung und Brandmeldeanlage
-- Pruefung Blitzschutzanlagen
+- Prüfung Blitzschutzanlagen
 - Unterhalt Photovoltaik-Anlagen
 
 **Gebaeudehuelle (Dachdecker, Fassade)**:
@@ -1688,17 +1688,17 @@ Service-Abonnements (auch Wartungsvertraege oder Service-Level-Agreements genann
 Service-Abonnements basieren rechtlich auf dem **Auftragsrecht** (OR Art. 394-406) oder dem **Werkvertragsrecht** (OR Art. 363-379), je nach Ausgestaltung:
 
 **Auftragsrecht (OR Art. 394ff)**:
-- Gilt fuer Dienstleistungen, bei denen das Ergebnis nicht garantiert wird (z.B. Inspektion)
+- Gilt für Dienstleistungen, bei denen das Ergebnis nicht garantiert wird (z.B. Inspektion)
 - Der Auftragnehmer schuldet **sorgfaeltiges Handeln**, nicht einen bestimmten Erfolg
-- **Jederzeitige Kuendigung** ist grundsaetzlich moeglich (Art. 404 OR)
-- Diese Kuendigungsfreiheit kann vertraglich **nicht ausgeschlossen** werden
+- **Jederzeitige Kündigung** ist grundsaetzlich möglich (Art. 404 OR)
+- Diese Kündigungsfreiheit kann vertraglich **nicht ausgeschlossen** werden
 
 **Werkvertragsrecht (OR Art. 363ff)**:
-- Gilt fuer Leistungen mit definiertem Ergebnis (z.B. Austausch von Verschleissteilen)
+- Gilt für Leistungen mit definiertem Ergebnis (z.B. Austausch von Verschleissteilen)
 - Der Unternehmer schuldet ein **bestimmtes Werk**
-- Maengelrechte des Bestellers gemaess Art. 367ff OR
+- Mängelrechte des Bestellers gemäss Art. 367ff OR
 
-> **Praxis-Tipp**: Formulieren Sie Ihre Service-Vertraege sorgfaeltig. Definieren Sie klar, welche Leistungen im Abo enthalten sind und welche zusaetzlich verrechnet werden. Lassen Sie den Vertrag von einem Juristen pruefen.
+> **Praxis-Tipp**: Formulieren Sie Ihre Service-Vertraege sorgfaeltig. Definieren Sie klar, welche Leistungen im Abo enthalten sind und welche zusaetzlich verrechnet werden. Lassen Sie den Vertrag von einem Juristen prüfen.
 
 ### Warum Service-Abos ein Gamechanger sind
 
@@ -1709,18 +1709,18 @@ Der groesste Vorteil: **monatlich oder jaehrlich wiederkehrende Einnahmen**, die
 - Ein Betrieb mit 200 Service-Abos a CHF 500/Jahr generiert **CHF 100'000 planbaren Umsatz**
 - Diese Einnahmen kommen auch in Monaten mit wenig Neuauftraegen
 - Sie stabilisieren den Cashflow und erleichtern Investitionsentscheidungen
-- Banken bewerten planbare Einnahmen hoeher bei der Kreditvergabe
+- Banken bewerten planbare Einnahmen höher bei der Kreditvergabe
 
-**2. Hoehere Kundenbindung**
+**2. Höhere Kundenbindung**
 
-Kunden mit Service-Abo bleiben Ihrem Betrieb deutlich laenger treu:
+Kunden mit Service-Abo bleiben Ihrem Betrieb deutlich länger treu:
 - **Durchschnittliche Kundenbeziehung ohne Abo**: 2-3 Jahre
 - **Durchschnittliche Kundenbeziehung mit Abo**: 7-10+ Jahre
-- Abo-Kunden vergeben auch groessere Einzelauftraege eher an "ihren" Handwerker
+- Abo-Kunden vergeben auch grössere Einzelauftraege eher an "ihren" Handwerker
 
 **3. Bessere Auslastung**
 
-Service-Einsaetze lassen sich gut planen und in ruhigere Phasen legen:
+Service-Einsätze lassen sich gut planen und in ruhigere Phasen legen:
 - Heizungswartungen im Sommer (wenn die Heizung nicht laeuft)
 - Dachkontrollen im Fruehling
 - Elektrokontrollen im Herbst
@@ -1728,10 +1728,10 @@ Service-Einsaetze lassen sich gut planen und in ruhigere Phasen legen:
 
 **4. Fruehzeitige Schadenerkennung**
 
-Regelmaessige Wartung erkennt Probleme, bevor sie teuer werden:
+Regelmässige Wartung erkennt Probleme, bevor sie teuer werden:
 - Ein kleines Leck frueh erkannt spart tausende Franken Wasserschaden
 - Ein verschlissenes Lager rechtzeitig getauscht verhindert den Totalausfall
-- Dies schuetzt den Kunden und staerkt das Vertrauen in Ihren Betrieb
+- Dies schützt den Kunden und staerkt das Vertrauen in Ihren Betrieb
 
 ### Preisgestaltung: Service-Abos richtig kalkulieren
 
@@ -1743,7 +1743,7 @@ Die Preisgestaltung von Service-Abos erfordert eine sorgfaeltige Kalkulation:
 - Gewinnmarge (10-20%)
 
 **Wertbasierte Kalkulation**:
-- Was wuerde der Kunde fuer einen Einzelauftrag bezahlen?
+- Was wuerde der Kunde für einen Einzelauftrag bezahlen?
 - Welchen Wert hat die "Versicherungsfunktion" des Abos?
 - Was bietet der Wettbewerb an?
 
@@ -1759,33 +1759,33 @@ Die Preisgestaltung von Service-Abos erfordert eine sorgfaeltige Kalkulation:
 
 ### Churn-Reduktion: Kunden halten
 
-**Churn** (Kundenabwanderung) ist die groesste Bedrohung fuer Abo-Modelle. Typische Churn-Raten im Handwerk liegen bei **8-15% pro Jahr**. So reduzieren Sie die Abwanderung:
+**Churn** (Kundenabwanderung) ist die groesste Bedrohung für Abo-Modelle. Typische Churn-Raten im Handwerk liegen bei **8-15% pro Jahr**. So reduzieren Sie die Abwanderung:
 
 **1. Exzellenter Service**: Jeder Wartungseinsatz ist eine Visitenkarte. Puenktlichkeit, Sauberkeit und Freundlichkeit sind Pflicht.
 
 **2. Mehrwert bieten**: Dokumentieren Sie bei jedem Einsatz, was Sie getan haben und was Sie empfehlen. Der Kunde muss den Wert des Abos spueren.
 
-**3. Erinnerung vor der Kuendigung**: 2-3 Monate vor Ablauf persoenlich kontaktieren, Zufriedenheit erfragen und Verlaengerung bestaetigen.
+**3. Erinnerung vor der Kündigung**: 2-3 Monate vor Ablauf persönlich kontaktieren, Zufriedenheit erfragen und Verlängerung bestaetigen.
 
 **4. Loyalitaet belohnen**: Langjahrige Abo-Kunden erhalten Vorzugskonditionen — z.B. 10% Rabatt auf Zusatzauftraege oder bevorzugte Terminvergabe.
 
-**5. Wechselkosten erhoehen**: Dokumentieren Sie alle Servicehistorien und Anlagedaten im Kundenportal. Diese Informationen machen den Wechsel zum Mitbewerber unattraktiv.
+**5. Wechselkosten erhöhen**: Dokumentieren Sie alle Servicehistorien und Anlagedaten im Kundenportal. Diese Informationen machen den Wechsel zum Mitbewerber unattraktiv.
 
 ### Digitale Verwaltung von Service-Abos
 
-Die manuelle Verwaltung von Service-Abos wird ab 20-30 Vertraegen unuebersichtlich. Ein digitales System bietet:
+Die manuelle Verwaltung von Service-Abos wird ab 20-30 Vertraegen unübersichtlich. Ein digitales System bietet:
 
 **Vertragsmanagement**:
 - Alle Abos mit Laufzeit, Leistungen und Preisen auf einen Blick
 - Automatische Erinnerung an faellige Wartungen
 - Warnung vor auslaufenden Vertraegen
-- Verlagerungshistorie und Kuendigungsgruende
+- Verlagerungshistorie und Kündigungsgruende
 
 **Einsatzplanung**:
 - Automatische Generierung von Service-Auftraegen
-- Optimierte Routenplanung fuer Service-Techniker
-- Beruecksichtigung von Verfuegbarkeit und Qualifikation
-- Saisonale Verteilung der Einsaetze
+- Optimierte Routenplanung für Service-Techniker
+- Berücksichtigung von Verfügbarkeit und Qualifikation
+- Saisonale Verteilung der Einsätze
 
 **Abrechnung**:
 - Automatische Rechnungsstellung (monatlich, quartalsweise, jaehrlich)
@@ -1799,20 +1799,20 @@ Die manuelle Verwaltung von Service-Abos wird ab 20-30 Vertraegen unuebersichtli
 - Durchschnittlicher Abo-Wert
 - Servicehistorie pro Anlage/Kunde
 
-### Der Weg zum Abo-Modell: Schritt fuer Schritt
+### Der Weg zum Abo-Modell: Schritt für Schritt
 
 1. **Leistungen definieren**: Welche Wartungen und Services koennen Sie standardisieren?
 2. **Preise kalkulieren**: Basierend auf Kosten und Marktwert
-3. **Vertragsvorlage erstellen**: Rechtlich geprueft, klar formuliert
+3. **Vertragsvorlage erstellen**: Rechtlich geprüft, klar formuliert
 4. **Bestehende Kunden ansprechen**: Starten Sie mit Ihren besten Kunden
 5. **System einrichten**: Digitale Verwaltung von Anfang an
 6. **Skalieren**: Jeder Neukunde erhaelt ein Abo-Angebot
 
 ### Fazit
 
-Service-Abonnements sind der Weg vom **projektorientieren Handwerksbetrieb** zum **Unternehmen mit planbaren Einnahmen**. Sie stabilisieren den Cashflow, erhoehen die Kundenbindung und schaffen eine Basis fuer nachhaltiges Wachstum. Der Aufwand fuer Aufbau und Verwaltung wird durch digitale Tools minimiert.
+Service-Abonnements sind der Weg vom **projektorientieren Handwerksbetrieb** zum **Unternehmen mit planbaren Einnahmen**. Sie stabilisieren den Cashflow, erhöhen die Kundenbindung und schaffen eine Basis für nachhaltiges Wachstum. Der Aufwand für Aufbau und Verwaltung wird durch digitale Tools minimiert.
 
-> **Starten Sie jetzt**: Identifizieren Sie Ihre Top-50-Kunden und bieten Sie ihnen ein Service-Abo an. Sie werden ueberrascht sein, wie viele sofort zusagen — denn auch Kunden schaetzen Planbarkeit und Zuverlaessigkeit.
+> **Starten Sie jetzt**: Identifizieren Sie Ihre Top-50-Kunden und bieten Sie ihnen ein Service-Abo an. Sie werden überrascht sein, wie viele sofort zusagen — denn auch Kunden schätzen Planbarkeit und Zuverlaessigkeit.
     `,
     image: "/images/blog/service-abos.png",
     date: "2025-12-29",

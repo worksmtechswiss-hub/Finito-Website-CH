@@ -103,7 +103,7 @@ export const pricingTiers: PricingTier[] = [
     featuresDe: [
       'Alles aus KMU',
       'Individuelle Funktionen nach Bedarf',
-      'Persoenliches Onboarding und Teamschulung',
+      'Persönliches Onboarding und Teamschulung',
       'Dedizierter Ansprechpartner',
       'API-Zugang für Integrationen',
       'Erweiterte Benutzerrechte und Rollen',
