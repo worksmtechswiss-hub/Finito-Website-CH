@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 /* ------------------------------------------------------------------ */
@@ -577,49 +578,21 @@ function BuchhaltungHero() {
 function AppHero() {
   return (
     <LargeWrapper>
-      <div className="flex items-center justify-center">
-        <motion.div
-          className="w-44 bg-neutral-800 rounded-[2rem] border-4 border-neutral-700 shadow-2xl overflow-hidden"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <div className="w-16 h-3 bg-neutral-700 rounded-b-xl mx-auto" />
-          <div className="p-3 pt-4 space-y-2">
-            <div className="text-[9px] font-semibold text-white/60 text-center">Heute</div>
-            {[
-              { icon: "📋", label: "Malerarbeiten Keller", time: "08:00" },
-              { icon: "📸", label: "3 Fotos hochgeladen", time: "10:30" },
-              { icon: "⏱", label: "4h 15m erfasst", time: "12:15" },
-            ].map((item, i) => (
-              <motion.div
-                key={item.label}
-                className="bg-white/10 rounded-lg p-2 flex items-center gap-2"
-                initial={{ opacity: 0, x: -10 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.3 + i * 0.12 }}
-              >
-                <span className="text-xs">{item.icon}</span>
-                <div className="flex-1">
-                  <div className="text-[8px] text-white/70">{item.label}</div>
-                  <div className="text-[7px] text-white/30">{item.time}</div>
-                </div>
-              </motion.div>
-            ))}
-            <motion.div
-              className="bg-green-500/20 rounded-lg p-2 text-center"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.8 }}
-            >
-              <span className="text-[8px] text-green-300 font-medium">Offline-Modus aktiv ✓</span>
-            </motion.div>
-          </div>
-        </motion.div>
-      </div>
+      <motion.div
+        className="flex items-center justify-center"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        <Image
+          src="/images/phone3 1.png"
+          alt="Finito Pro Mitarbeiter-App — Time Tracking"
+          width={500}
+          height={580}
+          className="w-[280px] sm:w-[340px] h-auto drop-shadow-2xl"
+        />
+      </motion.div>
     </LargeWrapper>
   );
 }
