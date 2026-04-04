@@ -34,8 +34,9 @@ export function ImpressumContent() {
             >
               <h2 className="text-xl font-semibold text-neutral-900 mb-4">Kontaktadresse</h2>
               <div className="text-neutral-600 leading-relaxed text-sm">
-                <p>Finito Pro</p>
-                <p>Schweiz</p>
+                <p>SM Tech GmbH</p>
+                <p>Schlosstalstrasse 210</p>
+                <p>8408 Winterthur</p>
                 <p className="mt-2">E-Mail: hello@finitopro.ch</p>
                 <p>Website: www.finitopro.ch</p>
               </div>
@@ -47,9 +48,9 @@ export function ImpressumContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.05 }}
             >
-              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Vertretungsberechtigte Personen</h2>
+              <h2 className="text-xl font-semibold text-neutral-900 mb-4">Vertretungsberechtigte Person</h2>
               <p className="text-neutral-600 text-sm">
-                Carlos, Lukas, Kamil, Nico, Izabela, Natalia
+                Lukas Szwedowicz
               </p>
             </motion.div>
 
