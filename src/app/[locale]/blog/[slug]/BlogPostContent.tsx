@@ -4,6 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft, ArrowRight, Calendar, Clock, Tag } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import type { BlogPost } from "@/data/blog-posts/index";
 import { blogPosts } from "@/data/blog-posts/index";
 
@@ -88,15 +90,24 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="prose prose-lg prose-neutral max-w-none
               prose-headings:font-semibold prose-headings:text-neutral-900
-              prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
+              prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:pb-2 prose-h2:border-b prose-h2:border-neutral-100
               prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
               prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-2
-              prose-p:text-neutral-600 prose-p:leading-relaxed
-              prose-li:text-neutral-600
+              prose-p:text-neutral-600 prose-p:leading-relaxed prose-p:mb-4
+              prose-li:text-neutral-600 prose-li:mb-1
+              prose-ul:my-4 prose-ul:space-y-1
+              prose-ol:my-4 prose-ol:space-y-1
               prose-strong:text-neutral-900
-              prose-blockquote:border-l-primary-500 prose-blockquote:bg-primary-50/50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic prose-blockquote:text-neutral-700"
-            dangerouslySetInnerHTML={{ __html: markdownToHtml(post.contentDe) }}
-          />
+              prose-blockquote:border-l-4 prose-blockquote:border-l-primary-500 prose-blockquote:bg-primary-50/50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic prose-blockquote:text-neutral-700 prose-blockquote:my-8
+              prose-table:my-8 prose-table:w-full prose-table:border-collapse
+              prose-th:bg-neutral-50 prose-th:border prose-th:border-neutral-200 prose-th:px-4 prose-th:py-3 prose-th:text-left prose-th:text-sm prose-th:font-semibold prose-th:text-neutral-900
+              prose-td:border prose-td:border-neutral-200 prose-td:px-4 prose-td:py-3 prose-td:text-sm prose-td:text-neutral-600
+              prose-hr:my-10 prose-hr:border-neutral-100"
+          >
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {post.contentDe}
+            </ReactMarkdown>
+          </motion.div>
 
           {/* Tags */}
           <div className="mt-12 pt-8 border-t border-neutral-100">
@@ -175,52 +186,3 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
   );
 }
 
-/**
- * Simple markdown-to-HTML converter for blog content
- */
-function markdownToHtml(md: string): string {
-  let html = md.trim();
-
-  // Convert headers
-  html = html.replace(/^#### (.+)$/gm, "<h4>$1</h4>");
-  html = html.replace(/^### (.+)$/gm, "<h3>$1</h3>");
-  html = html.replace(/^## (.+)$/gm, "<h2>$1</h2>");
-
-  // Convert bold
-  html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-
-  // Convert italic
-  html = html.replace(/\*(.+?)\*/g, "<em>$1</em>");
-
-  // Convert blockquotes
-  html = html.replace(/^> (.+)$/gm, "<blockquote><p>$1</p></blockquote>");
-
-  // Convert unordered list items
-  html = html.replace(/^- (.+)$/gm, "<li>$1</li>");
-  html = html.replace(/(<li>.*<\/li>\n?)+/g, (match) => `<ul>${match}</ul>`);
-
-  // Convert ordered list items
-  html = html.replace(/^\d+\. (.+)$/gm, "<li>$1</li>");
-
-  // Convert paragraphs (lines that aren't already HTML)
-  const lines = html.split("\n");
-  const result: string[] = [];
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (
-      trimmed === "" ||
-      trimmed.startsWith("<h") ||
-      trimmed.startsWith("<ul") ||
-      trimmed.startsWith("<ol") ||
-      trimmed.startsWith("<li") ||
-      trimmed.startsWith("</") ||
-      trimmed.startsWith("<blockquote")
-    ) {
-      result.push(trimmed);
-    } else {
-      result.push(`<p>${trimmed}</p>`);
-    }
-  }
-
-  return result.filter(Boolean).join("\n");
-}
