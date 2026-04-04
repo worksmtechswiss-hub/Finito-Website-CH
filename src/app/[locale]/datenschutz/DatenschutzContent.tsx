@@ -7,10 +7,14 @@ const sections = [
     title: "1. Verantwortliche Stelle",
     content: `Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Finito Pro
-Schweiz
+SM Tech GmbH
+Schlosstalstrasse 210
+8408 Winterthur
+
 E-Mail: hello@finitopro.ch
-Website: www.finitopro.ch`,
+Website: www.finitopro.ch
+
+Vertretungsberechtigte Person: Lukas Szwedowicz`,
   },
   {
     title: "2. Erhebung und Speicherung personenbezogener Daten",
