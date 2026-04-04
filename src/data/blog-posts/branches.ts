@@ -854,7 +854,7 @@ Für Schweizer Bodenleger ist die digitale Materialberechnung der direkteste Weg
     category: "branche",
     titleDe: "Gerüstbau Software: Teile-Tracking und automatische Mietabrechnung",
     excerptDe: "Wie Gerüstbauunternehmen jedes Teil tracken, Standzeiten berechnen und Mietabrechnungen automatisieren.",
-    image: "/images/blog/geruestbau-tracking.png",
+    image: "/images/blog/gerüstbau-tracking.png",
     date: "2026-03-02",
     readTime: "8 Min.",
     tags: ["Gerüstbau", "Tracking", "Mietabrechnung"],

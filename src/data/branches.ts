@@ -40,7 +40,7 @@ export const branches: Branch[] = [
       {
         title: 'Farbverwaltung und Materialbestellung',
         description:
-          'Verwalten Sie Farbtoene, Mengen und Materialbedarf pro Projekt. Automatische Bestandsübersicht verhindert Engpaesse auf der Baustelle.',
+          'Verwalten Sie Farbtoene, Mengen und Materialbedarf pro Projekt. Automatische Bestandsübersicht verhindert Engpässe auf der Baustelle.',
       },
     ],
     useCasesEn: [
@@ -67,7 +67,7 @@ export const branches: Branch[] = [
     titleDe: 'Gipser',
     titleEn: 'Plasterers',
     descriptionDe:
-      'Digitale Fotoberichte und Lagerverwaltung für Gipserarbeiten. Dokumentieren Sie jeden Arbeitsschritt lueckenlos.',
+      'Digitale Fotoberichte und Lagerverwaltung für Gipserarbeiten. Dokumentieren Sie jeden Arbeitsschritt lückenlos.',
     descriptionEn:
       'Digital photo reports and inventory management for plastering work. Document every step without gaps.',
     slug: 'gipser',
@@ -75,7 +75,7 @@ export const branches: Branch[] = [
       {
         title: 'Digitale Fotoberichte',
         description:
-          'Dokumentieren Sie Untergrund, Zwischenschritte und Endergebnis mit Fotos direkt im Projekt. Perfekt als Qualitätsnachweis und für Versicherungsfaelle.',
+          'Dokumentieren Sie Untergrund, Zwischenschritte und Endergebnis mit Fotos direkt im Projekt. Perfekt als Qualitätsnachweis und für Versicherungsfälle.',
       },
       {
         title: 'Lagerverwaltung für Material',
@@ -83,9 +83,9 @@ export const branches: Branch[] = [
           'Behalten Sie den Überblick über Gips, Putz, Armierungsgewebe und Werkzeuge. Automatischer Abzug pro Projekt zeigt den tatsächlichen Verbrauch.',
       },
       {
-        title: 'Aufmass und Flaechenberechnung',
+        title: 'Aufmass und Flächenberechnung',
         description:
-          'Erfassen Sie Flaechen und Mengen direkt vor Ort. Die Daten fliessen automatisch in Ihre Offerten und Rechnungen ein.',
+          'Erfassen Sie Flächen und Mengen direkt vor Ort. Die Daten fliessen automatisch in Ihre Offerten und Rechnungen ein.',
       },
     ],
     useCasesEn: [
@@ -260,7 +260,7 @@ export const branches: Branch[] = [
       {
         title: 'Digitales Projektarchiv für 25+ Jahre',
         description:
-          'Speichern Sie alle Projektdaten, Fotos und Dokumente verschluesselt für mindestens 25 Jahre. Perfekt für Garantiefaelle und Nacharbeiten.',
+          'Speichern Sie alle Projektdaten, Fotos und Dokumente verschlüsselt für mindestens 25 Jahre. Perfekt für Garantiefälle und Nacharbeiten.',
       },
       {
         title: 'Wetter- und Sicherheitsdokumentation',
@@ -300,7 +300,7 @@ export const branches: Branch[] = [
       {
         title: 'Quadratmeterberechnungen',
         description:
-          'Berechnen Sie Materialmengen anhand von Raumflaechen automatisch. Inklusive Verschnitt-Zuschlag und Sonderformate für praezise Bestellungen.',
+          'Berechnen Sie Materialmengen anhand von Raumflächen automatisch. Inklusive Verschnitt-Zuschlag und Sonderformate für praezise Bestellungen.',
       },
       {
         title: 'Restmaterial-Tracking',
@@ -332,7 +332,7 @@ export const branches: Branch[] = [
     ],
   },
   {
-    id: 'geruestbauer',
+    id: 'gerüstbauer',
     icon: 'Building2',
     titleDe: 'Gerüstbauer',
     titleEn: 'Scaffolders',
@@ -345,7 +345,7 @@ export const branches: Branch[] = [
       {
         title: 'Gerüstteile-Tracking',
         description:
-          'Verfolgen Sie jedes Gerüstteil von der Auslieferung bis zur Ruecknahme. Wissen Sie immer, welche Teile wo stehen und wie lange.',
+          'Verfolgen Sie jedes Gerüstteil von der Auslieferung bis zur Rücknahme. Wissen Sie immer, welche Teile wo stehen und wie lange.',
       },
       {
         title: 'Automatische Mietabrechnung',
@@ -355,7 +355,7 @@ export const branches: Branch[] = [
       {
         title: 'Sicherheitsinspektionen dokumentieren',
         description:
-          'Dokumentieren Sie regelmaessige Sicherheitsinspektionen mit Fotos und Checklisten. Erfuellen Sie alle gesetzlichen Anforderungen lueckenlos.',
+          'Dokumentieren Sie regelmässige Sicherheitsinspektionen mit Fotos und Checklisten. Erfüllen Sie alle gesetzlichen Anforderungen lückenlos.',
       },
     ],
     useCasesEn: [
@@ -390,12 +390,12 @@ export const branches: Branch[] = [
       {
         title: 'Automatisches Bautagebuch',
         description:
-          'Fuehren Sie das Bautagebuch automatisch mit Wetter, Anwesenheit, Arbeitsfortschritt und Fotos. Alle Eintraege sind rechtssicher dokumentiert.',
+          'Führen Sie das Bautagebuch automatisch mit Wetter, Anwesenheit, Arbeitsfortschritt und Fotos. Alle Eintraege sind rechtssicher dokumentiert.',
       },
       {
         title: 'Multi-Projekt-Übersicht mit Statusfiltern',
         description:
-          'Verwalten Sie mehrere Baustellen gleichzeitig. Filtern Sie nach Status, Prioritaet oder Faelligkeit für den perfekten Überblick.',
+          'Verwalten Sie mehrere Baustellen gleichzeitig. Filtern Sie nach Status, Prioritaet oder Fälligkeit für den perfekten Überblick.',
       },
       {
         title: 'Material- und Betonbestellung',
@@ -445,7 +445,7 @@ export const branches: Branch[] = [
       {
         title: 'Gebaeudeverwaltung mit Objektdossier',
         description:
-          'Fuehren Sie ein digitales Dossier pro Gebaeudeteil mit Wartungshistorie, Geraetedaten und zustaendigen Personen.',
+          'Führen Sie ein digitales Dossier pro Gebäudeteil mit Wartungshistorie, Gerätedaten und zustaendigen Personen.',
       },
     ],
     useCasesEn: [
@@ -485,12 +485,12 @@ export const branches: Branch[] = [
       {
         title: 'Qualitätsdokumentation mit Fotos',
         description:
-          'Dokumentieren Sie die Reinigungsqualitaet mit Fotos vor und nach dem Einsatz. Perfekt als Nachweis für Ihre Auftraggeber.',
+          'Dokumentieren Sie die Reinigungsqualität mit Fotos vor und nach dem Einsatz. Perfekt als Nachweis für Ihre Auftraggeber.',
       },
       {
         title: 'Checklisten pro Objekt',
         description:
-          'Erstellen Sie individuelle Reinigungschecklisten pro Gebaeudeteil. Mitarbeiter haken die erledigten Aufgaben auf dem Smartphone ab.',
+          'Erstellen Sie individuelle Reinigungschecklisten pro Gebäudeteil. Mitarbeiter haken die erledigten Aufgaben auf dem Smartphone ab.',
       },
     ],
     useCasesEn: [
@@ -525,7 +525,7 @@ export const branches: Branch[] = [
       {
         title: 'Saisonale Projektplanung',
         description:
-          'Planen Sie Ihre Projekte entlang der Jahreszeiten. Automatische Erinnerungen für saisonale Arbeiten wie Rueckschnitt, Duengung oder Winterdienst.',
+          'Planen Sie Ihre Projekte entlang der Jahreszeiten. Automatische Erinnerungen für saisonale Arbeiten wie Rückschnitt, Düngung oder Winterdienst.',
       },
       {
         title: 'Pflanzendokumentation',
@@ -533,9 +533,9 @@ export const branches: Branch[] = [
           'Dokumentieren Sie gepflanzte Arten, Standorte und Pflegehinweise pro Garten. Perfekt für wiederkehrende Pflegeaufträge.',
       },
       {
-        title: 'Pflegeplaene für Kunden',
+        title: 'Pflegepläne für Kunden',
         description:
-          'Erstellen Sie individuelle Pflegeplaene und teilen Sie diese mit Ihren Kunden. Mit Fotos des Gartenfortschritts über die Saisons.',
+          'Erstellen Sie individuelle Pflegepläne und teilen Sie diese mit Ihren Kunden. Mit Fotos des Gartenfortschritts über die Saisons.',
       },
     ],
     useCasesEn: [
@@ -562,15 +562,15 @@ export const branches: Branch[] = [
     titleDe: 'Umzug',
     titleEn: 'Moving Services',
     descriptionDe:
-      'Taegliche Routenplanung und Inventarlisten mit Fotodokumentation für Umzugsunternehmen.',
+      'Tägliche Routenplanung und Inventarlisten mit Fotodokumentation für Umzugsunternehmen.',
     descriptionEn:
       'Daily route planning and inventory lists with photo documentation for moving companies.',
     slug: 'umzug',
     useCasesDe: [
       {
-        title: 'Taegliche Routenplanung',
+        title: 'Tägliche Routenplanung',
         description:
-          'Planen Sie die taeglichen Routen Ihrer Umzugsteams. Optimieren Sie Fahrwege und koordinieren Sie Be- und Entladestellen effizient.',
+          'Planen Sie die täglichen Routen Ihrer Umzugsteams. Optimieren Sie Fahrwege und koordinieren Sie Be- und Entladestellen effizient.',
       },
       {
         title: 'Inventarlisten mit Fotodokumentation',
@@ -620,12 +620,12 @@ export const branches: Branch[] = [
       {
         title: 'Wartungsplanung und -erinnerungen',
         description:
-          'Planen Sie regelmaessige Wartungen für alle Anlagen. Automatische Erinnerungen stellen sicher, dass kein Termin vergessen wird.',
+          'Planen Sie regelmässige Wartungen für alle Anlagen. Automatische Erinnerungen stellen sicher, dass kein Termin vergessen wird.',
       },
       {
-        title: 'Anlagenhistorie pro Gebaeudeteil',
+        title: 'Anlagenhistorie pro Gebäudeteil',
         description:
-          'Fuehren Sie eine lueckenlose Historie pro Anlage mit allen Wartungen, Reparaturen und ausgetauschten Teilen.',
+          'Führen Sie eine lückenlose Historie pro Anlage mit allen Wartungen, Reparaturen und ausgetauschten Teilen.',
       },
     ],
     useCasesEn: [
@@ -715,7 +715,7 @@ export const branches: Branch[] = [
       {
         title: 'Kunden- und Projekt-Budgets',
         description:
-          'Verwalten Sie Budgets pro Kunde und Projekt. Automatische Warnungen bei Budgetüberschreitung schuetzen vor finanziellen Überraschungen.',
+          'Verwalten Sie Budgets pro Kunde und Projekt. Automatische Warnungen bei Budgetüberschreitung schützen vor finanziellen Überraschungen.',
       },
     ],
     useCasesEn: [

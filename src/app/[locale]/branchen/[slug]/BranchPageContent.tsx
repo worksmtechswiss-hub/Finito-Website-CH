@@ -38,7 +38,7 @@ const branchImageMap: Record<string, { hero: string; mobile: string }> = {
   schreiner: { hero: "/images/branches/schreiner-hero.png", mobile: "/images/branches/schreiner-mobile.png" },
   dachdecker: { hero: "/images/branches/dachdecker-hero.png", mobile: "/images/branches/dachdecker-mobile.png" },
   bodenleger: { hero: "/images/branches/bodenleger-hero.png", mobile: "/images/branches/bodenleger-mobile.png" },
-  "geruestbauer": { hero: "/images/branches/geruestbauer-hero.png", mobile: "/images/branches/geruestbauer-mobile.png" },
+  "gerüstbauer": { hero: "/images/branches/gerüstbauer-hero.png", mobile: "/images/branches/gerüstbauer-mobile.png" },
   maurer: { hero: "/images/branches/maurer-hero.png", mobile: "/images/branches/maurer-mobile.png" },
   "facility-service": { hero: "/images/branches/facility-service-hero.png", mobile: "/images/branches/facility-service-mobile.png" },
   reinigung: { hero: "/images/branches/maler-hero.png", mobile: "/images/branches/maler-mobile.png" },
@@ -63,9 +63,9 @@ const whyFinitoMap: Record<string, string[]> = {
     "Zeiterfassung direkt auf der Baustelle per Smartphone",
   ],
   gipser: [
-    "Digitale Fotorapporte als Qualitaetsnachweis für Versicherungen",
+    "Digitale Fotorapporte als Qualitätsnachweis für Versicherungen",
     "Lagerverwaltung mit automatischem Materialabzug pro Projekt",
-    "Aufmass und Flaechenberechnung direkt vor Ort",
+    "Aufmass und Flächenberechnung direkt vor Ort",
     "QR-Rechnungen automatisch aus Projektdaten generieren",
     "Offline-Modus für Baustellen ohne Mobilfunkempfang",
     "Automatische Dokumentation aller Arbeitsschritte",
@@ -90,31 +90,31 @@ const whyFinitoMap: Record<string, string[]> = {
     "Individuelle Massanfertigungen mit allen Details dokumentieren",
     "Werkstattauslastung und Produktionsplanung im Dashboard",
     "Detaillierte Offerten für Einzelstuecke und Serien",
-    "Fortschrittsfotos für Kunden ueber das Portal teilen",
+    "Fortschrittsfotos für Kunden über das Portal teilen",
     "Material- und Zeitkalkulation pro Auftrag",
     "QR-Rechnungen nach Montage und Abnahme",
   ],
   dachdecker: [
     "Mitarbeiterplanung mit Kalender und Teamzuweisung",
-    "Digitales Projektarchiv für ueber 25 Jahre",
+    "Digitales Projektarchiv für über 25 Jahre",
     "Wetter- und Sicherheitsdokumentation pro Arbeitstag",
     "Zeiterfassung mit GPS-Standort auf der Baustelle",
-    "Fotos mit Zeitstempel als Qualitaetsnachweis",
+    "Fotos mit Zeitstempel als Qualitätsnachweis",
     "QR-Rechnungen und automatische Mahnungen",
   ],
   bodenleger: [
     "Automatische Quadratmeterberechnung mit Verschnitt-Zuschlag",
-    "Restmaterial-Tracking für kleinere Reparaturauftraege",
+    "Restmaterial-Tracking für kleinere Reparaturaufträge",
     "Verlegemuster mit Fotos und Notizen dokumentieren",
     "Material direkt aus dem Projekt bestellen",
     "Vorher/Nachher-Dokumentation für den Kunden",
     "QR-Rechnungen nach Abnahme sofort versenden",
   ],
-  "geruestbauer": [
-    "Jedes Geruest-Teil von Auslieferung bis Ruecknahme tracken",
+  "gerüstbauer": [
+    "Jedes Gerüst-Teil von Auslieferung bis Rücknahme tracken",
     "Automatische Mietabrechnung basierend auf Standzeit",
     "Sicherheitsinspektionen mit Checklisten dokumentieren",
-    "Multi-Baustellen-Uebersicht mit Statusfiltern",
+    "Multi-Baustellen-Übersicht mit Statusfiltern",
     "Lagerbestand in Echtzeit einsehen",
     "QR-Rechnungen für Miete und Service automatisch",
   ],
@@ -128,31 +128,31 @@ const whyFinitoMap: Record<string, string[]> = {
   ],
   "facility-service": [
     "Automatisierte Wartungsintervalle für alle Anlagen",
-    "Partner und Subunternehmer ueber die Plattform koordinieren",
-    "Digitales Objektdossier pro Gebaeudeteil",
+    "Partner und Subunternehmer über die Plattform koordinieren",
+    "Digitales Objektdossier pro Gebäudeteil",
     "Service-Abos mit automatischer Rechnungsstellung",
-    "Lueckenlose Wartungshistorie pro Anlage",
+    "Lückenlose Wartungshistorie pro Anlage",
     "QR-Rechnungen und Leistungsnachweise automatisch",
   ],
   reinigung: [
     "Routenplanung für optimale Teamverteilung",
-    "Qualitaetsdokumentation mit Vorher/Nachher-Fotos",
-    "Individuelle Checklisten pro Objekt und Gebaeudeteil",
+    "Qualitätsdokumentation mit Vorher/Nachher-Fotos",
+    "Individuelle Checklisten pro Objekt und Gebäudeteil",
     "Zeiterfassung pro Objekt und Mitarbeiter",
     "Automatische Leistungsnachweise für Auftraggeber",
-    "Service-Abos für wiederkehrende Reinigungsauftraege",
+    "Service-Abos für wiederkehrende Reinigungsaufträge",
   ],
   gartenbau: [
     "Saisonale Projektplanung mit automatischen Erinnerungen",
     "Pflanzendokumentation mit Arten und Pflegehinweisen",
-    "Pflegeplaene für Kunden ueber das Portal teilen",
+    "Pflegepläne für Kunden über das Portal teilen",
     "Zeiterfassung direkt im Garten per Smartphone",
     "Foto-Dokumentation des Gartenfortschritts",
-    "Service-Abos für regelmaessige Pflegeauftraege",
+    "Service-Abos für regelmässige Pflegeaufträge",
   ],
   umzug: [
     "Detaillierte Inventarlisten mit Fotodokumentation",
-    "Taegliche Routenplanung für maximale Effizienz",
+    "Tägliche Routenplanung für maximale Effizienz",
     "Schadensprotokoll mit Zeitstempel und GPS-Daten",
     "Vorher/Nachher-Zustand aller Gegenstaende dokumentiert",
     "Zeiterfassung pro Umzug und Mitarbeiter",
@@ -161,18 +161,18 @@ const whyFinitoMap: Record<string, string[]> = {
   haustechnik: [
     "HVAC-Dokumentation mit technischen Details und Messwerten",
     "Wartungsplanung mit automatischen Erinnerungen",
-    "Lueckenlose Anlagenhistorie pro Gebaeudeteil",
+    "Lückenlose Anlagenhistorie pro Gebäudeteil",
     "Einsatzprotokolle mit Fotos und Messwerten",
     "Ersatzteil-Verwaltung und Nachbestellung",
-    "Service-Abos für regelmaessige Wartungsvertraege",
+    "Service-Abos für regelmässige Wartungsvertraege",
   ],
   architekten: [
     "Alle Projektdokumente zentral und immer aktuell",
     "Task-Board für Projektphasen von Planung bis Abnahme",
-    "Transparente Bauherren-Kommunikation ueber das Portal",
+    "Transparente Bauherren-Kommunikation über das Portal",
     "Zeiterfassung pro Projekt für praezise Abrechnung",
     "Automatische Versionierung aller Dokumente",
-    "Dashboard mit Projektueberblick und Statusfiltern",
+    "Dashboard mit Projektüberblick und Statusfiltern",
   ],
   agenturen: [
     "Projektbasierte Zeiterfassung für transparente Abrechnung",
@@ -211,11 +211,11 @@ const savingsMap: Record<string, BranchSaving[]> = {
   gipser: [
     { task: "Fotobericht erstellen", vorher: "45 Min.", nachher: "5 Min.", ersparnis: "40 Min. pro Rapport" },
     { task: "Material nachbestellen", vorher: "30 Min.", nachher: "2 Min.", ersparnis: "28 Min. pro Bestellung" },
-    { task: "Flaechenberechnung", vorher: "20 Min.", nachher: "2 Min.", ersparnis: "18 Min. pro Aufmass" },
+    { task: "Flächenberechnung", vorher: "20 Min.", nachher: "2 Min.", ersparnis: "18 Min. pro Aufmass" },
   ],
   elektriker: [
     { task: "Regierapport erstellen", vorher: "30 Min.", nachher: "5 Min.", ersparnis: "25 Min. pro Rapport" },
-    { task: "Lagerbestand pruefen", vorher: "15 Min.", nachher: "1 Min.", ersparnis: "14 Min. pro Pruefung" },
+    { task: "Lagerbestand prüfen", vorher: "15 Min.", nachher: "1 Min.", ersparnis: "14 Min. pro Prüfung" },
     { task: "Rechnung mit QR-Code", vorher: "20 Min.", nachher: "1 Min.", ersparnis: "19 Min. pro Rechnung" },
   ],
   "sanitaer": [
@@ -238,13 +238,13 @@ const savingsMap: Record<string, BranchSaving[]> = {
     { task: "Verlegedokumentation", vorher: "15 Min.", nachher: "0 Min.", ersparnis: "15 Min. pro Projekt" },
     { task: "Abnahmeprotokoll + Rechnung", vorher: "25 Min.", nachher: "3 Min.", ersparnis: "22 Min. pro Abnahme" },
   ],
-  "geruestbauer": [
+  "gerüstbauer": [
     { task: "Mietabrechnung", vorher: "30 Min.", nachher: "1 Min.", ersparnis: "29 Min. pro Abrechnung" },
-    { task: "Inventurpruefung", vorher: "2 Std.", nachher: "15 Min.", ersparnis: "105 Min. pro Pruefung" },
+    { task: "Inventurprüfung", vorher: "2 Std.", nachher: "15 Min.", ersparnis: "105 Min. pro Prüfung" },
     { task: "Sicherheitsinspektion", vorher: "20 Min.", nachher: "5 Min.", ersparnis: "15 Min. pro Inspektion" },
   ],
   maurer: [
-    { task: "Bautagebuch fuehren", vorher: "20 Min./Tag", nachher: "3 Min./Tag", ersparnis: "17 Min. pro Tag" },
+    { task: "Bautagebuch führen", vorher: "20 Min./Tag", nachher: "3 Min./Tag", ersparnis: "17 Min. pro Tag" },
     { task: "Materialbestellung", vorher: "30 Min.", nachher: "5 Min.", ersparnis: "25 Min. pro Bestellung" },
     { task: "Projektabschluss-Doku", vorher: "1 Std.", nachher: "10 Min.", ersparnis: "50 Min. pro Projekt" },
   ],
@@ -255,7 +255,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
   ],
   reinigung: [
     { task: "Routenplanung", vorher: "30 Min.", nachher: "5 Min.", ersparnis: "25 Min. pro Woche" },
-    { task: "Qualitaetsdokumentation", vorher: "15 Min.", nachher: "2 Min.", ersparnis: "13 Min. pro Objekt" },
+    { task: "Qualitätsdokumentation", vorher: "15 Min.", nachher: "2 Min.", ersparnis: "13 Min. pro Objekt" },
     { task: "Leistungsnachweis + Rechnung", vorher: "20 Min.", nachher: "1 Min.", ersparnis: "19 Min. pro Rechnung" },
   ],
   gartenbau: [
@@ -276,7 +276,7 @@ const savingsMap: Record<string, BranchSaving[]> = {
   architekten: [
     { task: "Dokumente zusammenstellen", vorher: "30 Min.", nachher: "2 Min.", ersparnis: "28 Min. pro Projekt" },
     { task: "Bauherren-Update", vorher: "20 Min.", nachher: "1 Min.", ersparnis: "19 Min. pro Update" },
-    { task: "Projektueberblick erstellen", vorher: "15 Min.", nachher: "0 Min.", ersparnis: "Dashboard in Echtzeit" },
+    { task: "Projektüberblick erstellen", vorher: "15 Min.", nachher: "0 Min.", ersparnis: "Dashboard in Echtzeit" },
   ],
   agenturen: [
     { task: "Stundenrapport erstellen", vorher: "30 Min.", nachher: "1 Min.", ersparnis: "29 Min. pro Rapport" },
@@ -298,19 +298,19 @@ const testimonialMap: Record<string, { quote: string; author: string; role: stri
   gipser: { quote: "Die automatische Fotodokumentation spart uns jede Woche Stunden an Büroarbeit.", author: "R. Baumann", role: "Gipsermeister, 5 Mitarbeiter" },
   elektriker: { quote: "Endlich habe ich alle Schemas auf dem Smartphone und muss keine Ordner mehr schleppen.", author: "S. Mueller", role: "Elektroinstallateur, 12 Mitarbeiter" },
   "sanitaer": { quote: "Die digitalen Regierapporte mit Kundenunterschrift sparen uns enorm viel Zeit.", author: "P. Brunner", role: "Sanitaerinstallateur, 6 Mitarbeiter" },
-  schreiner: { quote: "Das Dashboard zeigt mir sofort, welche Auftraege in der Werkstatt sind und wann geliefert wird.", author: "T. Meier", role: "Schreinermeister, 4 Mitarbeiter" },
-  dachdecker: { quote: "Die lueckenlose Archivierung ueber 25 Jahre gibt uns Sicherheit bei Garantiefaellen.", author: "H. Weber", role: "Dachdeckermeister, 10 Mitarbeiter" },
+  schreiner: { quote: "Das Dashboard zeigt mir sofort, welche Aufträge in der Werkstatt sind und wann geliefert wird.", author: "T. Meier", role: "Schreinermeister, 4 Mitarbeiter" },
+  dachdecker: { quote: "Die lückenlose Archivierung über 25 Jahre gibt uns Sicherheit bei Garantiefällen.", author: "H. Weber", role: "Dachdeckermeister, 10 Mitarbeiter" },
   bodenleger: { quote: "Die automatische Materialberechnung mit Verschnitt-Zuschlag ist genial einfach.", author: "L. Fischer", role: "Bodenlegermeister, 3 Mitarbeiter" },
-  "geruestbauer": { quote: "Wir wissen jetzt immer, welche Teile wo stehen - die Mietabrechnung laeuft automatisch.", author: "D. Schmid", role: "Geruestbau, 15 Mitarbeiter" },
+  "gerüstbauer": { quote: "Wir wissen jetzt immer, welche Teile wo stehen - die Mietabrechnung läuft automatisch.", author: "D. Schmid", role: "Gerüstbau, 15 Mitarbeiter" },
   maurer: { quote: "Das automatische Bautagebuch spart mir jeden Abend 20 Minuten Schreibarbeit.", author: "A. Huber", role: "Bauunternehmer, 8 Mitarbeiter" },
   "facility-service": { quote: "Kein Wartungstermin wird mehr vergessen - die Automatisierung ist perfekt.", author: "C. Roth", role: "Facility Manager, 20 Mitarbeiter" },
   reinigung: { quote: "Unsere Teams wissen genau, was zu tun ist - Checklisten und Fotos machen den Unterschied.", author: "N. Steiner", role: "Reinigungsfirma, 25 Mitarbeiter" },
   gartenbau: { quote: "Die saisonale Planung mit automatischen Erinnerungen hat unsere Organisation revolutioniert.", author: "F. Gerber", role: "Gartenbauunternehmer, 7 Mitarbeiter" },
-  umzug: { quote: "Die Inventarlisten mit Fotos schuetzen uns vor unberechtigten Schadensforderungen.", author: "K. Schneider", role: "Umzugsunternehmer, 10 Mitarbeiter" },
-  haustechnik: { quote: "Die Wartungsplanung laeuft automatisch - wir verpassen keinen Termin mehr.", author: "J. Wyss", role: "Haustechnik, 6 Mitarbeiter" },
+  umzug: { quote: "Die Inventarlisten mit Fotos schützen uns vor unberechtigten Schadensforderungen.", author: "K. Schneider", role: "Umzugsunternehmer, 10 Mitarbeiter" },
+  haustechnik: { quote: "Die Wartungsplanung läuft automatisch - wir verpassen keinen Termin mehr.", author: "J. Wyss", role: "Haustechnik, 6 Mitarbeiter" },
   architekten: { quote: "Alle Projektdokumente an einem Ort und immer aktuell - das spart enorm viel Suchzeit.", author: "B. Lang", role: "Architekturbüro, 4 Mitarbeiter" },
   agenturen: { quote: "Die projektbasierte Zeiterfassung macht unsere Abrechnung transparent und fair.", author: "E. Zuercher", role: "Agenturinhaber, 8 Mitarbeiter" },
-  "einmann-betriebe": { quote: "Finito ist mein komplettes Büro - ich mache alles vom Smartphone aus.", author: "I. Marti", role: "Selbststaendiger Handwerker" },
+  "einmann-betriebe": { quote: "Finito ist mein komplettes Büro - ich mache alles vom Smartphone aus.", author: "I. Marti", role: "Selbstständiger Handwerker" },
 };
 
 /* ------------------------------------------------------------------ */
@@ -356,7 +356,7 @@ export function BranchPageContent({
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 text-white/70 text-sm font-medium rounded-full border border-white/10 mb-6">
               <BranchIcon className="w-4 h-4" />
-              Branchenloesung
+              Branchenlösung
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight">
               Software für{" "}
@@ -430,7 +430,7 @@ export function BranchPageContent({
               So profitieren {branch.titleDe} von Finito Pro
             </h2>
             <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-              Praxisnahe Anwendungsfaelle, die Ihren Arbeitsalltag sofort vereinfachen.
+              Praxisnahe Anwendungsfälle, die Ihren Arbeitsalltag sofort vereinfachen.
             </p>
           </motion.div>
 

@@ -35,7 +35,7 @@ export function APIsContent() {
               {
                 icon: Code2,
                 title: "REST API",
-                desc: "Vollstaendige REST API mit JSON-Responses. Einfach zu integrieren in jede Programmiersprache.",
+                desc: "Vollständige REST API mit JSON-Responses. Einfach zu integrieren in jede Programmiersprache.",
               },
               {
                 icon: Lock,

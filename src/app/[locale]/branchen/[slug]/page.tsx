@@ -31,8 +31,8 @@ const relevantFeaturesMap: Record<string, string[]> = {
 
 const defaultWorkflow = [
   { step: "Offerte erstellen", desc: "Professionelle Offerte in Minuten dank gespeicherter Leistungskataloge." },
-  { step: "Projekt ausfuehren", desc: "Team koordinieren, Fotos dokumentieren, Zeit erfassen - alles mobil." },
-  { step: "Qualitaet dokumentieren", desc: "Fortschritt mit Fotos und Notizen festhalten und mit Kunden teilen." },
+  { step: "Projekt ausführen", desc: "Team koordinieren, Fotos dokumentieren, Zeit erfassen - alles mobil." },
+  { step: "Qualität dokumentieren", desc: "Fortschritt mit Fotos und Notizen festhalten und mit Kunden teilen." },
   { step: "QR-Rechnung senden", desc: "Rechnung mit einem Klick generieren und direkt versenden." },
 ];
 
@@ -44,7 +44,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "QR-Rechnung erstellen", desc: "Rechnung automatisch generieren und mit Swiss QR-Code versenden." },
   ],
   gipser: [
-    { step: "Flaechen erfassen", desc: "Raeume und Flaechen direkt vor Ort auf dem Smartphone erfassen." },
+    { step: "Flächen erfassen", desc: "Raeume und Flächen direkt vor Ort auf dem Smartphone erfassen." },
     { step: "Fotorapport erstellen", desc: "Jeden Arbeitsschritt mit Fotos und Notizen dokumentieren." },
     { step: "Material buchen", desc: "Verbrauchtes Material wird automatisch vom Lagerbestand abgezogen." },
     { step: "Rechnung generieren", desc: "Rechnung direkt aus den erfassten Projektdaten erstellen." },
@@ -52,7 +52,7 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
   elektriker: [
     { step: "Schemas hochladen", desc: "Elektroschemas hochladen - das Team greift mobil darauf zu." },
     { step: "Zeiterfassung & Rapport", desc: "Arbeitszeit und Material direkt auf der Baustelle erfassen." },
-    { step: "Lagerbestand pruefen", desc: "Kabel und Spezialteile mit Lieferanten-Link pruefen." },
+    { step: "Lagerbestand prüfen", desc: "Kabel und Spezialteile mit Lieferanten-Link prüfen." },
     { step: "Digitale Unterschrift", desc: "Kunde unterschreibt digital, Rechnung wird erstellt." },
   ],
   sanitaer: [
@@ -71,43 +71,43 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Teams verteilen", desc: "Kalender für optimale Mitarbeiterplanung nutzen." },
     { step: "Sicherheit dokumentieren", desc: "Wetterbedingungen und Sicherheitsmassnahmen erfassen." },
     { step: "Baufortschritt festhalten", desc: "Fortschritt mit Zeitstempel und GPS dokumentieren." },
-    { step: "Archivierung 25+ Jahre", desc: "Alle Daten verschluesselt langfristig gespeichert." },
+    { step: "Archivierung 25+ Jahre", desc: "Alle Daten verschlüsselt langfristig gespeichert." },
   ],
   bodenleger: [
-    { step: "Raeume vermessen", desc: "Flaechen messen und Materialbedarf automatisch berechnen." },
+    { step: "Raeume vermessen", desc: "Flächen messen und Materialbedarf automatisch berechnen." },
     { step: "Muster dokumentieren", desc: "Verlegemuster mit Fotos und Notizen festhalten." },
     { step: "Material bestellen", desc: "Material mit Verschnitt-Zuschlag bestellen, Restmengen tracken." },
     { step: "Abnahme & Rechnung", desc: "Abnahme dokumentieren und QR-Rechnung erstellen." },
   ],
-  geruestbauer: [
-    { step: "Teile zuweisen", desc: "Jedes Teil von Auslieferung bis Ruecknahme tracken." },
-    { step: "Inspektion durchfuehren", desc: "Regelmaessige Inspektionen mit Checklisten dokumentieren." },
+  gerüstbauer: [
+    { step: "Teile zuweisen", desc: "Jedes Teil von Auslieferung bis Rücknahme tracken." },
+    { step: "Inspektion durchführen", desc: "Regelmässige Inspektionen mit Checklisten dokumentieren." },
     { step: "Standzeit berechnen", desc: "Mietdauer wird automatisch pro Baustelle erfasst." },
     { step: "Mietabrechnung", desc: "Rechnungen basierend auf Standzeit automatisch erstellen." },
   ],
   maurer: [
     { step: "Baustellen anlegen", desc: "Mehrere Baustellen parallel mit Statusfiltern verwalten." },
-    { step: "Bautagebuch fuehren", desc: "Wetter, Anwesenheit und Fortschritt taeglich erfassen." },
+    { step: "Bautagebuch führen", desc: "Wetter, Anwesenheit und Fortschritt täglich erfassen." },
     { step: "Material berechnen", desc: "Mengen basierend auf dem Baufortschritt berechnen." },
-    { step: "Projektabschluss", desc: "Projekte mit vollstaendiger Dokumentation abschliessen." },
+    { step: "Projektabschluss", desc: "Projekte mit vollständiger Dokumentation abschliessen." },
   ],
   "facility-service": [
     { step: "Wartungsintervalle definieren", desc: "Intervalle für Heizung, Lueftung, Aufzuege festlegen." },
-    { step: "Automatische Auftraege", desc: "Auftraege werden zum faelligen Zeitpunkt erstellt." },
+    { step: "Automatische Aufträge", desc: "Aufträge werden zum fälligen Zeitpunkt erstellt." },
     { step: "Partner koordinieren", desc: "Externe Partner sehen Aufgaben in Echtzeit." },
-    { step: "Objektdossier pflegen", desc: "Wartungen und Geraetedaten pro Gebaeudeteil archivieren." },
+    { step: "Objektdossier pflegen", desc: "Wartungen und Gerätedaten pro Gebäudeteil archivieren." },
   ],
   reinigung: [
     { step: "Routen planen", desc: "Fahrwege optimieren und Objekte den Teams zuweisen." },
     { step: "Checklisten abarbeiten", desc: "Mitarbeiter haken Aufgaben auf dem Smartphone ab." },
-    { step: "Qualitaet dokumentieren", desc: "Vorher/Nachher-Fotos als Nachweis für Auftraggeber." },
+    { step: "Qualität dokumentieren", desc: "Vorher/Nachher-Fotos als Nachweis für Auftraggeber." },
     { step: "Leistungsnachweis", desc: "Leistungsnachweise und Rechnungen automatisch generieren." },
   ],
   gartenbau: [
-    { step: "Saisonale Arbeiten planen", desc: "Rueckschnitt, Duengung und Winterdienst planen." },
+    { step: "Saisonale Arbeiten planen", desc: "Rückschnitt, Düngung und Winterdienst planen." },
     { step: "Pflanzen dokumentieren", desc: "Arten, Standorte und Pflegehinweise pro Garten erfassen." },
     { step: "Team einsetzen", desc: "Mitarbeiter zuweisen und Arbeitszeiten mobil erfassen." },
-    { step: "Pflegeplan teilen", desc: "Fortschrittsfotos ueber Kundenportal teilen." },
+    { step: "Pflegeplan teilen", desc: "Fortschrittsfotos über Kundenportal teilen." },
   ],
   umzug: [
     { step: "Inventar erfassen", desc: "Detaillierte Inventarlisten mit Fotos erstellen." },
@@ -119,13 +119,13 @@ const workflowMap: Record<string, { step: string; desc: string }[]> = {
     { step: "Anlage dokumentieren", desc: "Technische Details und Messwerte vor Ort erfassen." },
     { step: "Wartungsplan erstellen", desc: "Wartungsintervalle pro Anlage definieren." },
     { step: "Einsaetze protokollieren", desc: "Jeden Einsatz mit Fotos und Messwerten dokumentieren." },
-    { step: "Historie pflegen", desc: "Wartungen und Reparaturen lueckenlos archivieren." },
+    { step: "Historie pflegen", desc: "Wartungen und Reparaturen lückenlos archivieren." },
   ],
   architekten: [
     { step: "Dokumente zentralisieren", desc: "Plaene und Berechnungen an einem Ort, immer aktuell." },
     { step: "Board organisieren", desc: "Projektphasen von Planung bis Abnahme verwalten." },
     { step: "Team koordinieren", desc: "Aufgaben zuweisen und Fortschritt verfolgen." },
-    { step: "Bauherren informieren", desc: "Fortschritte ueber Kundenportal teilen." },
+    { step: "Bauherren informieren", desc: "Fortschritte über Kundenportal teilen." },
   ],
   agenturen: [
     { step: "Projekt & Budget anlegen", desc: "Projekte mit Kunden-Budgets und Zeitrahmen definieren." },
@@ -152,7 +152,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   },
   gipser: {
     title: "Gipser Software Schweiz - Fotorapporte & Lagerverwaltung | Finito Pro",
-    description: "Software für Gipser: Digitale Fotorapporte, automatische Lagerverwaltung und QR-Rechnungen. Flaechenberechnung und Aufmass direkt vor Ort.",
+    description: "Software für Gipser: Digitale Fotorapporte, automatische Lagerverwaltung und QR-Rechnungen. Flächenberechnung und Aufmass direkt vor Ort.",
     keywords: ["Gipser Software", "Gipser Software Schweiz", "Gipsereibetrieb Software", "Fotorapport Gipser", "Lagerverwaltung Gipser"],
   },
   elektriker: {
@@ -180,29 +180,29 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
     description: "Software für Bodenleger: Automatische Quadratmeterberechnung, Restmaterial-Tracking und Verlegemuster-Dokumentation.",
     keywords: ["Bodenleger Software", "Bodenleger Software Schweiz", "Parkett Software", "Fliesen Software", "Materialberechnung Bodenleger"],
   },
-  "geruestbauer": {
-    title: "Geruestbau Software Schweiz - Teile-Tracking & Mietabrechnung | Finito Pro",
-    description: "Software für Geruestbauer: Geruest-Teile von Auslieferung bis Ruecknahme tracken, automatische Mietabrechnung und Sicherheitsinspektionen.",
-    keywords: ["Geruestbau Software", "Geruestbauer Software Schweiz", "Geruest-Tracking", "Mietabrechnung Geruest", "Sicherheitsinspektion"],
+  "gerüstbauer": {
+    title: "Gerüstbau Software Schweiz - Teile-Tracking & Mietabrechnung | Finito Pro",
+    description: "Software für Gerüstbauer: Gerüst-Teile von Auslieferung bis Rücknahme tracken, automatische Mietabrechnung und Sicherheitsinspektionen.",
+    keywords: ["Gerüstbau Software", "Gerüstbauer Software Schweiz", "Gerüst-Tracking", "Mietabrechnung Gerüst", "Sicherheitsinspektion"],
   },
   maurer: {
     title: "Maurer Software Schweiz - Bautagebuch & Projektmanagement | Finito Pro",
-    description: "Software für Maurer: Automatisches Bautagebuch, Multi-Projekt-Uebersicht und Materialberechnung basierend auf Baufortschritt.",
+    description: "Software für Maurer: Automatisches Bautagebuch, Multi-Projekt-Übersicht und Materialberechnung basierend auf Baufortschritt.",
     keywords: ["Maurer Software", "Maurer Software Schweiz", "Bauunternehmen Software", "Bautagebuch digital", "Projektmanagement Bau"],
   },
   "facility-service": {
     title: "Facility Management Software Schweiz - Wartung & Koordination | Finito Pro",
-    description: "Software für Facility Service: Automatisierte Wartungsintervalle, Partnerkoordination und digitale Objektdossiers pro Gebaeudeteil.",
+    description: "Software für Facility Service: Automatisierte Wartungsintervalle, Partnerkoordination und digitale Objektdossiers pro Gebäudeteil.",
     keywords: ["Facility Management Software", "Facility Service Software Schweiz", "Wartungsplanung Software", "Gebaeudeverwaltung Software"],
   },
   reinigung: {
-    title: "Reinigung Software Schweiz - Routenplanung & Qualitaetsdoku | Finito Pro",
-    description: "Software für Reinigungsunternehmen: Routenplanung, Qualitaetsdokumentation mit Fotos und automatische Leistungsnachweise.",
-    keywords: ["Reinigung Software", "Reinigungsfirma Software Schweiz", "Routenplanung Reinigung", "Qualitaetsdokumentation Reinigung"],
+    title: "Reinigung Software Schweiz - Routenplanung & Qualitätsdoku | Finito Pro",
+    description: "Software für Reinigungsunternehmen: Routenplanung, Qualitätsdokumentation mit Fotos und automatische Leistungsnachweise.",
+    keywords: ["Reinigung Software", "Reinigungsfirma Software Schweiz", "Routenplanung Reinigung", "Qualitätsdokumentation Reinigung"],
   },
   gartenbau: {
     title: "Gartenbau Software Schweiz - Saisonplanung & Dokumentation | Finito Pro",
-    description: "Software für Gartenbau: Saisonale Projektplanung, Pflanzendokumentation und Pflegeplaene für Ihre Kunden. Zeiterfassung inklusive.",
+    description: "Software für Gartenbau: Saisonale Projektplanung, Pflanzendokumentation und Pflegepläne für Ihre Kunden. Zeiterfassung inklusive.",
     keywords: ["Gartenbau Software", "Gartenbau Software Schweiz", "Landschaftspflege Software", "Saisonplanung Gartenbau", "Pflanzendokumentation"],
   },
   umzug: {
@@ -212,12 +212,12 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   },
   haustechnik: {
     title: "Haustechnik Software Schweiz - Wartungsplanung & HVAC | Finito Pro",
-    description: "Software für Haustechnik: HVAC-Dokumentation, automatische Wartungsplanung und lueckenlose Anlagenhistorie pro Gebaeudeteil.",
+    description: "Software für Haustechnik: HVAC-Dokumentation, automatische Wartungsplanung und lückenlose Anlagenhistorie pro Gebäudeteil.",
     keywords: ["Haustechnik Software", "Haustechnik Software Schweiz", "HVAC Software", "Wartungsplanung Heizung", "Anlagendokumentation"],
   },
   architekten: {
     title: "Architekten Software Schweiz - Projektdokumente & Task-Board | Finito Pro",
-    description: "Software für Architekten: Zentrale Projektdokumente, Task-Board für Bauphasen und transparente Bauherren-Kommunikation ueber das Kundenportal.",
+    description: "Software für Architekten: Zentrale Projektdokumente, Task-Board für Bauphasen und transparente Bauherren-Kommunikation über das Kundenportal.",
     keywords: ["Architekten Software", "Architekten Software Schweiz", "Architekturbüro Software", "Projektmanagement Architekten", "Task-Board Bauphasen"],
   },
   agenturen: {
@@ -228,7 +228,7 @@ const seoMetaMap: Record<string, { title: string; description: string; keywords:
   "einmann-betriebe": {
     title: "Software für Einmann-Betriebe Schweiz - Büro auf dem Smartphone | Finito Pro",
     description: "Software für Einzelunternehmer und Einmann-Betriebe: Offerten, QR-Rechnungen, Zeiterfassung - alles in einer App auf dem Smartphone.",
-    keywords: ["Einmann-Betrieb Software", "Selbststaendiger Software Schweiz", "Einzelunternehmer Software", "Handwerker App", "Büro Smartphone"],
+    keywords: ["Einmann-Betrieb Software", "Selbstständiger Software Schweiz", "Einzelunternehmer Software", "Handwerker App", "Büro Smartphone"],
   },
 };
 

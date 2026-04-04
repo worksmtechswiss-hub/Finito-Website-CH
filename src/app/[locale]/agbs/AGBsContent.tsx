@@ -5,15 +5,15 @@ import { motion } from "framer-motion";
 const sections = [
   {
     title: "1. Geltungsbereich",
-    content: `Diese Allgemeinen Geschaeftsbedingungen (AGB) gelten für die Nutzung der Software-Plattform "Finito Pro" sowie aller damit verbundenen Dienstleistungen. Mit der Registrierung oder Nutzung der Plattform akzeptieren Sie diese AGB.`,
+    content: `Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Software-Plattform "Finito Pro" sowie aller damit verbundenen Dienstleistungen. Mit der Registrierung oder Nutzung der Plattform akzeptieren Sie diese AGB.`,
   },
   {
     title: "2. Vertragsgegenstand",
-    content: `Finito Pro stellt eine cloudbasierte Software-as-a-Service (SaaS) Lösung zur Verfügung, die KMU bei der Verwaltung von Projekten, Kunden, Rechnungen, Zeiterfassung und weiteren Geschaeftsprozessen unterstützt.`,
+    content: `Finito Pro stellt eine cloudbasierte Software-as-a-Service (SaaS) Lösung zur Verfügung, die KMU bei der Verwaltung von Projekten, Kunden, Rechnungen, Zeiterfassung und weiteren Geschäftsprozessen unterstützt.`,
   },
   {
-    title: "3. Registrierung und Kontofuehrung",
-    content: `- Die Registrierung ist kostenlos und fuehrt zu einer 30-taegigen Testphase
+    title: "3. Registrierung und Kontoführung",
+    content: `- Die Registrierung ist kostenlos und führt zu einer 30-tägigen Testphase
 - Sie sind für die Richtigkeit Ihrer Angaben verantwortlich
 - Login-Daten müssen vertraulich behandelt werden
 - Jedes Konto darf nur von einer Organisation genutzt werden
@@ -31,7 +31,7 @@ const sections = [
     content: `- Die aktuellen Preise finden Sie auf unserer Preisseite
 - Alle Preise verstehen sich in CHF und exklusive MwSt
 - Rechnungen werden monatlich oder jaehrlich im Voraus gestellt
-- Zahlungen sind innerhalb von 30 Tagen faellig
+- Zahlungen sind innerhalb von 30 Tagen fällig
 - Bei Zahlungsverzug behalten wir uns das Recht vor, den Zugang einzuschraenken`,
   },
   {
@@ -46,8 +46,8 @@ const sections = [
     content: `- Alle Daten werden auf Servern in der Schweiz gespeichert
 - Wir halten das Schweizer Datenschutzgesetz (DSG) und die DSGVO ein
 - Nähere Informationen finden Sie in unserer separaten Datenschutzerklaerung
-- Daten werden verschluesselt übertragen und gespeichert
-- Regelmaessige Sicherheitsaudits gewährleisten den Schutz Ihrer Daten`,
+- Daten werden verschlüsselt übertragen und gespeichert
+- Regelmässige Sicherheitsaudits gewährleisten den Schutz Ihrer Daten`,
   },
   {
     title: "8. Geistiges Eigentum",
@@ -60,8 +60,8 @@ const sections = [
     title: "9. Haftungsbeschraenkung",
     content: `- Finito Pro haftet nicht für indirekte Schaeden oder entgangenen Gewinn
 - Die Haftung ist auf den Betrag der in den letzten 12 Monaten gezahlten Gebühren beschraenkt
-- Wir übernehmen keine Haftung für Datenverlust, soweit regelmaessige Backups durchgeführt werden
-- Hoehere Gewalt (Naturkatastrophen, Stromausfaelle, etc.) schliesst die Haftung aus`,
+- Wir übernehmen keine Haftung für Datenverlust, soweit regelmässige Backups durchgeführt werden
+- Höhere Gewalt (Naturkatastrophen, Stromausfälle, etc.) schliesst die Haftung aus`,
   },
   {
     title: "10. Änderungen der AGB",
@@ -86,7 +86,7 @@ export function AGBsContent() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl sm:text-5xl font-semibold text-white mb-6">
-              <span className="gradient-text-animated">Allgemeine Geschaeftsbedingungen</span>
+              <span className="gradient-text-animated">Allgemeine Geschäftsbedingungen</span>
             </h1>
             <p className="text-lg text-white/60">
               Nutzungsbedingungen für die Finito Pro Plattform.

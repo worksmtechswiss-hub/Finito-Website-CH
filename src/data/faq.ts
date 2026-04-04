@@ -12,7 +12,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Gibt es eine kostenlose Testphase?',
     questionEn: 'Is there a free trial?',
     answerDe:
-      'Ja, Sie können Finito Pro 30 Tage lang kostenlos und unverbindlich testen. Alle Funktionen des KMU-Pakets stehen Ihnen während der Testphase vollstaendig zur Verfügung. Keine Kreditkarte erforderlich, keine automatische Verlaengerung.',
+      'Ja, Sie können Finito Pro 30 Tage lang kostenlos und unverbindlich testen. Alle Funktionen des KMU-Pakets stehen Ihnen während der Testphase vollständig zur Verfügung. Keine Kreditkarte erforderlich, keine automatische Verlängerung.',
     answerEn:
       'Yes, you can try Finito Pro free for 30 days with no obligation. All features of the SME plan are fully available during the trial period. No credit card required, no automatic renewal.',
   },
@@ -48,7 +48,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Wie lange werden meine Daten gespeichert?',
     questionEn: 'How long is my data retained?',
     answerDe:
-      'Ihre Daten werden verschluesselt auf Schweizer Servern für mindestens 25 Jahre gespeichert. Dies ist besonders wichtig für Garantiefaelle, Versicherungsansprueche und gesetzliche Aufbewahrungspflichten. Sie haben jederzeit volle Kontrolle über Ihre Daten und können diese exportieren oder loeschen lassen.',
+      'Ihre Daten werden verschlüsselt auf Schweizer Servern für mindestens 25 Jahre gespeichert. Dies ist besonders wichtig für Garantiefälle, Versicherungsansprueche und gesetzliche Aufbewahrungspflichten. Sie haben jederzeit volle Kontrolle über Ihre Daten und können diese exportieren oder loeschen lassen.',
     answerEn:
       'Your data is stored encrypted on Swiss servers for at least 25 years. This is particularly important for warranty cases, insurance claims, and legal retention requirements. You always have full control over your data and can export or request deletion at any time.',
   },
@@ -57,7 +57,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Gibt es eine mobile Version?',
     questionEn: 'Is there a mobile version?',
     answerDe:
-      'Ja, Finito Pro funktioniert auf jedem Smartphone und Tablet. Die Webanwendung ist vollstaendig responsive und optimiert für die mobile Nutzung. Ihre Mitarbeiter können Zeiten erfassen, Fotos hochladen und Aufgaben verwalten - alles direkt vom Smartphone, auch ohne Internetverbindung dank Offline-Modus.',
+      'Ja, Finito Pro funktioniert auf jedem Smartphone und Tablet. Die Webanwendung ist vollständig responsive und optimiert für die mobile Nutzung. Ihre Mitarbeiter können Zeiten erfassen, Fotos hochladen und Aufgaben verwalten - alles direkt vom Smartphone, auch ohne Internetverbindung dank Offline-Modus.',
     answerEn:
       'Yes, Finito Pro works on every smartphone and tablet. The web application is fully responsive and optimized for mobile use. Your employees can track time, upload photos, and manage tasks - all directly from their smartphone, even without an internet connection thanks to offline mode.',
   },
@@ -84,7 +84,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Kann ich Teammitglieder mit verschiedenen Rechten einladen?',
     questionEn: 'Can I invite team members with different permissions?',
     answerDe:
-      'Ja, Sie können für jedes Teammitglied individuelle Zugriffsrechte festlegen. Vom Administrator mit vollen Rechten über Projektleiter bis zu Mitarbeitern, die nur ihre eigenen Aufgaben und Zeiterfassung sehen. So schuetzen Sie sensible Geschaeftsdaten und geben jedem genau die Rechte, die er braucht.',
+      'Ja, Sie können für jedes Teammitglied individuelle Zugriffsrechte festlegen. Vom Administrator mit vollen Rechten über Projektleiter bis zu Mitarbeitern, die nur ihre eigenen Aufgaben und Zeiterfassung sehen. So schützen Sie sensible Geschäftsdaten und geben jedem genau die Rechte, die er braucht.',
     answerEn:
       'Yes, you can set individual access rights for each team member. From administrator with full rights, to project managers, to employees who only see their own tasks and time tracking. This way you protect sensitive business data and give everyone exactly the permissions they need.',
   },
@@ -111,7 +111,7 @@ export const faqEntries: FaqEntry[] = [
     questionDe: 'Kann ich wiederkehrende Wartungs- und Serviceaufträge verwalten?',
     questionEn: 'Can I manage recurring maintenance and service contracts?',
     answerDe:
-      'Ja, mit der Service-Abo-Funktion können Sie wiederkehrende Aufträge automatisieren. Definieren Sie Intervalle (woechentlich, monatlich, quartalsweise, jaehrlich), und Finito Pro erstellt automatisch die entsprechenden Projekte und Aufgaben. Inklusive Erinnerungen, automatischer Rechnungsstellung und lueckenloser Dokumentation aller Einsaetze.',
+      'Ja, mit der Service-Abo-Funktion können Sie wiederkehrende Aufträge automatisieren. Definieren Sie Intervalle (woechentlich, monatlich, quartalsweise, jaehrlich), und Finito Pro erstellt automatisch die entsprechenden Projekte und Aufgaben. Inklusive Erinnerungen, automatischer Rechnungsstellung und lückenloser Dokumentation aller Einsaetze.',
     answerEn:
       'Yes, with the service subscription feature, you can automate recurring orders. Define intervals (weekly, monthly, quarterly, yearly), and Finito Pro automatically creates the corresponding projects and tasks. Including reminders, automatic invoicing, and complete documentation of all service calls.',
   },

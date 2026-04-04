@@ -179,7 +179,7 @@ export const features: Feature[] = [
     titleDe: 'Ferienmanagement',
     titleEn: 'Vacation Management',
     descriptionDe:
-      'Mobile Ferienantraege, Resttage-Übersicht und Genehmigungsworkflow. Mit Teamkalender keine Engpaesse mehr.',
+      'Mobile Ferienantraege, Resttage-Übersicht und Genehmigungsworkflow. Mit Teamkalender keine Engpässe mehr.',
     descriptionEn:
       'Mobile vacation requests, remaining days overview, and approval workflow. No more bottlenecks with the team calendar.',
     slug: 'ferienmanagement',
@@ -187,9 +187,9 @@ export const features: Feature[] = [
       'Mobile Ferienantraege vom Smartphone',
       'Resttage-Übersicht pro Mitarbeiter',
       'Genehmigungsworkflow für Vorgesetzte',
-      'Teamkalender zur Vermeidung von Engpaessen',
+      'Teamkalender zur Vermeidung von Engpässen',
       'Automatische Berechnung von Ferienanspruch',
-      'Feiertage und Brueckentage vorkonfiguriert',
+      'Feiertage und Brückentage vorkonfiguriert',
     ],
     bulletsEn: [
       'Mobile vacation requests from smartphone',
@@ -349,7 +349,7 @@ export const features: Feature[] = [
       'Wiederkehrende Aufträge automatisch verwalten',
       'Automatische Projekterstellung nach Zeitplan',
       'Wartungsvertraege digital abbilden',
-      'Erinnerungen für faellige Service-Einsaetze',
+      'Erinnerungen für fällige Service-Einsaetze',
       'Abrechnung automatisch generieren',
       'Kundenhistorie mit allen Service-Einsaetzen',
     ],

@@ -58,7 +58,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer",
+        role: "Geschäftsführer",
         description:
           "Überblick über die finanzielle Lage des gesamten Betriebs und Grundlage für strategische Entscheidungen.",
       },
@@ -105,7 +105,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Foto-Dokumentation im Projekt",
         description:
-          "Fotografieren Sie den Baufortschritt direkt in der App. Die Fotos werden automatisch dem richtigen Projekt und der richtigen Aufgabe zugeordnet. GPS-Daten und Zeitstempel garantieren eine lueckenlose Dokumentation.",
+          "Fotografieren Sie den Baufortschritt direkt in der App. Die Fotos werden automatisch dem richtigen Projekt und der richtigen Aufgabe zugeordnet. GPS-Daten und Zeitstempel garantieren eine lückenlose Dokumentation.",
       },
       {
         title: "Team-Koordination in Echtzeit",
@@ -132,7 +132,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         role: "Büro / Administration",
         description:
-          "Projektkosten verfolgen, Materialbestellungen ausloesen und Kundenrueckfragen beantworten.",
+          "Projektkosten verfolgen, Materialbestellungen ausloesen und Kundenrückfragen beantworten.",
       },
     ],
     relatedSlugs: ["zeiterfassung", "foto-dokumentation", "mitarbeiter-app"],
@@ -156,7 +156,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Rechnungssoftware KMU",
     ],
     problemText:
-      "Rechnungen schreiben ist für viele Handwerker eine leidige Pflicht. Excel-Vorlagen sind fehleranfaellig, die MwSt-Berechnung wird manuell gemacht und ob der Kunde gezahlt hat, muss man im E-Banking nachschauen. Zahlungserinnerungen werden vergessen oder zu spaet verschickt.",
+      "Rechnungen schreiben ist für viele Handwerker eine leidige Pflicht. Excel-Vorlagen sind fehleranfällig, die MwSt-Berechnung wird manuell gemacht und ob der Kunde gezahlt hat, muss man im E-Banking nachschauen. Zahlungserinnerungen werden vergessen oder zu spaet verschickt.",
     solutionText:
       "Mit Finito Pro erstellen Sie QR-Rechnungen nach Schweizer Standard in unter einer Minute. Die MwSt wird automatisch berechnet, Zahlungserinnerungen werden automatisch verschickt und der Bankabgleich zeigt Ihnen sofort, welche Rechnungen bezahlt sind.",
     subFeatures: [
@@ -183,7 +183,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
           "Überblick über offene Rechnungen und Cashflow. Professionelles Auftreten gegenüber Kunden.",
       },
@@ -195,7 +195,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         role: "Treuhander",
         description:
-          "Saubere Exporte für die Buchhaltung, korrekte MwSt-Abrechnungen und lueckenlose Belege.",
+          "Saubere Exporte für die Buchhaltung, korrekte MwSt-Abrechnungen und lückenlose Belege.",
       },
     ],
     relatedSlugs: ["offerten", "buchhaltung", "kundenportal"],
@@ -245,9 +245,9 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
-          "Schneller professionelle Offerten erstellen und die Auftragsquote erhoehen.",
+          "Schneller professionelle Offerten erstellen und die Auftragsquote erhöhen.",
       },
       {
         role: "Projektleiter",
@@ -257,7 +257,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         role: "Büro / Innendienst",
         description:
-          "Offerten nachverfolgen, Kundenrueckfragen beantworten und Auftragsbestaetigung versenden.",
+          "Offerten nachverfolgen, Kundenrückfragen beantworten und Auftragsbestaetigung versenden.",
       },
     ],
     relatedSlugs: ["rechnungen", "projektmanagement", "crm"],
@@ -280,7 +280,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Arbeitszeiterfassung Schweiz",
     ],
     problemText:
-      "Zeiterfassung per Stundenzettel ist ungenau, geht verloren und verursacht am Monatsende viel Aufwand. Die Zuordnung zu Projekten fehlt oft, was die Nachkalkulation erschwert. Überstunden werden nicht sauber erfasst und fuehren zu Unstimmigkeiten.",
+      "Zeiterfassung per Stundenzettel ist ungenau, geht verloren und verursacht am Monatsende viel Aufwand. Die Zuordnung zu Projekten fehlt oft, was die Nachkalkulation erschwert. Überstunden werden nicht sauber erfasst und führen zu Unstimmigkeiten.",
     solutionText:
       "Finito Pro macht Zeiterfassung so einfach wie möglich. Mitarbeiter starten und stoppen die Zeiterfassung per App mit einem Klick. Jede Stunde wird automatisch dem richtigen Projekt zugeordnet. Am Monatsende erstellt Finito Pro automatisch die Berichte für die Lohnbuchhaltung.",
     subFeatures: [
@@ -312,7 +312,7 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Zeiten einfach und schnell direkt vor Ort per App erfassen. Kein Papierkram mehr.",
       },
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
           "Überblick über die Arbeitszeiten des gesamten Teams und fundierte Nachkalkulation.",
       },
@@ -359,7 +359,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Wiederkehrende Aufträge",
         description:
-          "Planen Sie regelmaessige Einsaetze pro Kunde automatisch. Finito Pro erinnert Sie an faellige Wartungen und erstellt die Projekte auf Wunsch automatisch. Perfekt für Serviceabos und Wartungsvertraege.",
+          "Planen Sie regelmässige Einsaetze pro Kunde automatisch. Finito Pro erinnert Sie an fällige Wartungen und erstellt die Projekte auf Wunsch automatisch. Perfekt für Serviceabos und Wartungsvertraege.",
       },
       {
         title: "Kundenportal",
@@ -369,7 +369,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
           "Langfristige Kundenbeziehungen pflegen und den Überblick über alle Kunden behalten.",
       },
@@ -392,7 +392,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     iconName: "CalendarDays",
     title: "Ferienmanagement",
     description:
-      "Mobile Ferienantraege, Resttage-Übersicht und Genehmigungsworkflow. Mit dem Teamkalender vermeiden Sie Engpaesse und planen voraus.",
+      "Mobile Ferienantraege, Resttage-Übersicht und Genehmigungsworkflow. Mit dem Teamkalender vermeiden Sie Engpässe und planen voraus.",
     metaTitle: "Ferienmanagement für KMU - Ferienantraege digital | Finito Pro",
     metaDescription:
       "Digitales Ferienmanagement für KMU: Mobile Ferienantraege, Genehmigungsworkflow, Resttage und Teamkalender. Schweizer Feiertage inklusive.",
@@ -404,7 +404,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Ferienplanung Handwerker",
     ],
     problemText:
-      "Ferienantraege per E-Mail oder muendlich fuehren zu Chaos. Wer hat noch wie viele Tage? Sind genuegend Mitarbeiter für die Baustelle da? Ohne zentrale Planung kommt es immer wieder zu Engpaessen, und die Resttageberechnung am Jahresende ist ein Albtraum.",
+      "Ferienantraege per E-Mail oder muendlich führen zu Chaos. Wer hat noch wie viele Tage? Sind genuegend Mitarbeiter für die Baustelle da? Ohne zentrale Planung kommt es immer wieder zu Engpässen, und die Resttageberechnung am Jahresende ist ein Albtraum.",
     solutionText:
       "Mit Finito Pro beantragen Mitarbeiter ihre Ferien direkt vom Smartphone. Der Vorgesetzte sieht im Teamkalender sofort, ob genuegend Personal verfügbar ist, und kann den Antrag per Klick genehmigen oder ablehnen. Resttage werden automatisch berechnet.",
     subFeatures: [
@@ -421,7 +421,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Teamkalender und Engpasswarnung",
         description:
-          "Der Teamkalender zeigt auf einen Blick, wer wann abwesend ist. Drohen Engpaesse, warnt Finito Pro automatisch. So stellen Sie sicher, dass immer genuegend Mitarbeiter verfügbar sind.",
+          "Der Teamkalender zeigt auf einen Blick, wer wann abwesend ist. Drohen Engpässe, warnt Finito Pro automatisch. So stellen Sie sicher, dass immer genuegend Mitarbeiter verfügbar sind.",
       },
       {
         title: "Automatische Resttageberechnung",
@@ -443,7 +443,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         role: "HR / Administration",
         description:
-          "Ferienkonten automatisch fuehren und saubere Berichte für die Lohnbuchhaltung erstellen.",
+          "Ferienkonten automatisch führen und saubere Berichte für die Lohnbuchhaltung erstellen.",
       },
     ],
     relatedSlugs: ["mitarbeiter-app", "zeiterfassung", "dashboard"],
@@ -454,7 +454,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     iconName: "Camera",
     title: "Foto-Dokumentation",
     description:
-      "Vorher/Nachher-Fotos mit automatischer Projektzuordnung. Zeitstempel und GPS-Daten für lueckenlose Qualitätsnachweise - direkt vom Smartphone.",
+      "Vorher/Nachher-Fotos mit automatischer Projektzuordnung. Zeitstempel und GPS-Daten für lückenlose Qualitätsnachweise - direkt vom Smartphone.",
     metaTitle: "Foto-Dokumentation für Baustellen | Finito Pro",
     metaDescription:
       "Digitale Foto-Dokumentation für Handwerker: Vorher/Nachher-Fotos, automatische Projektzuordnung, GPS und Zeitstempel für Qualitätsnachweise.",
@@ -466,9 +466,9 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Fotodokumentation Handwerker",
     ],
     problemText:
-      "Fotos von der Baustelle landen auf privaten Smartphones und sind spaeter nicht mehr auffindbar. Ohne Zuordnung zum Projekt sind sie wertlos für die Dokumentation. Bei Reklamationen oder Versicherungsfaellen fehlen die Nachweise, und muehsames Suchen in WhatsApp-Gruppen beginnt.",
+      "Fotos von der Baustelle landen auf privaten Smartphones und sind spaeter nicht mehr auffindbar. Ohne Zuordnung zum Projekt sind sie wertlos für die Dokumentation. Bei Reklamationen oder Versicherungsfällen fehlen die Nachweise, und muehsames Suchen in WhatsApp-Gruppen beginnt.",
     solutionText:
-      "Mit Finito Pro fotografieren Ihre Mitarbeiter direkt in der App. Jedes Foto wird automatisch dem richtigen Projekt zugeordnet, mit Zeitstempel und GPS-Daten versehen. So haben Sie jederzeit einen lueckenlosen Nachweis - für Kunden, Versicherungen und die eigene Qualitätssicherung.",
+      "Mit Finito Pro fotografieren Ihre Mitarbeiter direkt in der App. Jedes Foto wird automatisch dem richtigen Projekt zugeordnet, mit Zeitstempel und GPS-Daten versehen. So haben Sie jederzeit einen lückenlosen Nachweis - für Kunden, Versicherungen und die eigene Qualitätssicherung.",
     subFeatures: [
       {
         title: "Automatische Projektzuordnung",
@@ -500,10 +500,10 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         role: "Projektleiter",
         description:
-          "Baufortschritt aus der Ferne verfolgen und Qualitaet anhand der Fotos prüfen.",
+          "Baufortschritt aus der Ferne verfolgen und Qualität anhand der Fotos prüfen.",
       },
       {
-        role: "Geschaeftsfuehrer",
+        role: "Geschäftsführer",
         description:
           "Qualitätsnachweise für Kunden und Versicherungen jederzeit verfügbar.",
       },
@@ -528,7 +528,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Inventarverwaltung Schweiz",
     ],
     problemText:
-      "Der Lagerbestand wird per Zettel oder gar nicht gefuehrt. Materialien fehlen dann, wenn man sie braucht, und Nachbestellungen erfolgen zu spaet. Die Zuordnung von Material zu Projekten fehlt, was die Nachkalkulation unmöglich macht.",
+      "Der Lagerbestand wird per Zettel oder gar nicht geführt. Materialien fehlen dann, wenn man sie braucht, und Nachbestellungen erfolgen zu spaet. Die Zuordnung von Material zu Projekten fehlt, was die Nachkalkulation unmöglich macht.",
     solutionText:
       "Finito Pro erfasst jedes Material digital. Wenn Mitarbeiter Material für ein Projekt entnehmen, wird der Bestand automatisch aktualisiert und dem Projekt zugeordnet. Bei niedrigem Vorrat warnt Sie das System automatisch, und die Nachbestellung ist nur einen Klick entfernt.",
     subFeatures: [
@@ -550,14 +550,14 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Barcode-Scanner und Lieferanten",
         description:
-          "Erfassen Sie Materialien per Barcode-Scanner in Sekunden. Hinterlegen Sie Lieferanten mit Bestellnummern für eine schnelle Nachbestellung. Bestell-Links fuehren direkt zum richtigen Produkt.",
+          "Erfassen Sie Materialien per Barcode-Scanner in Sekunden. Hinterlegen Sie Lieferanten mit Bestellnummern für eine schnelle Nachbestellung. Bestell-Links führen direkt zum richtigen Produkt.",
       },
     ],
     targetUsers: [
       {
         role: "Lagerverantwortlicher",
         description:
-          "Lagerbestaende digital fuehren, Materialein- und -ausgaenge verbuchen und Bestellungen ausloesen.",
+          "Lagerbestände digital führen, Materialein- und -ausgaenge verbuchen und Bestellungen ausloesen.",
       },
       {
         role: "Mitarbeiter auf der Baustelle",
@@ -565,7 +565,7 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Material per App-Scan dem Projekt zuordnen und Nachbestellungen melden.",
       },
       {
-        role: "Geschaeftsfuehrer",
+        role: "Geschäftsführer",
         description:
           "Materialkosten pro Projekt nachvollziehen und die Nachkalkulation verbessern.",
       },
@@ -617,9 +617,9 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
-          "Überblick über die finanzielle Situation und fundierte Grundlage für Geschaeftsentscheidungen.",
+          "Überblick über die finanzielle Situation und fundierte Grundlage für Geschäftsentscheidungen.",
       },
       {
         role: "Büro / Buchhaltung",
@@ -652,7 +652,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Offline App Baustelle",
     ],
     problemText:
-      "Mitarbeiter auf der Baustelle haben keinen Zugang zu den Büro-Systemen. Informationen werden per Telefon oder WhatsApp ausgetauscht, was zu Missverstaendnissen fuehrt. Stundenzettel werden am Abend aus dem Gedaechtnis ausgefuellt und Fotos landen auf privaten Handys.",
+      "Mitarbeiter auf der Baustelle haben keinen Zugang zu den Büro-Systemen. Informationen werden per Telefon oder WhatsApp ausgetauscht, was zu Missverstaendnissen führt. Stundenzettel werden am Abend aus dem Gedaechtnis ausgefuellt und Fotos landen auf privaten Handys.",
     solutionText:
       "Die Finito Pro Mitarbeiter-App bringt alles Wichtige auf das Smartphone Ihrer Mitarbeiter. Aufgaben, Zeiterfassung, Foto-Dokumentation und Kommunikation sind über eine einzige App erreichbar. Der Offline-Modus sorgt dafür, dass alles auch ohne Internetempfang funktioniert.",
     subFeatures: [
@@ -669,7 +669,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Fotos direkt hochladen",
         description:
-          "Fotos direkt aus der App aufnehmen und hochladen. Automatische Projektzuordnung, Zeitstempel und GPS-Daten sorgen für eine lueckenlose Dokumentation. Kein Suchen auf dem privaten Handy mehr.",
+          "Fotos direkt aus der App aufnehmen und hochladen. Automatische Projektzuordnung, Zeitstempel und GPS-Daten sorgen für eine lückenlose Dokumentation. Kein Suchen auf dem privaten Handy mehr.",
       },
       {
         title: "Offline-Modus für die Baustelle",
@@ -689,7 +689,7 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Tagesplanung koordinieren, Team-Status prüfen und Änderungen sofort kommunizieren.",
       },
       {
-        role: "Geschaeftsfuehrer",
+        role: "Geschäftsführer",
         description:
           "Echtzeit-Überblick über den Einsatz und Fortschritt aller Mitarbeiter.",
       },
@@ -746,9 +746,9 @@ export const featurePages: Record<string, FeaturePageData> = {
           "Projektfortschritt, Fotos und Rechnungen jederzeit einsehen - transparent und bequem.",
       },
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
-          "Professioneller Auftritt und weniger Kundenrueckfragen dank Transparenz.",
+          "Professioneller Auftritt und weniger Kundenrückfragen dank Transparenz.",
       },
       {
         role: "Büro / Innendienst",
@@ -764,7 +764,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     iconName: "Repeat",
     title: "Service-Abos",
     description:
-      "Wiederkehrende Aufträge verwalten mit automatischer Projekterstellung. Perfekt für Wartungsvertraege, Serviceabonnements und regelmaessige Einsaetze.",
+      "Wiederkehrende Aufträge verwalten mit automatischer Projekterstellung. Perfekt für Wartungsvertraege, Serviceabonnements und regelmässige Einsaetze.",
     metaTitle: "Service-Abos & Wartungsvertraege verwalten | Finito Pro",
     metaDescription:
       "Wiederkehrende Aufträge automatisch verwalten: Wartungsvertraege, Service-Abos, automatische Projekterstellung und Abrechnung für KMU.",
@@ -776,7 +776,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       "Servicevertrag KMU",
     ],
     problemText:
-      "Wiederkehrende Aufträge müssen jedes Mal manuell angelegt werden. Wartungsintervalle werden vergessen, und der Kunde ist unzufrieden. Die Abrechnung von Serviceabos ist aufwaendig und fehleranfaellig, und irgendwann verliert man den Überblick, welcher Kunde welchen Service hat.",
+      "Wiederkehrende Aufträge müssen jedes Mal manuell angelegt werden. Wartungsintervalle werden vergessen, und der Kunde ist unzufrieden. Die Abrechnung von Serviceabos ist aufwaendig und fehleranfällig, und irgendwann verliert man den Überblick, welcher Kunde welchen Service hat.",
     solutionText:
       "Finito Pro automatisiert wiederkehrende Aufträge komplett. Definieren Sie einmalig den Rhythmus (woechentlich, monatlich, jaehrlich) und Finito Pro erstellt automatisch das Projekt, die Aufgaben und die Rechnung. Kein Vergessen, keine doppelte Arbeit.",
     subFeatures: [
@@ -793,7 +793,7 @@ export const featurePages: Record<string, FeaturePageData> = {
       {
         title: "Erinnerungen und Benachrichtigungen",
         description:
-          "Erhalten Sie rechtzeitig Erinnerungen für faellige Service-Einsaetze. Auch Ihre Kunden können automatisch informiert werden. So geht kein Termin mehr unter.",
+          "Erhalten Sie rechtzeitig Erinnerungen für fällige Service-Einsaetze. Auch Ihre Kunden können automatisch informiert werden. So geht kein Termin mehr unter.",
       },
       {
         title: "Automatische Abrechnung",
@@ -803,7 +803,7 @@ export const featurePages: Record<string, FeaturePageData> = {
     ],
     targetUsers: [
       {
-        role: "Geschaeftsfuehrer / Inhaber",
+        role: "Geschäftsführer / Inhaber",
         description:
           "Planbare, wiederkehrende Einnahmen durch automatisierte Serviceabos und Wartungsvertraege.",
       },
